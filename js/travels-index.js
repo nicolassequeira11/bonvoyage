@@ -3,10 +3,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
 const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
 
-const url = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json"
+const urlArg = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json";
+const urlBra = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travelsBrasil.json";
 
   // FETCH ARGENTINA
-  fetch("../json/travelsArgentina.json")
+  fetch(urlArg)
   .then((response) => response.json())
   .then((data) => {
     const travelsArgentina = data.destinations;
@@ -14,7 +15,7 @@ const url = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/
   })
 
   // FETCH BRASIL
-  fetch("../json/travelsBrasil.json")
+  fetch(urlBra)
   .then((response) => response.json())
   .then((data) => {
     const travelsBrasil = data.destinations;
