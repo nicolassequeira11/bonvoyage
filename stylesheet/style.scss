@@ -1,0 +1,63 @@
+@forward "nav";
+
+@use "utilities" as u;
+
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: u.$font-first;
+}
+
+// INDEX
+
+.travel-index{
+    display: flex;
+    margin: 1rem auto;
+    text-align: center;
+    width: 300px;
+    flex-wrap: wrap;
+    border-radius: 17px;
+    border: 2px solid lightgray;
+
+        &__title-index{
+            
+        }
+
+        &__container{
+            width: 100%;
+            background-color: map-get(u.$colors, "color2");
+            border-radius: 17px;
+        }
+
+        &__image{
+            width: 100%;
+            height: 240px;
+            margin: auto;
+            object-fit: cover;
+            border-radius: 17px 17px 0 0;
+        }
+
+        &__title{
+            margin: auto;
+            padding: 1rem 0 0.3rem 0;
+        }
+
+        &__date{
+            font-size: 0.8rem;
+            margin: auto;
+        }
+
+        &__price{
+            color: map-get(u.$colors, "color4");
+            font-weight: 700;
+            margin: auto;
+            padding: 0.6rem 0 0 0;
+            font-size: 1.9rem;
+        }
+
+        &__priceType{
+            color: map-get(u.$colors, "color4");
+            font-size: 0.7rem;
+        }
+}

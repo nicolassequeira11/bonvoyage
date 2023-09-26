@@ -1,0 +1,132 @@
+.navbar {
+  margin: auto;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar-collapse {
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-toggler {
+  display: flex;
+}
+
+.nav-content-icon {
+  display: flex;
+  margin: auto;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 0 6px;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.nav-item-mobile {
+  padding: 0.5em 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1.3em;
+}
+
+.nav-content-sm {
+  margin: auto;
+}
+
+.nav-icon-sm {
+  color: #808080;
+  padding: 0 5px;
+}
+
+.nav-icon-sm:hover {
+  color: #e4051e;
+}
+
+.nav-link {
+  color: #808080 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link:hover {
+  color: #e4051e !important;
+}
+
+.links-mobile {
+  display: none;
+  margin: auto;
+}
+@media screen and (max-width: 991px) {
+  .links-mobile .links-mobile {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.travel-index {
+  display: flex;
+  margin: 1rem auto;
+  text-align: center;
+  width: 300px;
+  flex-wrap: wrap;
+  border-radius: 17px;
+  border: 2px solid lightgray;
+}
+.travel-index__container {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 17px;
+}
+.travel-index__image {
+  width: 100%;
+  height: 240px;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 17px 17px 0 0;
+}
+.travel-index__title {
+  margin: auto;
+  padding: 1rem 0 0.3rem 0;
+}
+.travel-index__date {
+  font-size: 0.8rem;
+  margin: auto;
+}
+.travel-index__price {
+  color: #e4051e;
+  font-weight: 700;
+  margin: auto;
+  padding: 0.6rem 0 0 0;
+  font-size: 1.9rem;
+}
+.travel-index__priceType {
+  color: #e4051e;
+  font-size: 0.7rem;
+}/*# sourceMappingURL=style.css.map */

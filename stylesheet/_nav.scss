@@ -1,0 +1,86 @@
+@use "utilities.scss" as u;
+
+.navbar{
+    margin: auto;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: map-get(u.$colors, "color2");
+}
+
+.navbar-brand{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-collapse{
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggler{
+    display: flex;
+}
+
+.nav-content-icon{
+    display: flex;
+    margin: auto;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    padding: 0 6px;
+    color: map-get(u.$colors, "color2");
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.nav-item-mobile{
+    padding: 0.5em 0;
+    height: fit-content;
+    font-size: 1.3em;
+}
+
+.nav-content-sm{
+    margin: auto;
+}
+
+.nav-icon-sm{
+    color: map-get(u.$colors, "color3");
+    padding: 0 5px;
+}
+
+.nav-icon-sm:hover{
+    color: map-get(u.$colors, "color4");;
+}
+
+.nav-link{
+    color: map-get(u.$colors, "color3") !important;
+    font-family: u.$font-first;
+}
+
+.nav-link:hover{
+    color: map-get(u.$colors, "color4") !important;
+}
+
+.links-mobile{
+    display: none;
+    margin: auto;
+
+    @media screen and (max-width:991px){
+        .links-mobile{
+            display: none;
+        }
+}
+
+}
