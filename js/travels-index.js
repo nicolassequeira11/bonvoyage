@@ -7,7 +7,7 @@ const url = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/
   fetch(url)
   .then((response) => response.json())
   .then((data) => {
-    const travels = data.travels.destinations;
+    const travels = data.destinations;
     showTravels(travels);
 
   })
