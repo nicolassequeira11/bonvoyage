@@ -20,7 +20,7 @@ const travelsContainer = document.getElementById("travels-container");
         content += `
                   <div onclick="setProductID(${travel.id})" class="cursor-active travel-index">
                       <div class="travel-index__container">
-                          <img class="card-image travel-index__image" src="../media/images/${travel.image}">
+                          <img class="card-image travel-index__image" src="../media/${travel.image}">
                           <h5 class="card-title travel-index__title">${travel.name}</h5>
                           <p class="card-description travel-index__date">${travel.date}</p>
                           <p class="card-cost travel-index__price">${travel.price}</p>
