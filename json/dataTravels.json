@@ -24,7 +24,7 @@
                "Tour por Cordoba y Carlos Paz",
                "Visita a Multiparque Pekos"
             ],
-            "image": "carlos-paz-1.jpg"
+            "image": "media/image/carlos-paz-1.jpg"
          },
          {
             "id": 2,
@@ -48,7 +48,7 @@
                "Tour por Cordoba y Carlos Paz",
                "Visita a Multiparque Pekos"
             ],
-            "image": "ushuaia-calafate-1.jpg"
+            "image": "media/image/ushuaia-calafate-1.jpg"
          },
          {
             "id": 3,
@@ -72,7 +72,7 @@
                "Tour por Cordoba y Carlos Paz",
                "Visita a Multiparque Pekos"
             ],
-            "image": "../media/bariloche-1.webp"
+            "image": "media/image/bariloche-1.webp"
          },
          {
             "id": 4,
@@ -96,7 +96,7 @@
                "Tour por Cordoba y Carlos Paz",
                "Viñedos: Tilcara, Salta, San Miguel de Tucuman"
             ],
-            "image": "norte-argentino-1.webp"
+            "image": "media/image/norte-argentino-1.webp"
          }
       ]
    }
