@@ -1,5 +1,5 @@
 {
-   "travels": {
+   "travels": [{
       "id": 101,
       "travelName": "Argentina",
       "destinations": [{
@@ -99,5 +99,5 @@
             "image": "norte-argentino-1.webp"
          }
       ]
-   }
+   }]
 }
