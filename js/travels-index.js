@@ -1,24 +1,33 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
-const travelsContainer = document.getElementById("travels-container");
+const travelsContainerArg = document.getElementById("travels-container-arg");
+const travelsContainerBra = document.getElementById("travels-container-bra");
 
-  // FETCH
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json")
+const url = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json"
+
+  // FETCH ARGENTINA
+  fetch("../json/travelsArgentina.json")
   .then((response) => response.json())
   .then((data) => {
-    const travels = data.travels.destinations;
-    showTravels(travels);
+    const travelsArgentina = data.destinations;
+    showTravels(travelsArgentina, travelsContainerArg);
+  })
 
+  // FETCH BRASIL
+  fetch("../json/travelsBrasil.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const travelsBrasil = data.destinations;
+    showTravels(travelsBrasil, travelsContainerBra);
   })
 
   // FUNCIONES
-  function showTravels(array) {
-    let content = "";
+  function showTravels(array, container) {
   
     if (array.length > 0) {
       array.forEach((travel) => {
-        content += `
-                  <div onclick="setProductID(${travel.id})" class="cursor-active travel-index">
+        container.innerHTML += `
+                  <div onclick="setProductID(${travel.id})" class="travel-index">
                       <div class="travel-index__container">
                           <img class="card-image travel-index__image" src="${travel.image}">
                           <h5 class="card-title travel-index__title">${travel.name}</h5>
@@ -28,11 +37,16 @@ const travelsContainer = document.getElementById("travels-container");
                       </div>
                   </div>
                   `;
-        travelsContainer.innerHTML = content;
       });
     } else {
       // Alerta para cuando no se encuentran productos
-      travelsContainer.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
+      container.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
     }
   }
 });
+
+/* Crear un localStorage para guardar el id de cada viaje y usarlo al clickear en el */
+function setProductID(id) {
+  localStorage.setItem("productID", id); // Crea el localStorage con la key "productID"
+  window.location = "viaje.html"; // Redirige a product-info.html
+}

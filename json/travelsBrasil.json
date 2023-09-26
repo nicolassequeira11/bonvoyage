@@ -1,0 +1,230 @@
+{
+    "id": 102,
+    "travelName": "Brasil",
+    "destinations": [
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Gramado y Canela",
+            "description": "Sin texto",
+            "date": "13 de Julio - Salida grupal",
+            "price": "U$S 265",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "2 noches de hotel 4 estrellas con desayuno en Gramados",
+                "Centro con sala de juegos para niños",
+                "Desayuno buffet",
+                "Servicio a bordo",
+                "Seguro de viaje",
+                "Coordinador acompañante y guia local"
+            ],
+            "tours": [
+                "Picaddylli",
+                "Portico de Gramado",
+                "Gramado",
+                "Canela",
+                "Fabrica de chocolate",
+                "Cascada Caracol",
+                "Museo a vapor",
+                "No incluye entradas"
+            ],
+            "image": "media/image/gramado-canela-1.jpg"
+        }
+    ]
+}

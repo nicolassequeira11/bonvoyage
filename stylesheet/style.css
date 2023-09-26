@@ -4,6 +4,7 @@
   top: 0;
   text-align: center;
   background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1254901961);
 }
 
 .navbar-brand {
@@ -89,19 +90,29 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #f8f9fa !important;
+}
+
 .travel-index {
   display: flex;
-  margin: 1rem auto;
+  margin: auto 0.7rem;
   text-align: center;
-  width: 300px;
+  min-width: 280px;
+  padding: 10px 0;
   flex-wrap: wrap;
+  cursor: pointer;
   border-radius: 17px;
-  border: 2px solid lightgray;
 }
 .travel-index__container {
   width: 100%;
   background-color: #ffffff;
   border-radius: 17px;
+  border: 2px solid rgba(197, 197, 197, 0.2);
+  transition: all 0.4s ease-out;
+}
+.travel-index__container:hover {
+  transform: translateY(6px);
 }
 .travel-index__image {
   width: 100%;
@@ -129,4 +140,53 @@
 .travel-index__priceType {
   color: #e4051e;
   font-size: 0.7rem;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 1000px) {
+  .slider {
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+
+.prev {
+  left: 0;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 50% !important;
+}
+
+.next {
+  right: 0;
+  top: 55%;
+  transform: translate(50%, -50%);
+  z-index: 1000;
+  border-radius: 50% !important;
+}
+
+.control {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.btn-carousel {
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
 }/*# sourceMappingURL=style.css.map */

@@ -9,16 +9,21 @@
     font-family: u.$font-first;
 }
 
+body{
+    background-color: #f8f9fa !important;
+}
+
 // INDEX
 
 .travel-index{
     display: flex;
-    margin: 1rem auto;
+    margin: auto 0.7rem;
     text-align: center;
-    width: 300px;
+    min-width: 280px;
+    padding: 10px 0;
     flex-wrap: wrap;
+    cursor: pointer;
     border-radius: 17px;
-    border: 2px solid lightgray;
 
         &__title-index{
             
@@ -28,6 +33,12 @@
             width: 100%;
             background-color: map-get(u.$colors, "color2");
             border-radius: 17px;
+            border: 2px solid rgb(197, 197, 197, 20%);
+            transition: all 0.4s ease-out;
+        }
+
+        &__container:hover{
+            transform: translateY(6px);
         }
 
         &__image{
@@ -60,4 +71,53 @@
             color: map-get(u.$colors, "color4");
             font-size: 0.7rem;
         }
+}
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+
+    @media only screen and (max-width: 1000px) {
+        overflow-x: scroll;
+        width: 100%;
+    } 
+
+    
+}
+
+.prev{
+    left: 0;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border-radius: 50% !important;
+}
+  
+.next{
+    right: 0;
+    top: 55%;
+    transform: translate(50%, -50%);
+    z-index: 1000;
+    border-radius: 50% !important;
+}
+  
+.control {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+}
+  
+.container{
+    position: relative;
+}
+  
+.btn-carousel{  
+    padding: 10px;
+    border-radius: 50%;
+    width: 45px;
 }
