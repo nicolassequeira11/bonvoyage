@@ -1,13 +1,12 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
 const travelsContainer = document.getElementById("travels-container");
-const url = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json";
 
   // FETCH
-  fetch(url)
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json")
   .then((response) => response.json())
   .then((data) => {
-    const travels = data.destinations;
+    const travels = data.travels.destinations;
     showTravels(travels);
 
   })
