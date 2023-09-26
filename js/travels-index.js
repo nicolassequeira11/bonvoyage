@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 const travelsContainer = document.getElementById("travels-container");
 
   // FETCH
-  fetch("../json/dataTravels.json")
+  fetch("http://localhost:3000/travels")
   .then((response) => response.json())
   .then((data) => {
     const travels = data.destinations;
