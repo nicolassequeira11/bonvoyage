@@ -51,7 +51,8 @@
             "image": "media/image/ushuaia-calafate-1.jpg",
             "imageBanner": [
                 "media/image/ushuaia-calafate/ushuaia-calafate-1",
-                "media/image/ushuaia-calafate/ushuaia-calafate-2"
+                "media/image/ushuaia-calafate/ushuaia-calafate-2",
+                "media/image/ushuaia-calafate/ushuaia-calafate-3"
             ]
         },
         {
@@ -77,7 +78,11 @@
                 "Visita a Multiparque Pekos"
             ],
             "image": "media/image/bariloche-1.webp",
-            "imageBanner": "media/image/bariloche/bariloche-1.jpg"
+            "imageBanner": [
+                "media/image/bariloche/bariloche-1.jpg",
+                "media/image/bariloche/bariloche-2.jpg",
+                "media/image/bariloche/bariloche-3.jpg"
+            ]
         },
         {
             "id": 4,
