@@ -67,6 +67,7 @@
 .nav-link {
   color: #808080 !important;
   font-family: "Roboto", sans-serif;
+  font-size: 1.05rem !important;
 }
 
 .nav-link:hover {
@@ -96,9 +97,10 @@ body {
 
 .travel-index {
   display: flex;
-  margin: auto 0.7rem;
+  margin: auto;
   text-align: center;
   min-width: 280px;
+  width: 280px;
   padding: 10px 0;
   flex-wrap: wrap;
   cursor: pointer;
@@ -198,19 +200,100 @@ body {
   height: 89vh;
   position: relative;
 }
+@media only screen and (max-width: 700px) {
+  .travel-info__img-container {
+    height: 80vh;
+  }
+}
 .travel-info__img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.travel-info__title {
-  text-align: center;
+.travel-info__title-container {
   position: absolute;
   margin: auto;
+  display: flex;
+  flex-direction: column;
   left: 0;
   right: 0;
-  top: 45%;
+  top: 0;
+  bottom: 0;
+}
+.travel-info__title {
+  text-align: center;
+  margin: auto;
   font-size: 5rem;
   color: #ffffff;
   filter: drop-shadow(0px 0px 15px rgba(109, 109, 109, 0.1882352941));
+}
+@media only screen and (max-width: 700px) {
+  .travel-info__title {
+    font-size: 4rem;
+  }
+}
+.travel-info__info-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 600px;
+}
+.travel-info__info-title {
+  margin: auto;
+  text-align: center;
+}
+.travel-info__info-days {
+  margin: auto;
+  text-align: center;
+}
+.travel-info__info-date {
+  margin: auto;
+  text-align: center;
+}
+.travel-info__info-description {
+  margin: auto;
+  text-align: justify;
+}
+.travel-info__info-price {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+}
+.travel-info__info-priceType {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  font-size: 0.9rem;
+}
+.travel-info__info-button {
+  margin: 10px auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  padding: 7px 25px;
+  border: none;
+  color: #ffffff;
+  background-color: #e4051e;
+}
+.travel-info__include-container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 1.5rem;
+  height: 600px;
+  background-color: #ffffff;
+}
+.travel-info__include-title {
+  margin: auto;
+  font-size: 1.4rem;
+}
+.travel-info__include-items {
+  line-height: 2rem;
+}
+.travel-info__include-items {
+  padding: 5 1rem 0;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

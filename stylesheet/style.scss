@@ -17,9 +17,10 @@ body{
 
 .travel-index{
     display: flex;
-    margin: auto 0.7rem;
+    margin: auto;
     text-align: center;
     min-width: 280px;
+    width: 280px;
     padding: 10px 0;
     flex-wrap: wrap;
     cursor: pointer;
@@ -130,6 +131,10 @@ body{
         &__img-container{
             height: 89vh;
             position: relative;
+
+            @media only screen and (max-width: 700px){
+                height: 80vh;
+            }
         }
 
         &__img{
@@ -137,15 +142,108 @@ body{
             object-fit: cover;
         }
 
-        &__title{
-            text-align: center;
+        &__title-container{
             position: absolute;
             margin: auto;
+            display: flex;
+            flex-direction: column;
             left: 0;
             right: 0;
-            top: 45%;
+            top: 0;
+            bottom: 0;
+        }
+
+        &__title{
+            text-align: center;
+            margin: auto;
             font-size: 5rem;
             color: map-get(u.$colors, "color2");
             filter: drop-shadow(0px 0px 15px #6d6d6d30);
+
+            @media only screen and (max-width: 700px){
+                font-size: 4rem;
+            }
         }
+
+        // Info
+
+        &__info-container{
+            border-radius: 10px;
+            background-color: map-get(u.$colors, "color2");
+            margin:20px auto;
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            height: 600px;
+        }
+
+        &__info-title{
+            margin: auto;
+            text-align: center;
+        }
+
+        &__info-days{
+            margin: auto;
+            text-align: center;
+        }
+
+        &__info-date{
+            margin: auto;
+            text-align: center;
+        }
+
+        &__info-description{
+            margin: auto;
+            text-align: justify;
+        }
+
+        &__info-price{
+            margin: auto;
+            justify-content: center;
+            display: flex;
+            font-size: 2rem;
+        }
+
+        &__info-priceType{
+            margin: auto;
+            justify-content: center;
+            display: flex;
+            font-size: 0.9rem;
+        }
+
+        &__info-button{
+            margin: 10px auto;
+            justify-content: center;
+            display: flex;
+            border-radius: 20px;
+            padding: 7px 25px;
+            border: none;
+            color: map-get(u.$colors, "color2");
+            background-color: map-get(u.$colors, "color4");
+        }
+
+        // Incluye
+
+        &__include-container{
+            border-radius: 10px;
+            margin:20px auto;
+            padding: 1.5rem;
+            height: 600px;
+            background-color: map-get(u.$colors, "color2");
+        }
+
+        &__include-title{
+            margin: auto;
+            font-size: 1.4rem;
+        }
+
+        &__include-items{
+            line-height: 2rem;
+        }
+
+        &__include-items{
+            padding: 5 1rem 0;
+            margin: auto;
+        }
+
 }

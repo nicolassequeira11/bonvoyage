@@ -62,12 +62,13 @@
 }
 
 .nav-icon-sm:hover{
-    color: map-get(u.$colors, "color4");;
+    color: map-get(u.$colors, "color4");
 }
 
 .nav-link{
     color: map-get(u.$colors, "color3") !important;
     font-family: u.$font-first;
+    font-size: 1.05rem !important;
 }
 
 .nav-link:hover{
