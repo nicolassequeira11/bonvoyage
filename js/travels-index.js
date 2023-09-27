@@ -41,10 +41,11 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
       container.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
     }
   }
+
 });
 
 /* Crear un localStorage para guardar el id de cada viaje y usarlo al clickear en el */
 function setProductID(id) {
-  localStorage.setItem("productID", id); // Crea el localStorage con la key "productID"
-  window.location = "viaje.html"; // Redirige a product-info.html
+  localStorage.setItem("travelID", id); // Crea el localStorage con la key "productID"
+  window.location = "travel-info.html"; // Redirige a product-info.html
 }
