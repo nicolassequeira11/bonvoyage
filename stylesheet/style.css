@@ -290,8 +290,7 @@ body {
   font-size: 1.4rem;
 }
 .travel-info__include-items {
-  padding: 5 1rem 0;
+  padding: 0 1rem;
   line-height: 2rem;
   margin: auto;
-  text-align: justify;
 }/*# sourceMappingURL=style.css.map */
