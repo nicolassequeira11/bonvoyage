@@ -4,19 +4,21 @@ const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
 
   // FETCH ARGENTINA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/101.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
   .then((response) => response.json())
   .then((data) => {
-    const travelsArgentina = data;
-    showTravels(travelsArgentina.destinations, travelsContainerArg);
+    const travels = data;
+    const travelsArg = travels.destinations.filter(travel => travel.pais === "Argentina");
+    showTravels(travelsArg, travelsContainerArg);
   })
 
   // FETCH BRASIL
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/102.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
   .then((response) => response.json())
   .then((data) => {
-    const travelsBrasil = data;
-    showTravels(travelsBrasil.destinations, travelsContainerBra);
+    const travels = data;
+    const travelsBra = travels.destinations.filter(travel => travel.pais === "Brasil");
+    showTravels(travelsBra, travelsContainerBra);
   })
 
   // FUNCIONES
@@ -48,9 +50,4 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
 function setProductID(id) {
   localStorage.setItem("travelID", id); // Crea el localStorage con la key "travelID"
   window.location = "travel-info.html"; // Redirige a product-info.html
-}
-
-/* Crear localStorage para guardar el catID de cada viaje */
-function setCatID(catID){
-  localStorage.setItem("catID", catID);
 }

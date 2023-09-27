@@ -2,15 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const containerInfo = document.getElementById("travel-info");
 
-  const id = localStorage.getItem("travelID");
-  const catid = localStorage.getItem("catID");
+  const travelID = localStorage.getItem("travelID");
 
   // FETCH ARGENTINA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/" + catid + ".json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
     .then((response) => response.json())
     .then((data) => {
-      const travelInfo = data.destinations[id - 1];
-      showTravelInfo(travelInfo);
+      const traveldata = data;
+      const travelInfo = traveldata.destinations.filter(travel => travel.id == travelID);
+      console.log(travelInfo)
+      showTravelInfo(travelInfo[0]);
     });
 
 
