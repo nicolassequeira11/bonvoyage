@@ -8,7 +8,7 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
   .then((response) => response.json())
   .then((data) => {
     const travelsArgentina = data;
-    showTravels(travelsArgentina, travelsContainerArg);
+    showTravels(travelsArgentina.destinations, travelsContainerArg);
   })
 
   // FETCH BRASIL
@@ -16,7 +16,7 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
   .then((response) => response.json())
   .then((data) => {
     const travelsBrasil = data;
-    showTravels(travelsBrasil, travelsContainerBra);
+    showTravels(travelsBrasil.destinations, travelsContainerBra);
   })
 
   // FUNCIONES
@@ -25,13 +25,13 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
     if (array.length > 0) {
       array.forEach((travel) => {
         container.innerHTML += `
-                  <div onclick="setProductID(${travel.destinations.id})" class="travel-index">
+                  <div onclick="setProductID(${travel.id})" class="travel-index">
                       <div class="travel-index__container">
-                          <img class="card-image travel-index__image" src="${travel.destinations.image}">
-                          <h5 class="card-title travel-index__title">${travel.destinations.name}</h5>
-                          <p class="card-description travel-index__date">${travel.destinations.date}</p>
-                          <p class="card-cost travel-index__price">${travel.destinations.price}</p>
-                          <p class="card-soldcount travel-index__priceType">${travel.destinations.priceType}</p>
+                          <img class="card-image travel-index__image" src="${travel.image}">
+                          <h5 class="card-title travel-index__title">${travel.name}</h5>
+                          <p class="card-description travel-index__date">${travel.date}</p>
+                          <p class="card-cost travel-index__price">${travel.price}</p>
+                          <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
                       </div>
                   </div>
                   `;
@@ -47,6 +47,5 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
 /* Crear un localStorage para guardar el id de cada viaje y usarlo al clickear en el */
 function setProductID(id) {
   localStorage.setItem("travelID", id); // Crea el localStorage con la key "travelID"
-  localStorage.setItem("catID", catID); // Crea el localStorage con la key "catID"
   window.location = "travel-info.html"; // Redirige a product-info.html
 }
