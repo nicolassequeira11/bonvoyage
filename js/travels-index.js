@@ -4,7 +4,7 @@ const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
 
   // FETCH ARGENTINA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/101.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/101.json")
   .then((response) => response.json())
   .then((data) => {
     const travelsArgentina = data;
@@ -12,7 +12,7 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
   })
 
   // FETCH BRASIL
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/102.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/102.json")
   .then((response) => response.json())
   .then((data) => {
     const travelsBrasil = data;
