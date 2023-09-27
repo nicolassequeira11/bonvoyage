@@ -2,10 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const containerInfo = document.getElementById("travel-info");
 
-  const id = localStorage.getItem("travelID")
+  const id = localStorage.getItem("travelID");
+  const catID = localStorage.getItem("catID");
 
   // FETCH ARGENTINA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/101.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/categories/" + catID + ".json")
     .then((response) => response.json())
     .then((data) => {
       const travelInfo = data.destinations[id - 1];
