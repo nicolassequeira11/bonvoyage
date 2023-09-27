@@ -4,6 +4,7 @@
     "destinations": [
         {
             "id": 1,
+            "catID": 101,
             "name": "Villa Carlos Paz",
             "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
             "date": "17 de Julio - Salida grupal",
@@ -28,6 +29,7 @@
         },
         {
             "id": 2,
+            "catID": 101,
             "name": "Ushuaia y Calafate",
             "description": "Nos vamos al fin del mundo. Veni con nosotros y disfruta de este hermoso viaje.",
             "date": "7 de Junio - Salida grupal",
@@ -53,6 +55,7 @@
         },
         {
             "id": 3,
+            "catID": 101,
             "name": "Bariloche",
             "description": "Bariloche no es solo para los chicos!",
             "date": "12 de Agosto - Salida grupal",
@@ -78,6 +81,7 @@
         },
         {
             "id": 4,
+            "catID": 101,
             "name": "Norte Argentino",
             "description": "Sin texto",
             "date": "19 de Mayo - Salida grupal",
@@ -102,6 +106,7 @@
         },
         {
             "id": 1,
+            "catID": 101,
             "name": "Villa Carlos Paz",
             "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
             "date": "17 de Julio - Salida grupal",
@@ -126,6 +131,7 @@
         },
         {
             "id": 2,
+            "catID": 101,
             "name": "Ushuaia y Calafate",
             "description": "Nos vamos al fin del mundo. Veni con nosotros y disfruta de este hermoso viaje.",
             "date": "7 de Junio - Salida grupal",
@@ -150,6 +156,7 @@
         },
         {
             "id": 3,
+            "catID": 101,
             "name": "Bariloche",
             "description": "Bariloche no es solo para los chicos!",
             "date": "12 de Agosto - Salida grupal",
@@ -174,6 +181,7 @@
         },
         {
             "id": 4,
+            "catID": 101,
             "name": "Norte Argentino",
             "description": "Sin texto",
             "date": "19 de Mayo - Salida grupal",

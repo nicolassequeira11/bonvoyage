@@ -25,7 +25,7 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
     if (array.length > 0) {
       array.forEach((travel) => {
         container.innerHTML += `
-                  <div onclick="setProductID(${travel.id})" class="travel-index">
+                  <div onclick="setTravelID(${travel.id, travel.catID})" class="travel-index">
                       <div class="travel-index__container">
                           <img class="card-image travel-index__image" src="${travel.image}">
                           <h5 class="card-title travel-index__title">${travel.name}</h5>
@@ -45,7 +45,8 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
 });
 
 /* Crear un localStorage para guardar el id de cada viaje y usarlo al clickear en el */
-function setProductID(id) {
+function setTravelID(id, catid) {
   localStorage.setItem("travelID", id); // Crea el localStorage con la key "travelID"
+  localStorage.setItem("catID", catid); // Crea el localStorage con la key "catID"
   window.location = "travel-info.html"; // Redirige a product-info.html
 }

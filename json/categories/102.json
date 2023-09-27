@@ -4,6 +4,7 @@
     "destinations": [
         {
             "id": 501,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -32,6 +33,7 @@
         },
         {
             "id": 502,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -60,6 +62,7 @@
         },
         {
             "id": 503,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -88,6 +91,7 @@
         },
         {
             "id": 504,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -116,6 +120,7 @@
         },
         {
             "id": 505,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -144,6 +149,7 @@
         },
         {
             "id": 506,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -172,6 +178,7 @@
         },
         {
             "id": 507,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
@@ -200,6 +207,7 @@
         },
         {
             "id": 508,
+            "catID": 102,
             "name": "Gramado y Canela",
             "description": "Sin texto",
             "date": "13 de Julio - Salida grupal",
