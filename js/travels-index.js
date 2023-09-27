@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
 
-const urlArg = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/dataTravels.json";
+const urlArg = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travelsArgentina.json";
 const urlBra = "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travelsBrasil.json";
 
   // FETCH ARGENTINA
