@@ -18,14 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Mostrar info del producto */
 function showTravelInfo(array) {
   containerInfo.innerHTML = `
-    <div class="col-12 row card flex-row">
+    <div class="col-12 m-auto travel-info">
     
-    <div class="m-auto">
-      <img class="" src="${array.imageBanner}">
+    <div class="m-auto travel-info__img-container">
+      <img class="col-12 travel-info__img" src="${array.imageBanner}">
+      <h2 class="travel-info__title"><strong>${array.name}</strong></h2>
     </div>
 
         <div class="col-12 col-lg-5 m-auto container-product-info">
-            <h2 class="card-title title-product-info"><strong>${array.name}</strong></h2>
+            
             <p class="card-description description-product-info">${array.description}</p>
             <p class="card-description category-product-info"><strong>Categoría</strong> <br> ${array.category}</p>
             <p class="card-soldcount soldCount-product-info"><strong>Cantidad de vendidos</strong> <br> ${array.soldCount}</p>

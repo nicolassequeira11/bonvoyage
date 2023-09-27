@@ -121,3 +121,31 @@ body{
     border-radius: 50%;
     width: 45px;
 }
+
+// TRAVEL-INFO
+
+.travel-info{
+    font-family: u.$font-first;
+    
+        &__img-container{
+            height: 89vh;
+            position: relative;
+        }
+
+        &__img{
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &__title{
+            text-align: center;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 45%;
+            font-size: 5rem;
+            color: map-get(u.$colors, "color2");
+            filter: drop-shadow(0px 0px 15px #6d6d6d30);
+        }
+}

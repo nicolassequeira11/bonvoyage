@@ -1,5 +1,5 @@
 {
-    "id": 101,
+    "catID": 101,
     "travelName": "Argentina",
     "destinations": [
         {
@@ -48,7 +48,11 @@
                 "Tour por Cordoba y Carlos Paz",
                 "Visita a Multiparque Pekos"
             ],
-            "image": "media/image/ushuaia-calafate-1.jpg"
+            "image": "media/image/ushuaia-calafate-1.jpg",
+            "imageBanner": [
+                "media/image/ushuaia-calafate/ushuaia-calafate-1",
+                "media/image/ushuaia-calafate/ushuaia-calafate-2"
+            ]
         },
         {
             "id": 3,
