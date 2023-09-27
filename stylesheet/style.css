@@ -283,7 +283,6 @@ body {
   border-radius: 10px;
   margin: 20px auto;
   padding: 1.5rem;
-  height: 600px;
   background-color: #ffffff;
 }
 .travel-info__include-title {
@@ -291,9 +290,8 @@ body {
   font-size: 1.4rem;
 }
 .travel-info__include-items {
-  line-height: 2rem;
-}
-.travel-info__include-items {
   padding: 5 1rem 0;
+  line-height: 2rem;
   margin: auto;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */

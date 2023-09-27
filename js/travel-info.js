@@ -35,6 +35,8 @@ function showTravelInfo(array) {
           <p class="travel-info__include-items-container">${includes(array.includes)}</p>
           <p class="travel-info__include-title"><strong>Tours:</strong></p>
           <p class="travel-info__include-items-container">${includes(array.tours)}</p>
+          <p class="travel-info__include-title"><strong>Itinerario:</strong></p>
+          <p class="travel-info__include-items-container">${includes(array.itinerary)}</p>
         </div>
 
         <div class="col-12 col-lg-3 travel-info__info-container">
@@ -57,7 +59,7 @@ function includes(array){
   let container = "";
 
   for(let i=0; i<array.length; i++){
-    container += `<li class="travel-info__include-items">`+ array[i] + `</li>`;
+    container += `<p class="travel-info__include-items">`+ array[i] + `</p>`;
   }
 
   return container;
