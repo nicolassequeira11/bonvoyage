@@ -292,7 +292,7 @@
             "pais": "Brasil",
             "name": "Cataratas del Iguazu",
             "description": "Las majestuosas Cataratas del Iguazú se encuentran en el interior del Parque Nacional Iguazú. Se trata de un sistema de 275 saltos de agua en plena Selva Paranaense, punto en el cual se encuentran las fronteras de Argentina, Brasil y Paraguay.",
-            "date": "Sabados - 15 de Abril a 16 de Diciembre",
+            "date": "De Abril a Diciembre",
             "days": "7 días / 4 noches",
             "price": "U$S 494",
             "priceType": "Por persona en base doble",
@@ -366,6 +366,39 @@
             ]
         },
         {
+            "id": 800,
+            "pais": "Sudamerica",
+            "name": "Cartagena y Barú",
+            "description": "Colombia es un sitio alucinante, con gran riqueza cultural y una biodiversidad sumamente significativa.",
+            "date": "Noviembre",
+            "days": "7 días / 6 noches",
+            "price": "U$S 1539",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo",
+                "Carry on (max 10kg)",
+                "2 noches de alojamiento en Cartagena con desayuno",
+                "4 noches de alojamiento en Barú con All Inclusive",
+                "Traslados Aeropuerto - Hotel - Aeropuerto",
+                "City Tour en Cartagena",
+                "<strong>No incluye:</strong> Equipaje en bodega, propinas y gastos no especificados, impuesto de zarpe, la tarifa de niños no incluye pasadía en Isla del Encanto, actividades actuaticas como Snorkel, entrada al acuario y buceo con tanque, traslado muelle-hotel"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> CARTAGENA - Traslado IN Aeropuerto/Hotel Encuentro en el aeropuerto para dirigirnos al hotel seleccionado.<br>",
+                "<strong>Día 2:</strong> CARTAGENA - City Tour en Cartagena - Encuentro en el lobby del hotel para iniciar nuestro tour bordeando la hermosa bahía de Cartagena. Luego haremos un recorrido panorámico en la isla de manga e iremos al convento de la candelaria localizado en el cerro de la popa, máxima elevación en la ciudad de Cartagena el cual posee partes de arte consagradas permitiendo descubrir tesoros históricos, o Visitaremos La Iglesia San Pedro Claver, declarada patrimonio nacional por su valor arquitectónico e histórico. Continuaremos nuestra visita al castillo de san Felipe de barajas, máxima obra militar construida en américa en tiempos coloniales y para finalizar caminaremos por el centro histórico y amurallado de la ciudad de Cartagena “las bóvedas”, baluarte de santo domingo, calles y plazas.<br>",
+                "<strong>Día 3:</strong> CARTAGENA - BARU - Traslado desde Hotel en Cartagena al Hotel en Barú.<br>",
+                "<strong>Día 4:</strong> BARU - Día libre.<br>",
+                "<strong>Día 5:</strong> BARU - Día libre.<br>",
+                "<strong>Día 6:</strong> BARU - Día libre.<br>",
+                "<strong>Día 7:</strong> BARU – CARTAGENA - Encuentro en el Lobby del hotel para dirigirnos hacia el aeropuerto en Cartagena.<br>"
+            ],
+            "image": "media/image/cartagena-baru-1.png",
+            "imageBanner": [
+                "media/image/cartagena-baru/cartagena-baru-1.jpg",
+                "media/image/cartagena-baru/cartagena-baru-2.jpg"
+            ]
+        },
+        {
             "id": 1000,
             "pais": "Estados Unidos",
             "name": "Disney Orlando",
@@ -408,7 +441,7 @@
         {
             "id": 1005,
             "pais": "Estados Unidos",
-            "name": "Estados Unidos Costa Oeste",
+            "name": "USA Costa Oeste",
             "description": "Disfruta de la costa, las montañas en Yosemite, las maravillosas vistas del Gran Canyon, el cine de Los Angeles, las compras de San Francisco y las luces de Las Vegas en este mega tour por la Costa Oeste de Estados Unidos.",
             "date": "12 de Septiembre",
             "days": "11 días / 10 noches",
@@ -493,6 +526,39 @@
             "imageBanner": [
                 "media/image/miami/miami-1.jpg",
                 "media/image/miami/miami-2.jpg"
+            ]
+        },
+        {
+            "id": 1015,
+            "pais": "Estados Unidos",
+            "name": "Austin en Motorhome",
+            "description": "Recorre Texas en motorhome con amigos, el estado de los festivales de música, el arte, los rodeos, las botas de cuero y los cowboys.",
+            "date": "Noviembre",
+            "days": "10 días / 9 noches",
+            "price": "U$S 1999",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo Montevideo - Austin - Montevideo con todas las tasas e impuestos incluidos",
+                "Equipaje de mano",
+                "10 días de alquiler de Motorhome",
+                "Cobertura CDW",
+                "Responsabilidad Civil",
+                "Asistencia en ruta 24/7",
+                "Zero Damage Plan = exención del deducible",
+                "Paquete de millas ilimitadas",
+                "Kit personal (toallas y ropa blanca)",
+                "Kit de vehículo (vajilla e implementos de cocina)",
+                "Impuestos",
+                "Seguro de Assist Card AC60 durante todo el viaje",
+                "<strong>No incluye:</strong> Equipaje en bodega, traslados aeropuerto - oficina - aeropuerto, Environment Fee de pago en destino (Usd 9.95), generador, visado, comidas, gastos personales, campings"
+            ],
+            "itinerary": [
+                "Viaje libre de itinerario."
+            ],
+            "image": "media/image/austin-1.jpg",
+            "imageBanner": [
+                "media/image/austin/austin-1.jpg",
+                "media/image/austin/austin-2.jpg"
             ]
         }
     ]
