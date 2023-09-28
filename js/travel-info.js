@@ -26,15 +26,16 @@ function showTravelInfo(array) {
         <img class="col-12 travel-info__img" src="${array.imageBanner}">
         <div class="travel-info__title-container">
           <h2 class="travel-info__title"><strong>${array.name}</strong></h2>
+          <a href="#travel-info-container">
+            <i class="bi bi-arrow-down-circle-fill travel-info__icon-arrow" id="icon-arrow-down"></i>
+          </a>
         </div>
       </div>
 
-      <div class="d-flex col-12 d-flex flex-lg-row flex-column-reverse container">
+      <div class="d-flex col-12 d-flex flex-lg-row flex-column-reverse container" id="travel-info-container">
         <div class="col-12 col-lg-8 travel-info__include-container">
           <p class="travel-info__include-title"><strong>Incluye:</strong></p>
           <p class="travel-info__include-items-container">${includes(array.includes)}</p>
-          <p class="travel-info__include-title"><strong>Tours:</strong></p>
-          <p class="travel-info__include-items-container">${includes(array.tours)}</p>
           <p class="travel-info__include-title"><strong>Itinerario:</strong></p>
           <p class="travel-info__include-items-container">${includes(array.itinerary)}</p>
         </div>

@@ -232,6 +232,21 @@ body {
     font-size: 4rem;
   }
 }
+.travel-info__icon-arrow {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  transform: scale(2);
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.travel-info__icon-arrow:hover {
+  color: #dc3545;
+}
 .travel-info__info-container {
   border-radius: 10px;
   position: sticky;
@@ -292,10 +307,16 @@ body {
   display: flex;
   font-size: 1.1rem;
   border-radius: 20px;
+  transition: all 0.2s ease-in-out;
   padding: 7px 25px;
-  border: none;
+  border: 2px solid #ffffff;
   color: #ffffff;
   background-color: #dc3545;
+}
+.travel-info__info-button:hover {
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  background-color: #ffffff;
 }
 .travel-info__include-container {
   border-radius: 10px;

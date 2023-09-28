@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
+const travelsContainerUsa = document.getElementById("travels-container-usa");
 
   // FETCH ARGENTINA
   fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
@@ -19,6 +20,15 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
     const travels = data;
     const travelsBra = travels.destinations.filter(travel => travel.pais === "Brasil");
     showTravels(travelsBra, travelsContainerBra);
+  })
+
+  // FETCH ESTADOS UNIDOS
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const travels = data;
+    const travelsUsa = travels.destinations.filter(travel => travel.pais === "Estados Unidos");
+    showTravels(travelsUsa, travelsContainerUsa);
   })
 
   // FUNCIONES

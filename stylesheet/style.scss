@@ -165,6 +165,22 @@ body{
             }
         }
 
+        &__icon-arrow{
+            margin: auto;
+            width: fit-content;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 5%;
+            transform: scale(2);
+            color: map-get(u.$colors, "color2");
+            transition: all 0.2s ease-in-out;
+        }
+
+        &__icon-arrow:hover{
+            color: map-get(u.$colors, "color4");
+        }
+
         // Info
 
         &__info-container{
@@ -231,10 +247,17 @@ body{
             display: flex;
             font-size: 1.1rem;
             border-radius: 20px;
+            transition: all 0.2s ease-in-out;
             padding: 7px 25px;
-            border: none;
+            border: 2px solid map-get(u.$colors, "color2");
             color: map-get(u.$colors, "color2");
             background-color: map-get(u.$colors, "color4");
+        }
+
+        &__info-button:hover{
+            border: 2px solid map-get(u.$colors, "color4");
+            color: map-get(u.$colors, "color4");
+            background-color: map-get(u.$colors, "color2");
         }
 
         // Incluye

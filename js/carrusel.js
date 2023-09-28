@@ -16,3 +16,11 @@
     document.getElementById("travels-container-bra").scrollLeft += 1100;
   });
 
+// Estados Unidos
+  document.getElementById("prevusa").addEventListener("click", ()=>{
+    document.getElementById("travels-container-usa").scrollLeft -= 1100;
+  });
+  document.getElementById("nextusa").addEventListener("click", ()=>{
+    document.getElementById("travels-container-usa").scrollLeft += 1100;
+  });
+

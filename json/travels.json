@@ -16,9 +16,7 @@
                 "Gimnasio, cancha de futbol 5, WI-fi",
                 "Desayuno Buffet",
                 "Servicio a bordo",
-                "Coordinador acompañante"
-            ],
-            "tours": [
+                "Coordinador acompañante",
                 "Tour Villa General Belgrano",
                 "Tour por el Lago San Roque",
                 "Tour por Cordoba y Carlos Paz",
@@ -51,9 +49,7 @@
                 "4 noches de hotel con desayuno en Ushuaia",
                 "Seguro de viaje",
                 "Coordinador acompañante",
-                "Traslados en destinos"
-            ],
-            "tours": [
+                "Traslados en destinos",
                 "Tour al Parque Nacional los Glaciares",
                 "Paseo en barco frente a Perito Moreno de 1 hora",
                 "Excursión Parque Nacional Tierra del Fuego",
@@ -91,12 +87,6 @@
                 "Guia local en todo el recorrido",
                 "Coordinador acompañante"
             ],
-            "tours": [
-                "Tour Villa General Belgrano",
-                "Tour por el Lago San Roque",
-                "Tour por Cordoba y Carlos Paz",
-                "Visita a Multiparque Pekos"
-            ],
             "itinerary": [
                 "<strong>Día 1:</strong> Salida desde la terminal de Artigas.<br>",
                 "<strong>Día 2:</strong> Llegada a Neuquén al mediodía (NOCHE EN NEUQUÉN).<br>",
@@ -128,9 +118,7 @@
                 "1 noches de hotel en Tucuman con media pension",
                 "Seguro de viaje",
                 "Guia local en todo el recorrido",
-                "Coordinador acompañante"
-            ],
-            "tours": [
+                "Coordinador acompañante",
                 "City Tour en Salta",
                 "Visitas a: Purmarca (cerro de los 7 colores), Humahuaca, Salinas Grandes, Cafayate",
                 "Viñedos: Tilcara, Salta, San Miguel de Tucuman"
@@ -166,17 +154,9 @@
                 "Desayuno buffet",
                 "Servicio a bordo",
                 "Seguro de viaje",
-                "Coordinador acompañante y guia local"
-            ],
-            "tours": [
-                "Picaddylli",
-                "Portico de Gramado",
-                "Gramado",
-                "Canela",
-                "Fabrica de chocolate",
-                "Cascada Caracol",
-                "Museo a vapor",
-                "No incluye entradas"
+                "Coordinador acompañante y guia local",
+                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
+                "<strong>No incluye entradas</strong>"
             ],
             "itinerary": [
                 "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
@@ -204,17 +184,9 @@
                 "Desayuno buffet",
                 "Servicio a bordo",
                 "Seguro de viaje",
-                "Coordinador acompañante y guia local"
-            ],
-            "tours": [
-                "Picaddylli",
-                "Portico de Gramado",
-                "Gramado",
-                "Canela",
-                "Fabrica de chocolate",
-                "Cascada Caracol",
-                "Museo a vapor",
-                "No incluye entradas"
+                "Coordinador acompañante y guia local",
+                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
+                "<strong>No incluye entradas</strong>"
             ],
             "itinerary": [
                 "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
@@ -242,17 +214,9 @@
                 "Desayuno buffet",
                 "Servicio a bordo",
                 "Seguro de viaje",
-                "Coordinador acompañante y guia local"
-            ],
-            "tours": [
-                "Picaddylli",
-                "Portico de Gramado",
-                "Gramado",
-                "Canela",
-                "Fabrica de chocolate",
-                "Cascada Caracol",
-                "Museo a vapor",
-                "No incluye entradas"
+                "Coordinador acompañante y guia local",
+                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
+                "<strong>No incluye entradas</strong>"
             ],
             "itinerary": [
                 "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
@@ -280,17 +244,9 @@
                 "Desayuno buffet",
                 "Servicio a bordo",
                 "Seguro de viaje",
-                "Coordinador acompañante y guia local"
-            ],
-            "tours": [
-                "Picaddylli",
-                "Portico de Gramado",
-                "Gramado",
-                "Canela",
-                "Fabrica de chocolate",
-                "Cascada Caracol",
-                "Museo a vapor",
-                "No incluye entradas"
+                "Coordinador acompañante y guia local",
+                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
+                "<strong>No incluye entradas</strong>"
             ],
             "itinerary": [
                 "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
@@ -301,6 +257,43 @@
             ],
             "image": "media/image/gramado-canela-1.jpg",
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
+        },
+        {
+            "id": 1001,
+            "pais": "Estados Unidos",
+            "name": "Disney Orlando",
+            "description": "Prepárate para un viaje de ensueño a la tierra donde los sueños se hacen realidad. En Disney Orlando, la magia cobra vida en cada rincón. Experimenta la emoción de los parques temáticos, conoce a tus personajes favoritos y sumérgete en un mundo de diversión inigualable.",
+            "date": "12 de Septiembre",
+            "days": "10 días",
+            "price": "U$S 2590",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Vuelos Montevideo-Orlando-Montevideo",
+                "Traslados aeropuerto-hotel-aeropuerto",
+                "8 noches de hotel en Orlando",
+                "Entrada a Disney World Magic Kingdom por un día",
+                "Entrada a Universal Studios por un día",
+                "Traslados a los parques",
+                "Tour de compras a outlet de Orlando",
+                "Seguro de viaje",
+                "Coordinador acompañante",
+                "<strong>No incluye:</strong> Impuestos hoteleros o de ciudad y valija en bodega"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> Salida.<br>",
+                "<strong>Día 2:</strong> Llegada al aeropuerto de Orlando y traslado al hotel.<br>",
+                "<strong>Día 3:</strong> Por la mañana, nos dirigimos al mágico mundo de Disney para visitar el Parque Magic Kingdom, donde se encuentra el famoso castillo de Cenicienta y muchas otras atracciones.<br>",
+                "<strong>Día 4:</strong> Día libre, ideal para aprovechar las instalaciones del hotel y descansar después de un día en los parques.<br>",
+                "<strong>Día 5:</strong> Traslado a Universal Florida, donde visitaremos tanto Universal Studios Florida como Islands of Adventure en el mismo día.<br>",
+                "<strong>Día 6:</strong> Día libre, perfecto para relajarse en el hotel y descansar después de un día en los parques.<br>",
+                "<strong>Día 7:</strong> Día de compras, visitaremos uno de los muchos outlets en Orlando para realizar compras y aprovechar descuentos.<br>",
+                "<strong>Día 8:</strong> Día libre, con la opción de visitar uno de los otros parques de Disney de forma opcional (Animal Kingdom, Hollywood Studios, Epcot).<br>",
+                "<strong>Día 9:</strong> Día libre para explorar otros parques temáticos, hacer compras o disfrutar de las muchas actividades disponibles en Orlando, con sugerencias del acompañante.<br>",
+                "<strong>Día 10:</strong> Traslado al aeropuerto y regreso a Uruguay.<br>",
+                "Este itinerario te llevará a explorar los parques temáticos de Disney y Universal en Orlando, así como a disfrutar de compras y tiempo libre para explorar esta emocionante ciudad en Florida, Estados Unidos."
+            ],
+            "image": "media/image/disney-orlando-1.webp",
+            "imageBanner": "media/image/disney/disney-orlando-1.jpg"
         }
     ]
 }
