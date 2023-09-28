@@ -139,12 +139,13 @@ body{
         }
 
         &__img{
-            height: 100%;
+            height: 89vh;
             object-fit: cover;
         }
 
         &__title-container{
             position: absolute;
+            z-index: 1000;
             margin: auto;
             display: flex;
             flex-direction: column;

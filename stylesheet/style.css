@@ -207,12 +207,13 @@ body {
   }
 }
 .travel-info__img {
-  height: 100%;
+  height: 89vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .travel-info__title-container {
   position: absolute;
+  z-index: 1000;
   margin: auto;
   display: flex;
   flex-direction: column;

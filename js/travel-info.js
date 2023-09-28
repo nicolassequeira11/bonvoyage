@@ -23,7 +23,16 @@ function showTravelInfo(array) {
     <div class="col-12 m-auto travel-info">
     
       <div class="m-auto travel-info__img-container">
-        <img class="col-12 travel-info__img" src="${array.imageBanner}">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner travel-info__img-container">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="${array.imageBanner[0]}" class="d-block w-100 travel-info__img" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="${array.imageBanner[1]}" class="d-block w-100 travel-info__img" alt="...">
+            </div>
+          </div>
+        </div>
         <div class="travel-info__title-container">
           <h2 class="travel-info__title"><strong>${array.name}</strong></h2>
           <a href="#travel-info-container">
