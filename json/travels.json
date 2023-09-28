@@ -253,67 +253,73 @@
         {
             "id": 510,
             "pais": "Brasil",
-            "name": "Gramado y Canela",
-            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
-            "date": "13 de Julio - Salida grupal",
-            "days": "4 días",
-            "price": "U$S 265",
+            "name": "Florianopolis",
+            "description": "La belleza de Florianópolis atrae millares de visitantes todos los años, en la isla se encuentran los más variados tipos de playa. Capital turística, tiene una población de 300 mil habitantes, número que se triplica en verano.",
+            "date": "Sabados de Agosto al 16 de Diciembre ",
+            "days": "8 días / 5 noches",
+            "price": "U$S 480",
             "priceType": "Por persona en base doble",
             "includes": [
-                "Viaje terrestre en omnibus",
-                "2 noches de hotel 4 estrellas con desayuno en Gramados",
-                "Centro con sala de juegos para niños",
-                "Desayuno buffet",
-                "Servicio a bordo",
-                "Seguro de viaje",
-                "Coordinador acompañante y guia local",
-                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
-                "<strong>No incluye entradas</strong>"
+                "Bus semi cama",
+                "Guía acompañante, servicio a bordo, cena y desayuno abordo",
+                "5 noches de alojamiento con desayuno",
+                "6 comidas en restaurante",
+                "Paseo en Scuna a la Isla de Anhatomirin y Bahía de los Golfinhos",
+                "Tour de playas: Jureré, Ingleses, Barra da Lagoa, Morro de las Siete Vueltas, Laguna de la Concepción, Playa la Joaquina",
+                "Tour a Camboriú con ascenso al Cristo Luz",
+                "Traslado a Beto Carrero World",
+                "Seguro de viaje"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
-                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
-                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
-                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
-                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
+                "<strong>Día 1:</strong> Uruguay - Salida en bus semi cama con servicio a bordo, guía acompañante, cena y desayuno abordo pasando por Porto Alegre, para arribar a Florianopolis<br>",
+                "<strong>Día 2:</strong> Florianópolis - Llegada directamente al hotel. Alojamiento. Resto del día libre. Cena.<br>",
+                "<strong>Día 3:</strong> Tour a Camboriú con Cristo Luz: Excursión de medio día al norte del estado para visitar el balneario de Camboriú. Recorrido por su rambla y tiempo libre en el centro comercial o para realizar opcionalmente el Teleférico al Parque Unipraias y a la playa de Laranjeiras. En la noche ascenso al morro del Cristo Luz para admirar este monumento y obtener una vista increíble desde su cima. Cena con música en vivo y mucha diversión. Posterior regreso a Florianópolis.<br>",
+                "<strong>Día 4:</strong> Paseo en Scuna - Salida en horas de la mañana para realizar un paseo en Scuna por la Bahía Norte y visitar la Isla de Anhatomirin, desembarcando en el fuerte de Santa Cruz y la Bahía de los Golfinhos. Almuerzo.<br>",
+                "<strong>Día 5:</strong> Traslado a Beto Carrero World: Traslado al balneario de Penha para conocer el mayor Parque de Diversiones de Sudamérica: Beto Carrero World. Ingreso opcional para disfrutar de sus entretenimientos. Regreso a Florianópolis en la noche. Cena.<br>",
+                "<strong>Día 6:</strong> Tour de Playas - visitando la playa de Jurere, Cruce del Morro de las Siete vueltas, Laguna de la Concepción para vivir el esplendor de las cristalinas aguas de la playa Joaquina. Posteriormente pasando por Praia Mole y Barra da Lagoa, llegaremos a Ingleses con tiempo para baños. Regreso al Hotel. Cena.<br>",
+                "<strong>Día 7:</strong> Florianópolis - Desayuno. Partida con equipajes en horas de la mañana en viaje de regreso con almuerzo en Parador de ruta. Continuación por Tubarao, Porto Alegre, para arribar a:<br>",
+                "<strong>Día 8:</strong> Uruguay - Llegada en horas de la mañana. Fin de nuestros servicios.<br>",
+                "Este itinerario te permitirá explorar Florianópolis y sus alrededores, disfrutar de sus playas y atracciones, y regresar a Uruguay al final del viaje."
             ],
-            "image": "media/image/gramado-canela-1.jpg",
+            "image": "media/image/florianopolis-1.jpg",
             "imageBanner": [
-                "media/image/salvador-bahia/salvador-bahia-1.jpg",
-                "media/image/salvador-bahia/salvador-bahia-2.webp"
+                "media/image/florianopolis/florianopolis-1.jpg",
+                "media/image/florianopolis/florianopolis-2.jpg"
             ]
         },
         {
             "id": 515,
             "pais": "Brasil",
-            "name": "Gramado y Canela",
-            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
-            "date": "13 de Julio - Salida grupal",
-            "days": "4 días",
-            "price": "U$S 265",
+            "name": "Cataratas del Iguazu",
+            "description": "Las majestuosas Cataratas del Iguazú se encuentran en el interior del Parque Nacional Iguazú. Se trata de un sistema de 275 saltos de agua en plena Selva Paranaense, punto en el cual se encuentran las fronteras de Argentina, Brasil y Paraguay.",
+            "date": "Sabados del 15 de Abril al 16 de Diciembre",
+            "days": "7 días / 4 noches",
+            "price": "U$S 494",
             "priceType": "Por persona en base doble",
             "includes": [
-                "Viaje terrestre en omnibus",
-                "2 noches de hotel 4 estrellas con desayuno en Gramados",
-                "Centro con sala de juegos para niños",
-                "Desayuno buffet",
-                "Servicio a bordo",
-                "Seguro de viaje",
-                "Coordinador acompañante y guia local",
-                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
-                "<strong>No incluye entradas</strong>"
+                "Bus Semi Cama, servicio a bordo - Cena y desayuno abordo",
+                "4 noches de alojamiento con desayuno / 5 comidas, mas 1 abordo",
+                "Tour Cataratas Argentinas con ingreso incluido",
+                "Tour Cataratas Brasileñas con ingreso incluido",
+                "Visita de la Represa de Itaipú / Visita con tiempo libre en Ciudad del Este para compras",
+                "Visita al Centro de Foz, Marco de las Tres Fronteras",
+                "En Ruta  Ruinas de San Ignacio Mini con ingreso incluido, Minas de Wanda y Casa de Horacio Quiroga (ingreso opcional)",
+                "Seguro de viaje"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
-                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
-                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
-                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
-                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
+                "<strong>Día 1:</strong> Uruguay - Salida en bus Semi cama con cena y desayuno abordo, guía acompañante, pasando por Chajarí, San Ignacio, Puerto Iguazú, hacia Foz de Iguazú<br>",
+                "<strong>Día 2:</strong> Foz de Iguazú - Llegada. Alojamiento. Resto del día libre para disfrutar del hotel y o paseos. Cena.<br>",
+                "<strong>Día 3:</strong> Foz de Iguazú. Desayuno. Salida en horas de la mañana para visitar Cataratas Brasileñas. Ingreso al Parque Nacional y llegada hasta el Punto Panorámico, frente al hotel Das Cataratas y desde allí dar comienzo a una caminata por pasarelas observando gran parte de los 275 saltos de agua y viendo el gran espectáculo que nos ofrece esta maravilla de la naturaleza. Al finalizar la mismo llegaremos a un mirador contemplando los saltos brasileños de Benjamín Constant, Deodoro, Floriano y Unión, este último ya perteneciente al salto Garganta del Diablo. (Ingreso incluido). Posibilidad de realizar opcionalmente el Safari Macuco donde nos internaremos en vehículos especiales en zona interna del parque y posteriormente en gomones realizar el trayecto por el río hasta enfrentarnos con los saltos en un espectáculo realmente indescriptible. Tiempo libre también para realizar opcional la visita al Parque de las Aves. Visita opcional al primer Museo de Cera de latinoamerica, donde podran ver a las mas grandes estrellas de Holliwood, las Maravillas del Mundo o el Parque de los Dinosaurios. Posterior visita al centro de Foz con tiempo para compras. Cena.<br>",
+                "<strong>Día 4:</strong> Foz de Iguazú - Desayuno. Salida en horas de la mañana cruzando el Puente Internacional de la Amistad a territorio paraguayo y visitar la Represa de Itaipú. Observaremos un audiovisual de la misma para posteriormente visitar la sala de maquinas, Mirador del Vertedero, Lago artificial, presa principal de esta impresionante obra binacional sobre el lecho del Río Paraná, entre Paraguay y Brasil. De regreso visita de Ciudad del Este donde dispondremos de tiempo para compras. Regreso al hotel en la tarde. Cena.<br>",
+                "<strong>Día 5:</strong> Foz de Iguazú - Desayuno. Salida en la mañana cruzando el Puente Tancredo Neves a territorio argentino e ingresar al Parque Nacional para visitar las Cataratas Argentinas. Recorrido por los senderos superior, inferior y Garganta del Diablo. Observaremos saltos como el Bossetti, Adán y Eva, los Tres Mosqueteros, San Martín, Rivadavia, Alvar Núñez, (ingreso incluido). Cena<br>",
+                "<strong>Día 6:</strong> Foz de Iguazú - Desayuno. Partida con equipajes en horas de la mañana hacia territorio argentina a través de la provincia de Misiones, entre medio de la exuberante vegetación, aserraderos, viveros forestales, plantaciones de Yerba mate, te, tabaco, visitando las minas de piedras Semi preciosas de Wanda (ingreso no incluido) hasta llegar a San Ignacio. Visita de las Ruinas Jesuíticas de San Ignacio Mini con ingreso incluido y la Casa del Escritor uruguayo Horacio Quiroga (ingreso no incluido) Almuerzo. Continuación en viaje de regreso por Alvear, Chajarí, hacia Uruguay<br>",
+                "<strong>Día 7:</strong> Uruguay - Llegada en horas de la mañana. Fin de nuestros servicios.<br>",
+                "Este itinerario te permitirá explorar las Cataratas del Iguazú desde el lado brasileño y argentino, así como visitar la Represa de Itaipú y otras atracciones en la región."
             ],
-            "image": "media/image/gramado-canela-1.jpg",
+            "image": "media/image/catarata-iguazu-1.webp",
             "imageBanner": [
-                "media/image/salvador-bahia/salvador-bahia-1.jpg",
-                "media/image/salvador-bahia/salvador-bahia-2.webp"
+                "media/image/catarata-iguazu/catarata-iguazu-1.jpg",
+                "media/image/catarata-iguazu/catarata-iguazu-2.jpg"
             ]
         },
         {

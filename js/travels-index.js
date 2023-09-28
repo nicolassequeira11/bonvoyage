@@ -41,30 +41,34 @@ const travelsContainerSud = document.getElementById("travels-container-sud");
     showTravels(travelsSud, travelsContainerSud);
   })
 
-  // FUNCIONES
-  function showTravels(array, container) {
-  
-    if (array.length > 0) {
-      array.forEach((travel) => {
-        container.innerHTML += `
-                  <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index">
-                      <div class="travel-index__container">
-                          <img class="card-image travel-index__image" src="${travel.image}">
-                          <h5 class="card-title travel-index__title">${travel.name}</h5>
-                          <p class="card-description travel-index__date">${travel.date}</p>
-                          <p class="card-cost travel-index__price">${travel.price}</p>
-                          <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
-                      </div>
-                  </div>
-                  `;
-      });
-    } else {
-      // Alerta para cuando no se encuentran productos
-      container.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
-    }
-  }
+
 
 });
+
+// FUNCIONES
+
+/* Mostrar viajes */
+function showTravels(array, container) {
+
+  if (array.length > 0) {
+    array.forEach((travel) => {
+       container.innerHTML += `
+                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index">
+                    <div class="travel-index__container">
+                        <img class="card-image travel-index__image" src="${travel.image}">
+                        <h5 class="card-title travel-index__title">${travel.name}</h5>
+                        <p class="card-description travel-index__date">${travel.date}</p>
+                        <p class="card-cost travel-index__price">${travel.price}</p>
+                        <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
+                    </div>
+                </div>
+                `;
+     });
+  } else {
+    // Alerta para cuando no se encuentran productos
+    container.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
+  }
+}
 
 /* Crear un localStorage para guardar el id de cada viaje */
 function setProductID(id) {

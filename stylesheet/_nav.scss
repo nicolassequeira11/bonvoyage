@@ -22,7 +22,6 @@
 
 .navbar-nav{
     display: flex;
-    justify-content: center;
 }
 
 .navbar-toggler{
@@ -40,10 +39,10 @@
 }
 
 .nav-item{
-    padding: 0 6px;
     color: map-get(u.$colors, "color2");
-    font-size: 0.9em;
+    font-size: 1rem;
     font-weight: 500;
+    margin: auto;
 }
 
 .nav-item-mobile{
@@ -54,6 +53,7 @@
 
 .nav-content-sm{
     margin: auto;
+    background-color: orange;
 }
 
 .nav-icon-sm{
@@ -68,7 +68,7 @@
 .nav-link{
     color: map-get(u.$colors, "color3") !important;
     font-family: u.$font-first;
-    font-size: 1.05rem !important;
+    font-size: 1rem !important;
 }
 
 .nav-link:hover{
