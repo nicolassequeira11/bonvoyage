@@ -178,18 +178,20 @@ body{
         }
 
         &__info-title{
-            margin: auto;
+            margin: 1rem auto;
             text-align: center;
+            font-size: 2rem;
         }
 
         &__info-days{
-            margin: auto;
+            margin: 0 auto;
             text-align: center;
         }
 
         &__info-date{
-            margin: auto;
+            margin: 0.3rem auto;
             text-align: center;
+            font-size: 0.78rem;
         }
 
         &__info-description{
@@ -198,23 +200,24 @@ body{
         }
 
         &__info-price{
-            margin: auto;
+            margin: 0 auto;
             justify-content: center;
             display: flex;
             font-size: 2rem;
         }
 
         &__info-priceType{
-            margin: auto;
+            margin: 0 auto;
             justify-content: center;
             display: flex;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         &__info-button{
             margin: 10px auto;
             justify-content: center;
             display: flex;
+            font-size: 1.1rem;
             border-radius: 20px;
             padding: 7px 25px;
             border: none;
@@ -240,8 +243,7 @@ body{
         }
 
         &__include-items{
-            padding: 0 1rem;
-            line-height: 2rem;
+            padding: 0.5rem 1rem;
             margin: auto;
         }
 

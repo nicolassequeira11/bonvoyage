@@ -6,6 +6,7 @@
             "name": "Villa Carlos Paz",
             "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
             "date": "17 de Julio - Salida grupal",
+            "days": "6 días",
             "price": "U$S 395",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -24,15 +25,13 @@
                 "Visita a Multiparque Pekos"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 19 horas desde la terminal de Artigas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana con desayuno a bordo. Tarde libre para explorar la ciudad y disfrutar de los servicios del hotel.<br>",
+                "<strong>Día 3:</strong> Salida a las 9 de la mañana desde Villa Carlos Paz para una excursión a Villa General Belgrano. El recorrido incluye hermosas vistas a lo largo de la Ruta Provincial 38, con paradas panorámicas en el Parador El Águila y el Parador Los Mimbres. También se visita la localidad de Cura Brochero, donde descansan los restos del Santo Brochero, el primer santo argentino nacido y fallecido en el país. El regreso a Mina Clavero para el almuerzo y tiempo libre para explorar. Regreso a Villa Carlos Paz alrededor de las 16 horas.<br>",
+                "<strong>Día 4:</strong> Dedicado a los niños, con una visita al Parque Pekos, que ofrece una variedad de atracciones como la jungla ecológica, acuario, bio parque, dinosaurios, serpentario, cine 5D, montaña rusa y más. La entrada al parque no está incluida.<br>",
+                "<strong>Día 5:</strong> Día libre para descansar. Por la tarde, un paseo en catamarán por el lago San Roque. Última noche en la región.<br>",
+                "<strong>Día 6:</strong> Salida por la mañana después del desayuno para visitar la ciudad de Córdoba y sus principales atractivos. Tiempo libre para almorzar y regreso a casa.<br>",
+                "Este itinerario te llevará a explorar Villa General Belgrano, Parque Pekos, el lago San Roque y la ciudad de Córdoba, ofreciendo una variada experiencia durante tu viaje."
             ],
             "image": "media/image/carlos-paz-1.jpg",
             "imageBanner": "media/image/carlos-paz/carlos-paz-1.webp"
@@ -43,33 +42,33 @@
             "name": "Ushuaia y Calafate",
             "description": "Nos vamos al fin del mundo. Veni con nosotros y disfruta de este hermoso viaje.",
             "date": "7 de Junio - Salida grupal",
+            "days": "8 días",
             "price": "U$S 1350",
             "priceType": "Por persona en base doble",
             "includes": [
-                "Viaje terrestre en omnibus",
-                "4 noches de hotel media pensión",
-                "Servicios del hotel: Piscina climatizad cubierta y externa, Solarium, Sauna",
-                "Gimnasio, cancha de futbol 5, WI-fi",
-                "Desayuno Buffet",
-                "Servicio a bordo",
-                "Coordinador acompañante"
+                "Aereos de Montevideo",
+                "3 noches de hotel con desayuno en Calafate",
+                "4 noches de hotel con desayuno en Ushuaia",
+                "Seguro de viaje",
+                "Coordinador acompañante",
+                "Traslados en destinos"
             ],
             "tours": [
-                "Tour Villa General Belgrano",
-                "Tour por el Lago San Roque",
-                "Tour por Cordoba y Carlos Paz",
-                "Visita a Multiparque Pekos"
+                "Tour al Parque Nacional los Glaciares",
+                "Paseo en barco frente a Perito Moreno de 1 hora",
+                "Excursión Parque Nacional Tierra del Fuego",
+                "Paseo en barco por el canal de Beagle"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida en la mañana hacia Ushuaia y traslado al hotel.<br>",
+                "<strong>Día 2:</strong> Navegación por el Canal Beagle, explorando la costa de Ushuaia, observando edificios notables como el Museo Marítimo (antiguo presidio) y el Museo del Fin del Mundo, además de la vida marina en las islas de Los Lobos y Los Pájaros. La excursión incluye una visita al Faro Les Eclaireurs. Regreso a Ushuaia a través del Paso Chico (NOCHE EN USHUAIA).<br>",
+                "<strong>Día 3:</strong> Excursión al Parque Nacional Tierra del Fuego, que incluye hermosas vistas panorámicas del Canal Beagle y paradas en lugares como el Centro Hípico y la estación del Ferrocarril Austral Fueguino. Luego, se adentra en el Parque Nacional, donde se pueden explorar bosques de Lengas, el Lago Acigami y Bahía Lapataia, el final de la Ruta Nacional Nro. 3 (NOCHE EN USHUAIA).<br>",
+                "<strong>Día 4:</strong> Día libre en Ushuaia.<br>",
+                "<strong>Día 5:</strong> Vuelo hacia El Calafate por la mañana, seguido de tiempo libre para explorar la ciudad por la noche (NOCHE EN EL CALAFATE).<br>",
+                "<strong>Día 6:</strong> Excursión al Glaciar Perito Moreno, ubicado en el Parque Nacional Los Glaciares. La visita incluye recorridos por balcones con vistas impresionantes del glaciar y un emocionante tour náutico de una hora para acercarse aún más a la pared de hielo. Tiempo libre para explorar los circuitos y almorzar en el patio de comidas (NOCHE EN EL CALAFATE).<br>",
+                "<strong>Día 7:</strong> Día libre en El Calafate para disfrutar de la ciudad o realizar una excursión opcional a Torres del Paine o El Chaltén.<br>",
+                "<strong>Día 8:</strong> Traslado al aeropuerto para emprender el viaje de regreso.<br>",
+                "Este itinerario te llevará a explorar Ushuaia, el Canal Beagle, el Parque Nacional Tierra del Fuego, El Calafate y el Glaciar Perito Moreno, ofreciéndote una experiencia inolvidable en la belleza natural de la Patagonia argentina."
             ],
             "image": "media/image/ushuaia-calafate-1.jpg",
             "imageBanner": "media/image/ushuaia-calafate/ushuaia-calafate-1.jpg"
@@ -78,9 +77,9 @@
             "id": 3,
             "pais": "Argentina",
             "name": "Bariloche",
-            "description": "Bariloche no es solo para los chicos!",
+            "description": "Descubre la majestuosidad de Bariloche, donde los picos nevados, los lagos cristalinos y los bosques exuberantes se combinan para crear un escenario de belleza incomparable. Embárcate en un viaje inolvidable lleno de aventuras al aire libre, gastronomía deliciosa y la hospitalidad de esta encantadora ciudad.",
             "date": "12 de Agosto - Salida grupal",
-            "days": "9 días / 6 noches",
+            "days": "9 días",
             "price": "U$S 740",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -119,6 +118,7 @@
             "name": "Norte Argentino",
             "description": "Bienvenido a un viaje inolvidable al corazón de Argentina, donde la belleza natural se mezcla con la rica cultura y la historia fascinante. Nuestro viaje al Norte Argentino te llevará a un mundo de contrastes asombrosos y experiencias únicas que te dejarán sin aliento.",
             "date": "19 de Mayo - Salida grupal",
+            "days": "9 días",
             "price": "U$S 590",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -133,19 +133,19 @@
             "tours": [
                 "City Tour en Salta",
                 "Visitas a: Purmarca (cerro de los 7 colores), Humahuaca, Salinas Grandes, Cafayate",
-                "Tour por Cordoba y Carlos Paz",
                 "Viñedos: Tilcara, Salta, San Miguel de Tucuman"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 18 horas desde la terminal de Artigas.<br>",
+                "<strong>Día 2:</strong> Llegada a Tafi del Valle, con tiempo libre para explorar este hermoso pueblo (NOCHE EN TAFI DEL VALLE).<br>",
+                "<strong>Día 3:</strong> Partida desde Tafi del Valle, pasando por la Cuesta del Infiernillo y el Abra del Infiernillo, donde la Cadena del Aconquija supera los 3000 metros sobre el nivel del mar. En el camino, se observan diversos cactus y se hace una breve visita a Amaicha del Valle y las Ruinas de Quilmes (entrada no incluida). Luego, se llega a Cafayate, famosa por sus viñedos y vinos finos. La visita incluye La Catedral, una bodega de renombre y un recorrido por la Quebrada de Cafayate, conocida por sus coloridos cerros, como La Yesera, Las Ventanas, El Anfiteatro, La Garganta del Diablo y Tres Cruces. El viaje continúa pasando por Coronel Moldes, La Viña y finaliza en Salta (NOCHE EN SALTA).<br>",
+                "<strong>Día 4:</strong> Por la mañana, visita a la ciudad de Salta, incluyendo el Convento de San Bernardo, el Monumento a Martin Miguel de Güemes, el Monumento al 20 de febrero, la Catedral del Señor y La Virgen del Milagro, el Panteón de las Glorias del Norte, el Cabildo, la Iglesia de San Francisco, el Mercado Artesanal, la Base del Cerro San Bernardo y la Quebrada de San Lorenzo. Tarde libre (NOCHE EN SALTA).<br>",
+                "<strong>Día 5:</strong> Día libre en Salta, con la opción de tomar una excursión opcional no incluida llamada Tren a las Nubes o realizar un recorrido similar en minibuses si el tren no está en funcionamiento. Regreso a Salta y cena (NOCHE EN SALTA).<br>",
+                "<strong>Día 6:</strong> Desayuno y salida hacia la Quebrada de Humahuaca, pasando por Yala, Leon, Volcán y Tumbaya. En Humahuaca, visita a la Plaza Principal, el mirador del Gral. Belgrano y el monumento a la independencia. Tiempo para el almuerzo. En el regreso, visita a la iglesia de San Francisco en Uquía (NOCHE EN TILCARA).<br>",
+                "<strong>Día 7:</strong> Después del desayuno, visita a las Salinas Grandes, un salar ubicado entre las provincias de Salta y Jujuy, seguido de una visita a Purmamarca y su famoso Cerro de los Siete Colores (NOCHE EN TILCARA).<br>",
+                "<strong>Día 8:</strong> Por la mañana, salida hacia San Miguel de Tucumán (NOCHE EN TUCUMÁN).<br>",
+                "<strong>Día 9:</strong> Desayuno y tiempo libre para caminar y almorzar. A las 17 horas, emprendemos el viaje de regreso.<br>",
+                "Este itinerario te llevará a explorar Tafi del Valle, Cafayate, Salta, Humahuaca, Salinas Grandes, Purmamarca y San Miguel de Tucumán, brindándote una experiencia inolvidable en esta aventura."
             ],
             "image": "media/image/norte-argentino-1.webp",
             "imageBanner": "media/image/norte-argentino/norte-argentino-1.jpg"
@@ -154,8 +154,9 @@
             "id": 501,
             "pais": "Brasil",
             "name": "Gramado y Canela",
-            "description": "Sin texto",
+            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
             "date": "13 de Julio - Salida grupal",
+            "days": "4 días",
             "price": "U$S 265",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -178,25 +179,22 @@
                 "No incluye entradas"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
+                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
+                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
+                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 502,
+            "id": 501,
             "pais": "Brasil",
             "name": "Gramado y Canela",
-            "description": "Sin texto",
+            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
             "date": "13 de Julio - Salida grupal",
+            "days": "4 días",
             "price": "U$S 265",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -219,25 +217,22 @@
                 "No incluye entradas"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
+                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
+                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
+                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 503,
+            "id": 501,
             "pais": "Brasil",
             "name": "Gramado y Canela",
-            "description": "Sin texto",
+            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
             "date": "13 de Julio - Salida grupal",
+            "days": "4 días",
             "price": "U$S 265",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -260,25 +255,22 @@
                 "No incluye entradas"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. <br> Los puntos más destacados de esta experiencia incluyen:<br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br><br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
+                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
+                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
+                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 504,
+            "id": 501,
             "pais": "Brasil",
             "name": "Gramado y Canela",
-            "description": "Sin texto",
+            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
             "date": "13 de Julio - Salida grupal",
+            "days": "4 días",
             "price": "U$S 265",
             "priceType": "Por persona en base doble",
             "includes": [
@@ -301,19 +293,14 @@
                 "No incluye entradas"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida 14 horas desde terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada a Neuquén al medio dia (NOCHE EN NEUQUEN).<br>",
-                "<strong>Día 3:</strong> Temprano por la mañana salimos con destino a Bariloche, llegada a eso de las 13 horas aprox. Traslado al hotel tarde libre para relajarse en la piscina climatizada del hotel o caminar por orillas del lago (NOCHE EN BARILOCHE).<br>",
-                "<strong>Día 4:</strong> Por la mañana iniciamos TOUR CIRCUITO CHICO: Cerro Campanario, Punto Panorámico, Capilla San Eduardo, Hotel Llao LLao, Puerto Pañuelos, Lago Moreno, Paseo de increíbles vistas panorámicas. Bordeando, en gran parte de su recorrido, al magnífico lago, Nahuel Huapi. Al llegar a la base del C° Campanario una aerosilla traslada al viajero hacia la cumbre, desde donde se aprecia una de las vistas más bonitas de la región. Al descenso, continúa el viaje con dirección a la zona del lago Moreno y Punto Panorámico, en el cual se destaca el gran hotel LLAO-LLAO y la capilla S. Eduardo, siendo éste, el punto más alejado del trayecto, comenzando así el regreso hacia el centro de la ciudad. - Importante: Este tour hace una parada en el Cerro Campanario. El ticket de ascenso no está incluido en el precio y se puede agregar (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 5:</strong> Dia libre para poder recorrer la ciudad sus chocolaterías y mucho mas (NOCHE EN BARILOCHE)<br>",
-                "<strong>Día 6:</strong> Después de un delicioso desayuno, nuestro próximo destino en este emocionante viaje es el imponente Cerro Catedral, el centro de esquí más grande de Sudamérica. Allí, ascenderemos a su cima para admirar las majestuosas cumbres de la Cordillera de los Andes. Los puntos más destacados de esta experiencia incluyen:<br><br><strong>Cerro Catedral:</strong> En este icónico lugar, te sumergirás en la belleza natural y la emoción de los deportes invernales.<br><strong>Refugio Lynch:</strong> Durante nuestra visita, exploraremos el acogedor Refugio Lynch, un lugar perfecto para descansar y disfrutar de las impresionantes vistas.<br><strong>Cable Carril:</strong> Nos desplazaremos a través del sistema de cable carril, que nos brindará la oportunidad de apreciar la grandeza del paisaje.<br><strong>Vista panorámica de la Cordillera de los Andes:</strong> Desde la cima del cerro, seremos testigos de una vista panorámica inigualable de la majestuosa Cordillera de los Andes.<br><br>Este complejo invernal se encuentra a solo 20 kilómetros del centro de la ciudad y es el más importante de Sudamérica. Ofrece una amplia y variada infraestructura para la práctica de deportes invernales, con más de 40 medios de elevación que conectan a turistas y esquiadores con las altas cumbres y los acogedores refugios de montaña, todo en medio de un paisaje asombroso. Además, encontrarás opciones de hospedaje, gastronomía y centros comerciales que satisfarán todos tus gustos y necesidades, convirtiendo a este lugar en uno de los destinos más destacados de la región y el país.<br>Es importante tener en cuenta que el costo del ticket de ascenso al Cerro Catedral no está incluido en el precio del tour y debe ser adquirido por separado. ¡Prepárate para vivir una experiencia única en este rincón de la naturaleza como parte de tu viaje pago!<br>",
-                "<strong>Día 7:</strong> A eso de las 17 horas tomamos rumbo a Buenos Aires, en el camino parada para cenar.<br>",
-                "<strong>Día 8:</strong> Llegada al medio día a Buenos Aires, tiempo para descansar y de noche incluimos entrada a algunas de las famosas obras de la calle Corrientes (NOCHE EN BUENOS AIRES).<br>",
-                "<strong>Día 9:</strong> Después del desayuno iniciamos retorno a Uruguay con parada para almorzar. Llegada en horas de la tarde.<br>"
+                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
+                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
+                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
+                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         }
-
     ]
 }

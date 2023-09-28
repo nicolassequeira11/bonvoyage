@@ -242,37 +242,40 @@ body {
   height: 600px;
 }
 .travel-info__info-title {
-  margin: auto;
+  margin: 1rem auto;
   text-align: center;
+  font-size: 2rem;
 }
 .travel-info__info-days {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 .travel-info__info-date {
-  margin: auto;
+  margin: 0.3rem auto;
   text-align: center;
+  font-size: 0.78rem;
 }
 .travel-info__info-description {
   margin: auto;
   text-align: justify;
 }
 .travel-info__info-price {
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
   display: flex;
   font-size: 2rem;
 }
 .travel-info__info-priceType {
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
   display: flex;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .travel-info__info-button {
   margin: 10px auto;
   justify-content: center;
   display: flex;
+  font-size: 1.1rem;
   border-radius: 20px;
   padding: 7px 25px;
   border: none;
@@ -290,7 +293,6 @@ body {
   font-size: 1.4rem;
 }
 .travel-info__include-items {
-  padding: 0 1rem;
-  line-height: 2rem;
+  padding: 0.5rem 1rem;
   margin: auto;
 }/*# sourceMappingURL=style.css.map */
