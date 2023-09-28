@@ -292,7 +292,7 @@
             "pais": "Brasil",
             "name": "Cataratas del Iguazu",
             "description": "Las majestuosas Cataratas del Iguazú se encuentran en el interior del Parque Nacional Iguazú. Se trata de un sistema de 275 saltos de agua en plena Selva Paranaense, punto en el cual se encuentran las fronteras de Argentina, Brasil y Paraguay.",
-            "date": "Sabados del 15 de Abril al 16 de Diciembre",
+            "date": "Sabados - 15 de Abril a 16 de Diciembre",
             "days": "7 días / 4 noches",
             "price": "U$S 494",
             "priceType": "Por persona en base doble",
@@ -403,6 +403,96 @@
             "imageBanner": [
                 "media/image/disney/disney-orlando-1.jpg",
                 "media/image/disney/disney-orlando-2.jpg"
+            ]
+        },
+        {
+            "id": 1005,
+            "pais": "Estados Unidos",
+            "name": "Estados Unidos Costa Oeste",
+            "description": "Disfruta de la costa, las montañas en Yosemite, las maravillosas vistas del Gran Canyon, el cine de Los Angeles, las compras de San Francisco y las luces de Las Vegas en este mega tour por la Costa Oeste de Estados Unidos.",
+            "date": "12 de Septiembre",
+            "days": "11 días / 10 noches",
+            "price": "U$S 3170",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo Montevideo - Los Ángeles - Montevideo con todas las tasas e impuestos incluidos",
+                "Equipaje en bodega",
+                "2 noches de alojamiento con desayuno en Los Ángeles antes del tour",
+                "7 noches de circuito por Costa Oeste y Parques Nacionales con desayuno",
+                "1 noche de alojamiento con desayuno en Los Ángeles después del tour",
+                "Manejo de 1 maleta por pasajero durante el recorrido",
+                "Seguro Assist Card AC60 durante todo el viaje",
+                "Admisión a Yosemite National Park",
+                "Admisión al Grand Canyon",
+                "<strong>No incluye:</strong> Traslados in/out, propinas, visados, gastos personales"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> Los Ángeles / Grand Canyon - Temprano en la mañana salida para el Grand Canyon (South Rim), cruzando por los desiertos de Mojave y Arizona con parada en Seligman para ver un puesto de descanso de la mitica Ruta 66. Llegada en ultimas horas de la tarde. Alojamiento.<br>",
+                "<strong>Día 2:</strong> Grand Canyon / Las Vegas - Desayuno Americano. Por la mañana visita al Grand Canyon (South Rim). El cañon es un verdadero paraiso para los amantes de la naturaleza y la fotografia. Conoceran el punto panoramico mas visitado del parque. Finalizada la visita, seguimos hacia Las Vegas, en el camino nos cruzamos con algunos tramos de la antigua Ruta 66 y pasaremos cerca de la represa de Hoover Dam antes de llegar a destino. Llegada a Las Vegas en horas de la tarde, ciudad de luces, fantasia y capital del juego. Alojamiento.<br>",
+                "<strong>Día 3:</strong> Las Vegas - Desayuno Americano. Dia libre para realizar paseos opcionales. En la noche realizaremos una excursion nocturna de la ciudad donde visitaremos el hotel de mayor historia de Las Vegas el Caesar Palace, luego haremos una parada en el famoso letrero Bienvenido a Las Vegas, recorreremos la mas famosa y reconocida calle Las Vegas Strip presenciando sus multiples atracciones hasta llegar a la famosa calle Fremont ubicada en el corazon del Downtown parte antigua y donde nacio Las Vegas, alli podran presenciar un esplendido show de luces y sonido sobre un techo de la misma calle, regreso al hotel. Alojamiento.<br>",
+                "<strong>Día 4:</strong> Las Vegas / Mammoth Lakes o Fresno - Desayuno Americano. Hoy salimos de Las Vegas y del desierto de Nevada y entraremos nuevamente a California en camino a la ciudad de Fresno por el conocido y extenso valle de San Joaquin. (En verano el itinerario se cambia por Mammoth Lakes). Llegada a ultima hora de la tarde. Alojamiento.<br>",
+                "<strong>Día 5:</strong> Mammoth Lakes o Fresno / Yosemite / San Francisco - Desayuno Americano. Hoy viajamos hacia el Parque Nacional de Yosemite donde tendremos la oportunidad de apreciar la naturaleza en su puro esplendor. Seguimos hacia San Francisco atravesando el valle de San Joaquin. Llegada. Alojamiento.<br>",
+                "<strong>Día 6:</strong> San Francisco - Desayuno Americano. Por la manaña iniciamos la visita de esta hermosa ciudad, incluyendo la zona del centro comercial y financiero, con paradas en el Centro Civico, Twin Peaks, Golden Gate Park, el famoso puente Golden Gate y finalizando en el Fisherman s Wharf. Para los que quieran seguir andando por su cuenta podran quedarse en el Wharf y añadir un crucero Alcatraz o Sausalito.(Para añadir Alcatraz, recomendamos hacerlo 30 dias antes de su viaje ya que se agota la entrada con mucha antelacion). Los demas regresamos al hotel. Tarde libre. Alojamiento.<br>",
+                "<strong>Día 7:</strong> San Francisco / Monterey / Carmel / Lompoc - Desayuno Americano. A primera hora de la mañana encuentro con su guia y salida hacia Monterey, antigua capital española del Alta California. Despues de una parada y siguiendo nuestro recorrido, iremos por la costa conociendo las exclusivas 17 Mile Drive, con sus magnificas viviendas y campos de golf para llegar al pueblo de Carmel, donde fue alcalde el actor y productor de cine Clint Eastwood. Tiempo libre para almorzar (no incluido), recorrer galerias de arte, restaurantes y tiendas tipicas de esta zona pesquera. Continuamos hacia el sur hasta llegar a nuestro hotel. Alojamiento.<br>",
+                "<strong>Día 8:</strong> Lompoc / Santa Barbara / Los Ángeles - Desayuno Continental Deluxe. Por la mañana salida hacia Los Angeles. En el camino pasaremos por Santa Barbara para que tomen fotos externas de la mision del mismo nombre, denominada la reina de las misiones y seguidamente nos dirigiremos a la costa, atrevesando sus calles y construcciones de estilo colonial español. Breve parada frente a la playa y salida hacia a Los Angeles para llegar despues del mediodia. Fin de nuestros servicios.<br>"
+            ],
+            "image": "media/image/usa-costa-oeste-1.jpg",
+            "imageBanner": [
+                "media/image/usa-costa-oeste/usa-costa-oeste-1.jpg",
+                "media/image/usa-costa-oeste/usa-costa-oeste-2.jpg"
+            ]
+        },
+        {
+            "id": 1010,
+            "pais": "Estados Unidos",
+            "name": "Nueva York",
+            "description": "Descubrí esta impresionante metrópolis donde confluyen las vidas de 8 millones de habitantes, procedentes de todos los rincones del mundo. Su oferta de actividades es interminable: museos, teatros, tiendas, parques, rascacielos, bares y restaurantes.",
+            "date": "23 de Marzo",
+            "days": "8 días / 7 noches",
+            "price": "U$S 2200",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo Montevideo - Nueva York - Montevideo con todas las tasas e impuestos",
+                "Equipaje en bodega",
+                "7 noches de alojamiento en hotel seleccionado en Nueva York ",
+                "Seguro Assist Card AC60 por toda la estadía",
+                "<strong>No incluye:</strong> Traslados, visado, gastos personales, resort fee de pago en destino, city tax de pago en destino"
+            ],
+            "itinerary": [
+                "<strong>23 de Marzo:</strong> Salida de Montevideo 18:05 llega a Guarulhos 20:45.<br>",
+                "<strong>23 de Marzo:</strong> Sale de Guarulhos 23:05 llega a JFK 08:05 (+1).<br>",
+                "<strong>30 de Marzo:</strong> Sale de JFK 19:30 llega a Santiago 07:00 (+1).<br>",
+                "<strong>31 de Marzo:</strong> Sale de Santiago 08:20 llega a Montevideo 10:33.<br>"
+            ],
+            "image": "media/image/nueva-york-1.jpg",
+            "imageBanner": [
+                "media/image/nueva-york/nueva-york-1.jpg",
+                "media/image/nueva-york/nueva-york-2.jpeg"
+            ]
+        },
+        {
+            "id": 1015,
+            "pais": "Estados Unidos",
+            "name": "Miami",
+            "description": "Ciudad llena de distintos sabores, atractivos, parques, gente de todo el mundo, playas hermosas y mezcla de estilos.",
+            "date": "Octubre",
+            "days": "8 días / 7 noches",
+            "price": "U$S 1184",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo Montevideo - Miami - Montevideo con todas las tasas e impuestos",
+                "Carry on",
+                "7 noches de alojamiento con regimen segun hotel seleccionado",
+                "Seguro Assist Card AC60 durante todo el viaje",
+                "<strong>No incluye:</strong> Equipaje en bodega, traslados, visado, gastos personales, resort free de pago en destino, city tax de pago en destino"
+            ],
+            "itinerary": [
+                "Viaje libre de itinerario."
+            ],
+            "image": "media/image/miami-1.jpg",
+            "imageBanner": [
+                "media/image/miami/miami-1.jpg",
+                "media/image/miami/miami-2.jpg"
             ]
         }
     ]
