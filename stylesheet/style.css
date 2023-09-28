@@ -61,7 +61,7 @@
 }
 
 .nav-icon-sm:hover {
-  color: #e4051e;
+  color: #dc3545;
 }
 
 .nav-link {
@@ -71,7 +71,7 @@
 }
 
 .nav-link:hover {
-  color: #e4051e !important;
+  color: #dc3545 !important;
 }
 
 .links-mobile {
@@ -133,14 +133,14 @@ body {
   margin: auto;
 }
 .travel-index__price {
-  color: #e4051e;
+  color: #dc3545;
   font-weight: 700;
   margin: auto;
   padding: 0.6rem 0 0 0;
   font-size: 1.9rem;
 }
 .travel-index__priceType {
-  color: #e4051e;
+  color: #dc3545;
   font-size: 0.7rem;
 }
 
@@ -234,12 +234,20 @@ body {
 }
 .travel-info__info-container {
   border-radius: 10px;
+  position: sticky;
+  top: 10%;
   background-color: #ffffff;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
   height: 600px;
+}
+@media only screen and (max-width: 991px) {
+  .travel-info__info-container {
+    position: inherit;
+    height: 400px;
+  }
 }
 .travel-info__info-title {
   margin: 1rem auto;
@@ -256,8 +264,13 @@ body {
   font-size: 0.78rem;
 }
 .travel-info__info-description {
-  margin: auto;
+  margin: auto 0.7rem;
   text-align: justify;
+}
+@media only screen and (max-width: 991px) {
+  .travel-info__info-description {
+    text-align: center;
+  }
 }
 .travel-info__info-price {
   margin: 0 auto;
@@ -280,7 +293,7 @@ body {
   padding: 7px 25px;
   border: none;
   color: #ffffff;
-  background-color: #e4051e;
+  background-color: #dc3545;
 }
 .travel-info__include-container {
   border-radius: 10px;

@@ -169,12 +169,19 @@ body{
 
         &__info-container{
             border-radius: 10px;
+            position: sticky;
+            top: 10%;
             background-color: map-get(u.$colors, "color2");
-            margin:20px auto;
+            margin: 20px auto;
             display: flex;
             flex-direction: column;
             padding: 1.5rem;
             height: 600px;
+
+            @media only screen and (max-width: 991px){
+                position:inherit;
+                height: 400px;
+            }
         }
 
         &__info-title{
@@ -195,8 +202,12 @@ body{
         }
 
         &__info-description{
-            margin: auto;
-            text-align: justify;
+            margin: auto 0.7rem;
+            text-align:justify;
+
+            @media only screen and (max-width: 991px){
+                text-align: center;
+            }
         }
 
         &__info-price{
