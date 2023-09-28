@@ -246,7 +246,8 @@ body {
 @media only screen and (max-width: 991px) {
   .travel-info__info-container {
     position: inherit;
-    height: 400px;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 .travel-info__info-title {
@@ -270,6 +271,7 @@ body {
 @media only screen and (max-width: 991px) {
   .travel-info__info-description {
     text-align: center;
+    margin: 1.3rem 0;
   }
 }
 .travel-info__info-price {
