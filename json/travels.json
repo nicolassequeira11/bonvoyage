@@ -26,7 +26,10 @@
                 "Este itinerario te permitirá disfrutar de la ciudad de Buenos Aires y sus alrededores, explorando sus atracciones culturales, gastronomía y belleza panorámica antes de regresar a Uruguay."
             ],
             "image": "media/image/buenos-aires-1.webp",
-            "imageBanner": "media/image/buenos-aires/buenos-aires-1.jpg"
+            "imageBanner": [
+                "media/image/buenos-aires/buenos-aires-1.jpg",
+                "media/image/buenos-aires/buenos-aires-2.jpg"
+            ]
         },
         {
             "id": 205,
@@ -61,7 +64,10 @@
                 "Este itinerario te llevará a explorar Ushuaia, el Canal Beagle, el Parque Nacional Tierra del Fuego, El Calafate y el Glaciar Perito Moreno, ofreciéndote una experiencia inolvidable en la belleza natural de la Patagonia argentina."
             ],
             "image": "media/image/ushuaia-calafate-1.jpg",
-            "imageBanner": "media/image/ushuaia-calafate/ushuaia-calafate-1.jpg"
+            "imageBanner": [
+                "media/image/ushuaia-calafate/ushuaia-calafate-1.jpg",
+                "media/image/ushuaia-calafate/ushuaia-calafate-2.jpg"
+            ]
         },
         {
             "id": 210,
@@ -94,7 +100,10 @@
                 "Los principales destinos a visitar son Neuquén, Bariloche, Cerro Campanario, Cerro Catedral y Buenos Aires, cada uno ofreciendo experiencias únicas en este emocionante viaje."
             ],
             "image": "media/image/bariloche-1.webp",
-            "imageBanner": "media/image/bariloche/bariloche-1.jpg"
+            "imageBanner": [
+                "media/image/bariloche/bariloche-1.jpg",
+                "media/image/bariloche/bariloche-2.jpg"
+            ]
         },
         {
             "id": 215,
@@ -130,7 +139,10 @@
                 "Este itinerario te llevará a explorar Tafi del Valle, Cafayate, Salta, Humahuaca, Salinas Grandes, Purmamarca y San Miguel de Tucumán, brindándote una experiencia inolvidable en esta aventura."
             ],
             "image": "media/image/norte-argentino-1.webp",
-            "imageBanner": "media/image/norte-argentino/norte-argentino-1.jpg"
+            "imageBanner": [
+                "media/image/norte-argentino/norte-argentino-1.jpg",
+                "media/image/norte-argentino/norte-argentino-2.jpg"
+            ]
         },
         {
             "id": 220,
@@ -164,7 +176,10 @@
                 "Este itinerario te llevará a explorar Villa General Belgrano, Parque Pekos, el lago San Roque y la ciudad de Córdoba, ofreciendo una variada experiencia durante tu viaje."
             ],
             "image": "media/image/carlos-paz-1.jpg",
-            "imageBanner": "media/image/carlos-paz/carlos-paz-1.webp"
+            "imageBanner": [
+                "media/image/carlos-paz/carlos-paz-1.webp",
+                "media/image/carlos-paz/carlos-paz-2.jpg"
+            ]
         },
         {
             "id": 500,
@@ -194,7 +209,10 @@
                 "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
-            "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
+            "imageBanner": [
+                "media/image/gramado-canela/gramado-canela-1.jpg",
+                "media/image/gramado-canela/gramado-canela-2.jpg"
+            ]
         },
         {
             "id": 505,
@@ -227,7 +245,10 @@
                 "Este itinerario te permitirá explorar Salvador de Bahía y sus alrededores, disfrutando de la historia, las playas y la belleza natural de la región antes de regresar a tu lugar de origen."
             ],
             "image": "media/image/salvador-bahia-1.jpg",
-            "imageBanner": "media/image/salvador-bahia/salvador-bahia-1.webp"
+            "imageBanner": [
+                "media/image/salvador-bahia/salvador-bahia-1.jpg",
+                "media/image/salvador-bahia/salvador-bahia-2.webp"
+            ]
         },
         {
             "id": 510,
@@ -257,7 +278,10 @@
                 "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
-            "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
+            "imageBanner": [
+                "media/image/salvador-bahia/salvador-bahia-1.jpg",
+                "media/image/salvador-bahia/salvador-bahia-2.webp"
+            ]
         },
         {
             "id": 515,
@@ -287,7 +311,10 @@
                 "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
             ],
             "image": "media/image/gramado-canela-1.jpg",
-            "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
+            "imageBanner": [
+                "media/image/salvador-bahia/salvador-bahia-1.jpg",
+                "media/image/salvador-bahia/salvador-bahia-2.webp"
+            ]
         },
         {
             "id": 800,
@@ -327,7 +354,10 @@
                 "Este itinerario te llevará a explorar Cusco, Machu Picchu, el Valle Sagrado y sus alrededores, ofreciéndote una experiencia inolvidable en la tierra de los Incas."
             ],
             "image": "media/image/machu-picchu-1.jpg",
-            "imageBanner": "media/image/machu-picchu/machu-picchu-1.jpg"
+            "imageBanner": [
+                "media/image/machu-picchu/machu-picchu-1.jpg",
+                "media/image/machu-picchu/machu-picchu-2.jpg"
+            ]
         },
         {
             "id": 1000,
@@ -364,7 +394,10 @@
                 "Este itinerario te llevará a explorar los parques temáticos de Disney y Universal en Orlando, así como a disfrutar de compras y tiempo libre para explorar esta emocionante ciudad en Florida, Estados Unidos."
             ],
             "image": "media/image/disney-orlando-1.webp",
-            "imageBanner": "media/image/disney/disney-orlando-1.jpg"
+            "imageBanner": [
+                "media/image/disney/disney-orlando-1.jpg",
+                "media/image/disney/disney-orlando-2.jpg"
+            ]
         }
     ]
 }
