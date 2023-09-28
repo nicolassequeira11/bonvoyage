@@ -259,6 +259,46 @@
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
+            "id": 801,
+            "pais": "Sudamerica",
+            "name": "Machu Picchu",
+            "description": "Adéntrate en la misteriosa ciudadela inca de Machu Picchu y descubre la majestuosidad de esta maravilla arqueológica. Enamórate de los paisajes andinos y la historia antigua mientras exploras este icónico destino.",
+            "date": "2 de Septiembre",
+            "days": "8 días",
+            "price": "U$S 1450",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo",
+                "7 noches de hotel con desayuno incluido en todos los hoteles",
+                "Tren panorámico a Machu Picchu pueblo",
+                "Entrada a sitio arqueológico de Ollantaytambo",
+                "Entrada a Sacsayhuaman",
+                "Entrada a Tambomachay",
+                "Visita a: Laguna Huaypo, Maras, Moraes, Chinchero y mucho más",
+                "City tour Cusco",
+                "Tour por el valle sagrado de los Incas",
+                "Transfer in/out en Perú",
+                "Impuestos",
+                "Seguro de viaje",
+                "Coordinador acompañando el viaje",
+                "Guías locales en city tours",
+                "Traslados en Montevideo hasta el aeropuerto"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> CUSCO: Llegada a la ciudad de Cusco y traslado al hotel. Tarde libre. Alojamiento en Cusco.<br>",
+                "<strong>Día 2:</strong> CUSCO: Mañana libre. Por la tarde, visitamos el Coricancha y luego nos alejamos de las multitudes para explorar Sacsayhuamán, una impresionante ciudadela con colosales construcciones en medio de hermosos paisajes. También visitamos Tambomachay, un monumento de notoria excelencia arquitectónica. Alojamiento en Cusco.<br>",
+                "<strong>Día 3:</strong> CUSCO/MACHUPICCHU PUEBLO (AGUAS CALIENTES): Nos dirigimos a la estación de POROY y tomamos un tren hacia Aguas Calientes. Por la tarde, ascendemos por un camino intrincado que ofrece vistas espectaculares del río Urubamba y nos lleva a la Ciudad Perdida de los Incas, Machu Picchu, con sus terrazas, escalinatas y áreas urbanas. Alojamiento en Aguas Calientes.<br>",
+                "<strong>Día 4:</strong> MACHUPICCHU PUEBLO (AGUAS CALIENTES): Por la mañana, tomamos el tren a la estación de Ollantaytambo y exploramos este hermoso pueblo en el corazón del Valle Sagrado. (NOCHE EN OLLANTAYTAMBO)<br>",
+                "<strong>Día 5:</strong> OLLANTAYTAMBO: Por la mañana, visitamos el sitio arqueológico de Ollantaytambo. Tarde libre para hacer caminatas o rafting. (NOCHE EN OLLANTAYTAMBO)<br>",
+                "<strong>Día 6:</strong> VALLE SAGRADO/CUSCO: Después del desayuno, exploramos el Valle Sagrado de los Incas, visitando las Salineras de Maras y disfrutando de un almuerzo en el poblado de Maras. Luego, continuamos visitando Moray, Chinchero y la laguna de Huaypo. (NOCHE EN CUSCO)<br>",
+                "<strong>Día 7:</strong> CUSCO: Último día en Cusco para visitar lugares y museos, realizar compras o elegir opcionales como la Laguna Humantay o el Cerro de los 7 Colores. Alojamiento en Cusco.<br>",
+                "<strong>Día 8:</strong> CUSCO: Traslado al aeropuerto para regresar a casa.<br>",
+                "Este itinerario te llevará a explorar Cusco, Machu Picchu, el Valle Sagrado y sus alrededores, ofreciéndote una experiencia inolvidable en la tierra de los Incas."
+            ],
+            "image": "media/image/gramado-canela-1.jpg",
+            "imageBanner": "media/image/machu-picchu/machu-picchu-1.jpg"
+        },
+        {
             "id": 1001,
             "pais": "Estados Unidos",
             "name": "Disney Orlando",
