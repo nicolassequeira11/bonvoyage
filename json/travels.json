@@ -1,41 +1,35 @@
 {
     "destinations": [
         {
-            "id": 1,
+            "id": 200,
             "pais": "Argentina",
-            "name": "Villa Carlos Paz",
-            "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
-            "date": "17 de Julio - Salida grupal",
-            "days": "6 días",
-            "price": "U$S 395",
+            "name": "Buenos Aires",
+            "description": "Explora la sofisticación y el encanto de la capital argentina. Buenos Aires te espera con su rica cultura, arte, gastronomía y tango. Descubre la pasión de esta ciudad en cada rincón. ",
+            "date": "16 de Junio",
+            "days": "4 días",
+            "price": "U$S 220",
             "priceType": "Por persona en base doble",
             "includes": [
-                "Viaje terrestre en omnibus",
-                "4 noches de hotel media pensión",
-                "Servicios del hotel: Piscina climatizad cubierta y externa, Solarium, Sauna",
-                "Gimnasio, cancha de futbol 5, WI-fi",
-                "Desayuno Buffet",
-                "Servicio a bordo",
+                "Bus semicama",
+                "2 noches de hotel Huinid 4 estrellas con desayuno",
+                "Seguro de viaje",
                 "Coordinador acompañante",
-                "Tour Villa General Belgrano",
-                "Tour por el Lago San Roque",
-                "Tour por Cordoba y Carlos Paz",
-                "Visita a Multiparque Pekos"
+                "City tour acompañante",
+                "Caminito",
+                "Delta del Tigre"
             ],
             "itinerary": [
-                "<strong>Día 1:</strong> Salida a las 19 horas desde la terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada en la mañana con desayuno a bordo. Tarde libre para explorar la ciudad y disfrutar de los servicios del hotel.<br>",
-                "<strong>Día 3:</strong> Salida a las 9 de la mañana desde Villa Carlos Paz para una excursión a Villa General Belgrano. El recorrido incluye hermosas vistas a lo largo de la Ruta Provincial 38, con paradas panorámicas en el Parador El Águila y el Parador Los Mimbres. También se visita la localidad de Cura Brochero, donde descansan los restos del Santo Brochero, el primer santo argentino nacido y fallecido en el país. El regreso a Mina Clavero para el almuerzo y tiempo libre para explorar. Regreso a Villa Carlos Paz alrededor de las 16 horas.<br>",
-                "<strong>Día 4:</strong> Dedicado a los niños, con una visita al Parque Pekos, que ofrece una variedad de atracciones como la jungla ecológica, acuario, bio parque, dinosaurios, serpentario, cine 5D, montaña rusa y más. La entrada al parque no está incluida.<br>",
-                "<strong>Día 5:</strong> Día libre para descansar. Por la tarde, un paseo en catamarán por el lago San Roque. Última noche en la región.<br>",
-                "<strong>Día 6:</strong> Salida por la mañana después del desayuno para visitar la ciudad de Córdoba y sus principales atractivos. Tiempo libre para almorzar y regreso a casa.<br>",
-                "Este itinerario te llevará a explorar Villa General Belgrano, Parque Pekos, el lago San Roque y la ciudad de Córdoba, ofreciendo una variada experiencia durante tu viaje."
+                "<strong>Día 1:</strong> Salida desde Artigas a las 22:00 horas.<br>",
+                "<strong>Día 2:</strong> Llegada a Buenos Aires en la mañana. Por la mañana, tiempo libre para compras. Por la tarde, traslado opcional a la zona de Puerto Madero para cenar.<br>",
+                "<strong>Día 3:</strong> Desayuno en el hotel, seguido de un city tour panorámico. Tarde libre para explorar los numerosos atractivos de Buenos Aires. Por la noche, opción de visitar un teatro o el barrio de San Telmo con su exquisita gastronomía.<br>",
+                "<strong>Día 4:</strong> Después del desayuno, nos dirigimos con nuestras maletas al Delta del Tigre, donde tendrán la oportunidad de almorzar y explorar la zona. Regreso a Uruguay.<br>",
+                "Este itinerario te permitirá disfrutar de la ciudad de Buenos Aires y sus alrededores, explorando sus atracciones culturales, gastronomía y belleza panorámica antes de regresar a Uruguay."
             ],
-            "image": "media/image/carlos-paz-1.jpg",
-            "imageBanner": "media/image/carlos-paz/carlos-paz-1.webp"
+            "image": "media/image/buenos-aires-1.webp",
+            "imageBanner": "media/image/buenos-aires/buenos-aires-1.jpg"
         },
         {
-            "id": 2,
+            "id": 205,
             "pais": "Argentina",
             "name": "Ushuaia y Calafate",
             "description": "Siente la aventura en el extremo sur de Argentina. Navega entre glaciares en El Calafate y descubre la belleza indomable de Ushuaia. Dos destinos impresionantes te esperan en este viaje único.",
@@ -70,7 +64,7 @@
             "imageBanner": "media/image/ushuaia-calafate/ushuaia-calafate-1.jpg"
         },
         {
-            "id": 3,
+            "id": 210,
             "pais": "Argentina",
             "name": "Bariloche",
             "description": "Descubre la majestuosidad de Bariloche, donde los picos nevados, los lagos cristalinos y los bosques exuberantes se combinan para crear un escenario de belleza incomparable. Embárcate en un viaje inolvidable lleno de aventuras al aire libre, gastronomía deliciosa y la hospitalidad de esta encantadora ciudad.",
@@ -103,7 +97,7 @@
             "imageBanner": "media/image/bariloche/bariloche-1.jpg"
         },
         {
-            "id": 4,
+            "id": 215,
             "pais": "Argentina",
             "name": "Norte Argentino",
             "description": "Bienvenido a un viaje inolvidable al corazón de Argentina, donde la belleza natural se mezcla con la rica cultura y la historia fascinante. Nuestro viaje al Norte Argentino te llevará a un mundo de contrastes asombrosos y experiencias únicas que te dejarán sin aliento.",
@@ -139,7 +133,41 @@
             "imageBanner": "media/image/norte-argentino/norte-argentino-1.jpg"
         },
         {
-            "id": 501,
+            "id": 220,
+            "pais": "Argentina",
+            "name": "Villa Carlos Paz",
+            "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
+            "date": "17 de Julio - Salida grupal",
+            "days": "6 días",
+            "price": "U$S 395",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Viaje terrestre en omnibus",
+                "4 noches de hotel media pensión",
+                "Servicios del hotel: Piscina climatizad cubierta y externa, Solarium, Sauna",
+                "Gimnasio, cancha de futbol 5, WI-fi",
+                "Desayuno Buffet",
+                "Servicio a bordo",
+                "Coordinador acompañante",
+                "Tour Villa General Belgrano",
+                "Tour por el Lago San Roque",
+                "Tour por Cordoba y Carlos Paz",
+                "Visita a Multiparque Pekos"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> Salida a las 19 horas desde la terminal de Artigas.<br>",
+                "<strong>Día 2:</strong> Llegada en la mañana con desayuno a bordo. Tarde libre para explorar la ciudad y disfrutar de los servicios del hotel.<br>",
+                "<strong>Día 3:</strong> Salida a las 9 de la mañana desde Villa Carlos Paz para una excursión a Villa General Belgrano. El recorrido incluye hermosas vistas a lo largo de la Ruta Provincial 38, con paradas panorámicas en el Parador El Águila y el Parador Los Mimbres. También se visita la localidad de Cura Brochero, donde descansan los restos del Santo Brochero, el primer santo argentino nacido y fallecido en el país. El regreso a Mina Clavero para el almuerzo y tiempo libre para explorar. Regreso a Villa Carlos Paz alrededor de las 16 horas.<br>",
+                "<strong>Día 4:</strong> Dedicado a los niños, con una visita al Parque Pekos, que ofrece una variedad de atracciones como la jungla ecológica, acuario, bio parque, dinosaurios, serpentario, cine 5D, montaña rusa y más. La entrada al parque no está incluida.<br>",
+                "<strong>Día 5:</strong> Día libre para descansar. Por la tarde, un paseo en catamarán por el lago San Roque. Última noche en la región.<br>",
+                "<strong>Día 6:</strong> Salida por la mañana después del desayuno para visitar la ciudad de Córdoba y sus principales atractivos. Tiempo libre para almorzar y regreso a casa.<br>",
+                "Este itinerario te llevará a explorar Villa General Belgrano, Parque Pekos, el lago San Roque y la ciudad de Córdoba, ofreciendo una variada experiencia durante tu viaje."
+            ],
+            "image": "media/image/carlos-paz-1.jpg",
+            "imageBanner": "media/image/carlos-paz/carlos-paz-1.webp"
+        },
+        {
+            "id": 500,
             "pais": "Brasil",
             "name": "Gramado y Canela",
             "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
@@ -169,7 +197,40 @@
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 501,
+            "id": 505,
+            "pais": "Brasil",
+            "name": "Salvador de Bahia",
+            "description": "Embárcate en un viaje lleno de sabor, música y cultura en Salvador, Bahía. Explora las playas doradas, la arquitectura colonial y las vibrantes tradiciones afrobrasileñas. Tu aventura espera en esta ciudad llena de vida.",
+            "date": "13 de Julio",
+            "days": "7 días",
+            "price": "U$S 690",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Vuelos saliendo desde Porto Alegre",
+                "Impuestos",
+                "6 noches de hotel 4 estrellas o superior con desayuno en Salvador de Bahia",
+                "City tour",
+                "Tour Isla dos Frades e Itapirica",
+                "Traslados en destino",
+                "Seguro de viaje",
+                "Coordinador acompañante",
+                "Regalo BonVoyage"
+            ],
+            "itinerary": [
+                "<strong>Día 1:</strong> En horas de la mañana, abordaremos el avión que nos llevará a Salvador de Bahía.<br>",
+                "<strong>Día 2:</strong> Por la mañana, realizaremos un city tour histórico por Pelourinho. Tarde libre para disfrutar de la playa.<br>",
+                "<strong>Día 3:</strong> Día libre para disfrutar de la playa o tomar algún tour opcional.<br>",
+                "<strong>Día 4:</strong> TOUR Playa del Fuerte y Proyecto Tamar das Tartarugas: Salida del hotel a las 8:00 y regreso a las 15:00. Comenzaremos por la calle de la playa de Salvador y haremos una primera parada en la laguna de Abaeté, una de las postales más conocidas de Salvador. Luego, continuaremos por el litoral norte de Bahía hasta llegar a la Playa do Forte, donde se encuentra una de las principales bases del Proyecto Tamar, encargado de cuidar y proteger a las tortugas marinas. Después, haremos una parada para nadar en la Playa de Guajaruba antes de regresar a Salvador.<br>",
+                "<strong>Día 5:</strong> TOUR Isla dos Frades e Itaparica: A las 9:00 comenzaremos el paseo a bordo de un barco navegando por la hermosa Bahía de Todos los Santos en dirección a la Isla dos Frades, donde tendrás tiempo libre para disfrutar de sus aguas calmadas, practicar zambullidas y caminatas para conocer la riqueza natural y cultural de la zona. Luego, continuaremos hacia la isla de Itaparica, conocida por su estancia hidro-mineral considerada rejuvenecedora. Regresaremos en la tarde después de un día típicamente tropical, terminando alrededor de las 16:00 horas.<br>",
+                "<strong>Día 6:</strong> Día libre para disfrutar de la playa en Bahía.<br>",
+                "<strong>Día 7:</strong> Dejamos el hotel para emprender el regreso.<br>",
+                "Este itinerario te permitirá explorar Salvador de Bahía y sus alrededores, disfrutando de la historia, las playas y la belleza natural de la región antes de regresar a tu lugar de origen."
+            ],
+            "image": "media/image/salvador-bahia-1.jpg",
+            "imageBanner": "media/image/salvador-bahia/salvador-bahia-1.webp"
+        },
+        {
+            "id": 510,
             "pais": "Brasil",
             "name": "Gramado y Canela",
             "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
@@ -199,7 +260,7 @@
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 501,
+            "id": 515,
             "pais": "Brasil",
             "name": "Gramado y Canela",
             "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
@@ -229,37 +290,7 @@
             "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
         },
         {
-            "id": 501,
-            "pais": "Brasil",
-            "name": "Gramado y Canela",
-            "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
-            "date": "13 de Julio - Salida grupal",
-            "days": "4 días",
-            "price": "U$S 265",
-            "priceType": "Por persona en base doble",
-            "includes": [
-                "Viaje terrestre en omnibus",
-                "2 noches de hotel 4 estrellas con desayuno en Gramados",
-                "Centro con sala de juegos para niños",
-                "Desayuno buffet",
-                "Servicio a bordo",
-                "Seguro de viaje",
-                "Coordinador acompañante y guia local",
-                "Visitas a: Picaddylli, Portico de Gramado, Gramado, Canela, Fabrica de chocolate, Cascada Caracol, Museo a vapor",
-                "<strong>No incluye entradas</strong>"
-            ],
-            "itinerary": [
-                "<strong>Día 1:</strong> Salida a las 22 horas.<br>",
-                "<strong>Día 2:</strong> Llegada en la mañana y visita al Portal de Gramado. Luego, un viaje a las Minas de Cristales (entrada no incluida, costo de 40 reales). Posteriormente, se dirigen al Lago Negro con tiempo para almorzar antes de trasladarse al hotel, que está ubicado a pocos pasos del centro de Gramado. Tarde libre para explorar la ciudad, con la opción de disfrutar del famoso café colonial. A las 19:30, traslado a Canela para visitar la catedral y su espectáculo de luces.<br>",
-                "<strong>Día 3:</strong> Salida por la mañana después del desayuno para visitar las Cascadas Caracol y el Parque Florybal. Tarde libre para pasear por las calles de Gramado.<br>",
-                "<strong>Día 4:</strong> Salida temprano en la mañana para visitar una fábrica de chocolate, el Mundo a Vapor, el Museo de Cera y ver los Súper Carros. Por la tarde, regreso a Uruguay.<br>",
-                "Este itinerario te llevará a explorar Gramado y Canela en Brasil, con visitas a lugares como el Portal de Gramado, las Minas de Cristales, el Lago Negro, las Cascadas Caracol y varias atracciones más, ofreciendo una experiencia única en esta hermosa región."
-            ],
-            "image": "media/image/gramado-canela-1.jpg",
-            "imageBanner": "media/image/gramado-canela/gramado-canela-1.jpg"
-        },
-        {
-            "id": 801,
+            "id": 800,
             "pais": "Sudamerica",
             "name": "Machu Picchu",
             "description": "Adéntrate en la misteriosa ciudadela inca de Machu Picchu y descubre la majestuosidad de esta maravilla arqueológica. Enamórate de los paisajes andinos y la historia antigua mientras exploras este icónico destino.",
@@ -295,11 +326,11 @@
                 "<strong>Día 8:</strong> CUSCO: Traslado al aeropuerto para regresar a casa.<br>",
                 "Este itinerario te llevará a explorar Cusco, Machu Picchu, el Valle Sagrado y sus alrededores, ofreciéndote una experiencia inolvidable en la tierra de los Incas."
             ],
-            "image": "media/image/gramado-canela-1.jpg",
+            "image": "media/image/machu-picchu-1.jpg",
             "imageBanner": "media/image/machu-picchu/machu-picchu-1.jpg"
         },
         {
-            "id": 1001,
+            "id": 1000,
             "pais": "Estados Unidos",
             "name": "Disney Orlando",
             "description": "Prepárate para un viaje de ensueño a la tierra donde los sueños se hacen realidad. En Disney Orlando, la magia cobra vida en cada rincón. Experimenta la emoción de los parques temáticos, conoce a tus personajes favoritos y sumérgete en un mundo de diversión inigualable.",
