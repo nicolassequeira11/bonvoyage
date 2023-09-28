@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       const traveldata = data;
       const travelInfo = traveldata.destinations.filter(travel => travel.id == travelID);
-      console.log(travelInfo)
       showTravelInfo(travelInfo[0]);
     });
 
