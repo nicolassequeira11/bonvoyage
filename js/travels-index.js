@@ -5,13 +5,13 @@ const travelsContainerBra = document.getElementById("travels-container-bra");
 const travelsContainerUsa = document.getElementById("travels-container-usa");
 const travelsContainerSud = document.getElementById("travels-container-sud");
 
-  // FETCH ARGENTINA
+  // FETCH SUDAMERICA
   fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
   .then((response) => response.json())
   .then((data) => {
     const travels = data;
-    const travelsArg = travels.destinations.filter(travel => travel.pais === "Argentina");
-    showTravels(travelsArg, travelsContainerArg);
+    const travelsSud = travels.destinations.filter(travel => travel.region === "sudamerica" && travel.name !== "Brasil");
+    showTravels(travelsSud, travelsContainerSud);
   })
 
   // FETCH BRASIL
@@ -19,7 +19,7 @@ const travelsContainerSud = document.getElementById("travels-container-sud");
   .then((response) => response.json())
   .then((data) => {
     const travels = data;
-    const travelsBra = travels.destinations.filter(travel => travel.pais === "Brasil");
+    const travelsBra = travels.destinations.filter(travel => travel.country === "Brasil");
     showTravels(travelsBra, travelsContainerBra);
   })
 
@@ -28,18 +28,11 @@ const travelsContainerSud = document.getElementById("travels-container-sud");
   .then((response) => response.json())
   .then((data) => {
     const travels = data;
-    const travelsUsa = travels.destinations.filter(travel => travel.pais === "Estados Unidos");
+    const travelsUsa = travels.destinations.filter(travel => travel.country === "Estados Unidos");
     showTravels(travelsUsa, travelsContainerUsa);
   })
 
-  // FETCH SUDAMERICA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
-  .then((response) => response.json())
-  .then((data) => {
-    const travels = data;
-    const travelsSud = travels.destinations.filter(travel => travel.pais === "Sudamerica");
-    showTravels(travelsSud, travelsContainerSud);
-  })
+
 
 
 
