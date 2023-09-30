@@ -10,7 +10,8 @@ const travelsContainerSud = document.getElementById("travels-container-sud");
   .then((response) => response.json())
   .then((data) => {
     const travels = data;
-    const travelsSud = travels.destinations.filter(travel => travel.region === "sudamerica" && travel.name !== "Brasil");
+    const travelsSud = travels.destinations.filter(travel => travel.region === "sudamerica" && travel.country !== "Brasil");
+    travelsSud.reverse()
     showTravels(travelsSud, travelsContainerSud);
   })
 

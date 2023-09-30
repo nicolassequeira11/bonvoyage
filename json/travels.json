@@ -152,45 +152,7 @@
                 "media/image/norte-argentino/norte-argentino-2.jpg"
             ]
         },
-        {
-            "id": 220,
-            "name": "Villa Carlos Paz",
-            "country": "Argentina",
-            "citys": "Villa Carlos Paz",
-            "region": "sudamerica",
-            "description": "Disfruta de las vacaciones de invierno en Villa Carlos paz! Hotel con piscina climatizada y media pensión, veni a decifrutar de este hermoso lugar en familia.",
-            "date": "17 de Julio - Salida grupal",
-            "days": "6 días",
-            "price": "U$S 395",
-            "priceType": "Por persona en base doble",
-            "includes": [
-                "Viaje terrestre en omnibus",
-                "4 noches de hotel media pensión",
-                "Servicios del hotel: Piscina climatizad cubierta y externa, Solarium, Sauna",
-                "Gimnasio, cancha de futbol 5, WI-fi",
-                "Desayuno Buffet",
-                "Servicio a bordo",
-                "Coordinador acompañante",
-                "Tour Villa General Belgrano",
-                "Tour por el Lago San Roque",
-                "Tour por Cordoba y Carlos Paz",
-                "Visita a Multiparque Pekos"
-            ],
-            "itinerary": [
-                "<strong>Día 1:</strong> Salida a las 19 horas desde la terminal de Artigas.<br>",
-                "<strong>Día 2:</strong> Llegada en la mañana con desayuno a bordo. Tarde libre para explorar la ciudad y disfrutar de los servicios del hotel.<br>",
-                "<strong>Día 3:</strong> Salida a las 9 de la mañana desde Villa Carlos Paz para una excursión a Villa General Belgrano. El recorrido incluye hermosas vistas a lo largo de la Ruta Provincial 38, con paradas panorámicas en el Parador El Águila y el Parador Los Mimbres. También se visita la localidad de Cura Brochero, donde descansan los restos del Santo Brochero, el primer santo argentino nacido y fallecido en el país. El regreso a Mina Clavero para el almuerzo y tiempo libre para explorar. Regreso a Villa Carlos Paz alrededor de las 16 horas.<br>",
-                "<strong>Día 4:</strong> Dedicado a los niños, con una visita al Parque Pekos, que ofrece una variedad de atracciones como la jungla ecológica, acuario, bio parque, dinosaurios, serpentario, cine 5D, montaña rusa y más. La entrada al parque no está incluida.<br>",
-                "<strong>Día 5:</strong> Día libre para descansar. Por la tarde, un paseo en catamarán por el lago San Roque. Última noche en la región.<br>",
-                "<strong>Día 6:</strong> Salida por la mañana después del desayuno para visitar la ciudad de Córdoba y sus principales atractivos. Tiempo libre para almorzar y regreso a casa.<br>",
-                "Este itinerario te llevará a explorar Villa General Belgrano, Parque Pekos, el lago San Roque y la ciudad de Córdoba, ofreciendo una variada experiencia durante tu viaje."
-            ],
-            "image": "media/image/carlos-paz-1.jpg",
-            "imageBanner": [
-                "media/image/carlos-paz/carlos-paz-1.webp",
-                "media/image/carlos-paz/carlos-paz-2.jpg"
-            ]
-        },
+        
         {
             "id": 500,
             "name": "Gramado y Canela",
@@ -301,6 +263,33 @@
             "imageBanner": [
                 "media/image/florianopolis/florianopolis-1.jpg",
                 "media/image/florianopolis/florianopolis-2.jpg"
+            ]
+        },
+        {
+            "id": 512,
+            "name": "Rio de Janeiro",
+            "country": "Brasil",
+            "citys": "Rio de Janeiro",    
+            "region": "sudamerica",        
+            "description": "Sus escarpados morros frente al mar, sus largas playas de arena blanca y el imponente Cristo Redentor a lo alto del monte Corcovado la hacen no sólo maravillosa, sino también única. Disfrutá la naturaleza, alegría carioca, la samba y las caipirinhas.",
+            "date": "3 de Enero",
+            "days": "8 días / 7 noches",
+            "price": "U$S 2541",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo en vuelo de línea, incluye todas las tasas e impuestos",
+                "7 noches de alojamiento segun hotel seleccionado",
+                "Traslado de llegada y salida",
+                "Equipaje",
+                "Seguro"
+            ],
+            "itinerary": [
+                "Viaje libre de itinerario."
+            ],
+            "image": "media/image/rio-janeiro-1.jpg",
+            "imageBanner": [
+                "media/image/rio-janeiro/rio-janeiro-1.jpg",
+                "media/image/rio-janeiro/rio-janeiro-2.png"
             ]
         },
         {
