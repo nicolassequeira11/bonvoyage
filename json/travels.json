@@ -366,7 +366,7 @@
             ]
         },
         {
-            "id": 800,
+            "id": 805,
             "pais": "Sudamerica",
             "name": "Cartagena y Barú",
             "description": "Colombia es un sitio alucinante, con gran riqueza cultural y una biodiversidad sumamente significativa.",
@@ -396,6 +396,29 @@
             "imageBanner": [
                 "media/image/cartagena-baru/cartagena-baru-1.jpg",
                 "media/image/cartagena-baru/cartagena-baru-2.jpg"
+            ]
+        },
+        {
+            "id": 810,
+            "pais": "Sudamerica",
+            "name": "Santiago de Chile",
+            "description": "Chile, el país de mapa particular, es uno de los destinos más diversos del mundo. Con montañas, desiertos, playas y urbes, se trata de un lugar de propuestas infinitas. Santiago de Chile, la capital trasandina, es una de las ciudades más modernas de América Latina.",
+            "date": "Hasta Junio 2024",
+            "days": "2 noches",
+            "price": "U$S 413",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Vuelo ida y vuelta con tasas e impuestos",
+                "2 noches de alojamiento con desayuno",
+                "Traslados aeropuerto - alojamiento - aeropuerto"
+            ],
+            "itinerary": [
+                "Viaje libre de itinerario."
+            ],
+            "image": "media/image/santiago-chile-1.png",
+            "imageBanner": [
+                "media/image/santiago-chile/santiago-chile-1.jpg",
+                "media/image/santiago-chile/santiago-chile-2.jpg"
             ]
         },
         {

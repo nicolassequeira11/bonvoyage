@@ -40,7 +40,7 @@ function showTravelInfo(array) {
         </div>
       </div>
 
-      <div class="d-flex col-12 d-flex flex-lg-row flex-column-reverse container" id="travel-info-container">
+      <div class="d-flex col-12 d-flex flex-lg-row flex-column-reverse container-xl" id="travel-info-container">
         <div class="col-12 col-lg-8 travel-info__include-container">
           <p class="travel-info__include-title"><strong>Incluye:</strong></p>
           <p class="travel-info__include-items-container">${includes(array.includes)}</p>

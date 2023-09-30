@@ -252,19 +252,18 @@ body {
 .travel-info__info-container {
   border-radius: 10px;
   position: sticky;
-  top: 10%;
+  top: 5%;
   background-color: #ffffff;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  height: 600px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 @media only screen and (max-width: 991px) {
   .travel-info__info-container {
     position: inherit;
-    height: -moz-fit-content;
-    height: fit-content;
   }
 }
 .travel-info__info-title {
@@ -282,13 +281,13 @@ body {
   font-size: 0.78rem;
 }
 .travel-info__info-description {
-  margin: auto 0.7rem;
-  text-align: justify;
+  margin: 1.3rem auto;
+  text-align: start;
+  padding: 0 0.5rem;
 }
 @media only screen and (max-width: 991px) {
   .travel-info__info-description {
     text-align: center;
-    margin: 1.3rem 0;
   }
 }
 .travel-info__info-price {

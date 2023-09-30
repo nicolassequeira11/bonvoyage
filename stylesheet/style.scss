@@ -188,17 +188,16 @@ body{
         &__info-container{
             border-radius: 10px;
             position: sticky;
-            top: 10%;
+            top: 5%;
             background-color: map-get(u.$colors, "color2");
             margin: 20px auto;
             display: flex;
             flex-direction: column;
             padding: 1.5rem;
-            height: 600px;
+            height: fit-content;
 
             @media only screen and (max-width: 991px){
                 position:inherit;
-                height: fit-content;
             }
         }
 
@@ -220,12 +219,12 @@ body{
         }
 
         &__info-description{
-            margin: auto 0.7rem;
-            text-align:justify;
+            margin: 1.3rem auto;
+            text-align: start;
+            padding: 0 0.5rem;
 
             @media only screen and (max-width: 991px){
                 text-align: center;
-                margin: 1.3rem 0;
             }
         }
 
