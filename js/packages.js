@@ -58,49 +58,57 @@ function setProductID(id) {
 
 function applyFilters() {
 
-    // Obtener todos los checkbox con la clase 'filtro'
+    /* Obtener todos los checkbox con la clase 'filtro'*/
     const filterCheckboxes = document.querySelectorAll('.filtro');
 
-    // Convertir los checkbox en un array y filtrar aquellos que están marcados
+    /* Convertir los checkbox en un array y filtrar aquellos que están marcados */
     const selectedFilters = Array.from(filterCheckboxes)
         .filter(checkbox => checkbox.checked)
         .map(checkbox => checkbox.name);
 
-    // Obtener todos los checkbox de filtro de transporte
+    /* Obtener todos los checkbox de filtro de transporte */
     const filterTransporteCheckboxes = document.querySelectorAll('.filtro-tipo');
 
-    // Convertir los checkbox en un array y filtrar aquellos que están marcados
+    /* Convertir los checkbox en un array y filtrar aquellos que están marcados */
     const selectedTransporteFilters = Array.from(filterTransporteCheckboxes)
         .filter(checkbox => checkbox.checked)
         .map(checkbox => checkbox.name);
 
-        // Filtrar por rango de precios
+    /* Filtrar por rango de precios */
     const minPrice = parseFloat(document.getElementById("min-price").value) || 0;
     const maxPrice = parseFloat(document.getElementById("max-price").value) || Number.MAX_VALUE;
 
-    // Clonar los datos de viajes filtrados en una nueva variable para realizar filtrados adicionales
+    /* Verificar si los valores son negativos y ajustarlos si es necesario */
+    if (minPrice < 0) {
+        minPriceInput.value = 0;
+    }
+    if (maxPrice < 0) {
+        maxPriceInput.value = Number.MAX_VALUE;
+    }
+
+    /* Clonar los datos de viajes filtrados en una nueva variable para realizar filtrados adicionales */
     let filteredData = [...filteredTravels];
 
-    // Verificar si se han seleccionado filtros
+    /* Verificar si se han seleccionado filtros */
     if (selectedFilters.length > 0) {
-        // Filtrar los datos de viajes para mantener solo aquellos cuya región coincide con al menos un filtro seleccionado
+        /* Filtrar los datos de viajes para mantener solo aquellos cuya región coincide con al menos un filtro seleccionado */
         filteredData = filteredData.filter((travel) => {
             return selectedFilters.some((filter) => travel.region === filter);
         });
     }
 
-    // Filtrar por tipo de transporte seleccionado
+    /* Filtrar por tipo de transporte seleccionado */
     if (selectedTransporteFilters.length > 0) {
         filteredData = filteredData.filter((travel) => {
             return selectedTransporteFilters.includes(travel.type);
         });
     }
 
-        // Filtrar por rango de precios
-        filteredData = filteredData.filter((travel) => {
-            const travelPrice = parseFloat(travel.price);
-            return travelPrice >= minPrice && travelPrice <= maxPrice;
-        });
+    /* Filtrar por rango de precios */
+    filteredData = filteredData.filter((travel) => {
+        const travelPrice = parseFloat(travel.price);
+        return travelPrice >= minPrice && travelPrice <= maxPrice;
+    });
 
     showTravels(filteredData);
 }
