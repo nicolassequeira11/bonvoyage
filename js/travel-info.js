@@ -22,6 +22,7 @@ function showTravelInfo(array) {
     <div class="col-12 m-auto travel-info">
     
       <div class="m-auto travel-info__img-container">
+      
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner travel-info__img-container">
             <div class="carousel-item active" data-bs-interval="4000">
@@ -32,6 +33,7 @@ function showTravelInfo(array) {
             </div>
           </div>
         </div>
+        
         <div class="travel-info__title-container">
           <h2 class="travel-info__title"><strong>${array.name}</strong></h2>
           <a href="#travel-info-container">

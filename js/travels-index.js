@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
-const travelsContainerArg = document.getElementById("travels-container-arg");
 const travelsContainerBra = document.getElementById("travels-container-bra");
 const travelsContainerUsa = document.getElementById("travels-container-usa");
 const travelsContainerSud = document.getElementById("travels-container-sud");

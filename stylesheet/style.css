@@ -100,6 +100,7 @@ body {
   margin: auto;
   text-align: center;
   min-width: 280px;
+  max-width: 280px;
   width: 280px;
   padding: 10px 0;
   flex-wrap: wrap;
@@ -332,4 +333,25 @@ body {
 .travel-info__include-items {
   padding: 0.5rem 1rem;
   margin: auto;
+}
+
+.travel-packs__container-filters {
+  margin-top: 25px;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: sticky;
+  top: 25px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.travel-packs__filter {
+  display: flex;
+  margin: 20px auto;
+}
+.travel-packs__container-travels {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

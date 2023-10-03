@@ -20,6 +20,7 @@ body{
     margin: auto;
     text-align: center;
     min-width: 280px;
+    max-width: 280px;
     width: 280px;
     padding: 10px 0;
     flex-wrap: wrap;
@@ -283,4 +284,39 @@ body{
             margin: auto;
         }
 
+}
+
+// TRAVEL PACKAGES
+
+.travel-packs{
+
+        // Packages filters
+        
+        &__container-filters{
+            margin-top: 25px;
+            height: fit-content;
+            position: sticky;
+            top: 25px;
+            border-radius: 10px;
+            background-color: map-get(u.$colors, "color2");
+        }
+
+        &__filter-container{
+            
+        }
+
+        &__filter{
+            display: flex;
+            margin: 20px auto;
+        }
+
+        // Packages travels
+
+        &__container-travels{
+            background-color: map-get(u.$colors, "color2");
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
 }
