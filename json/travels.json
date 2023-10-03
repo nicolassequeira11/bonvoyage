@@ -10,7 +10,7 @@
             "description": "Explora la sofisticación y el encanto de la capital argentina. Buenos Aires te espera con su rica cultura, arte, gastronomía y tango. Descubre la pasión de esta ciudad en cada rincón. ",
             "date": "16 de Junio",
             "days": "4 días",
-            "price": "U$S 220",
+            "price": "220",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Bus semicama",
@@ -44,7 +44,7 @@
             "description": "Siente la aventura en el extremo sur de Argentina. Navega entre glaciares en El Calafate y descubre la belleza indomable de Ushuaia. Dos destinos impresionantes te esperan en este viaje único.",
             "date": "7 de Junio - Salida grupal",
             "days": "8 días",
-            "price": "U$S 1350",
+            "price": "1350",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Aereos de Montevideo",
@@ -85,7 +85,7 @@
             "description": "Descubre la majestuosidad de Bariloche, donde los picos nevados, los lagos cristalinos y los bosques exuberantes se combinan para crear un escenario de belleza incomparable. Embárcate en un viaje inolvidable lleno de aventuras al aire libre, gastronomía deliciosa y la hospitalidad de esta encantadora ciudad.",
             "date": "12 de Agosto - Salida grupal",
             "days": "9 días",
-            "price": "U$S 740",
+            "price": "740",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Salida desde Artigas en Bus semi cama",
@@ -124,7 +124,7 @@
             "description": "Bienvenido a un viaje inolvidable al corazón de Argentina, donde la belleza natural se mezcla con la rica cultura y la historia fascinante. Nuestro viaje al Norte Argentino te llevará a un mundo de contrastes asombrosos y experiencias únicas que te dejarán sin aliento.",
             "date": "19 de Mayo - Salida grupal",
             "days": "9 días",
-            "price": "U$S 590",
+            "price": "590",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Salida desde Artigas en Bus semi cama",
@@ -167,7 +167,7 @@
             "description": "Sumérgete en un cuento de hadas en Gramado y Canela, dos gemas escondidas en el sur de Brasil. Disfruta de la belleza de las montañas, la cultura encantadora y las delicias gastronómicas. Un viaje lleno de romanticismo y diversión te espera.",
             "date": "13 de Julio - Salida grupal",
             "days": "4 días",
-            "price": "U$S 265",
+            "price": "265",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Viaje terrestre en omnibus",
@@ -203,7 +203,7 @@
             "description": "Embárcate en un viaje lleno de sabor, música y cultura en Salvador, Bahía. Explora las playas doradas, la arquitectura colonial y las vibrantes tradiciones afrobrasileñas. Tu aventura espera en esta ciudad llena de vida.",
             "date": "13 de Julio",
             "days": "7 días",
-            "price": "U$S 690",
+            "price": "690",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Vuelos saliendo desde Porto Alegre",
@@ -242,7 +242,7 @@
             "description": "La belleza de Florianópolis atrae millares de visitantes todos los años, en la isla se encuentran los más variados tipos de playa. Capital turística, tiene una población de 300 mil habitantes, número que se triplica en verano.",
             "date": "Sabados de Agosto al 16 de Diciembre ",
             "days": "8 días / 5 noches",
-            "price": "U$S 480",
+            "price": "480",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Bus semi cama",
@@ -282,7 +282,7 @@
             "description": "Sus escarpados morros frente al mar, sus largas playas de arena blanca y el imponente Cristo Redentor a lo alto del monte Corcovado la hacen no sólo maravillosa, sino también única. Disfrutá la naturaleza, alegría carioca, la samba y las caipirinhas.",
             "date": "3 de Enero",
             "days": "8 días / 7 noches",
-            "price": "U$S 2541",
+            "price": "2541",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo en vuelo de línea, incluye todas las tasas e impuestos",
@@ -310,7 +310,7 @@
             "description": "Las majestuosas Cataratas del Iguazú se encuentran en el interior del Parque Nacional Iguazú. Se trata de un sistema de 275 saltos de agua en plena Selva Paranaense, punto en el cual se encuentran las fronteras de Argentina, Brasil y Paraguay.",
             "date": "De Abril a Diciembre",
             "days": "7 días / 4 noches",
-            "price": "U$S 494",
+            "price": "494",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Bus Semi Cama, servicio a bordo - Cena y desayuno abordo",
@@ -348,7 +348,7 @@
             "description": "Adéntrate en la misteriosa ciudadela inca de Machu Picchu y descubre la majestuosidad de esta maravilla arqueológica. Enamórate de los countryajes andinos y la historia antigua mientras exploras este icónico destino.",
             "date": "2 de Septiembre",
             "days": "8 días",
-            "price": "U$S 1450",
+            "price": "1450",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo",
@@ -394,7 +394,7 @@
             "description": "Colombia es un sitio alucinante, con gran riqueza cultural y una biodiversidad sumamente significativa.",
             "date": "Noviembre",
             "days": "7 días / 6 noches",
-            "price": "U$S 1539",
+            "price": "1539",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo",
@@ -430,7 +430,7 @@
             "description": "Chile, el país de mapa particular, es uno de los destinos más diversos del mundo. Con montañas, desiertos, playas y urbes, se trata de un lugar de propuestas infinitas. Santiago de Chile, la capital trasandina, es una de las ciudades más modernas de América Latina.",
             "date": "Hasta Junio 2024",
             "days": "2 noches",
-            "price": "U$S 413",
+            "price": "413",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Vuelo ida y vuelta con tasas e impuestos",
@@ -456,7 +456,7 @@
             "description": "Prepárate para un viaje de ensueño a la tierra donde los sueños se hacen realidad. En Disney Orlando, la magia cobra vida en cada rincón. Experimenta la emoción de los parques temáticos, conoce a tus personajes favoritos y sumérgete en un mundo de diversión inigualable.",
             "date": "12 de Septiembre",
             "days": "10 días",
-            "price": "U$S 2590",
+            "price": "2590",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Vuelos Montevideo-Orlando-Montevideo",
@@ -499,7 +499,7 @@
             "description": "Disfruta de la costa, las montañas en Yosemite, las maravillosas vistas del Gran Canyon, el cine de Los Angeles, las compras de San Francisco y las luces de Las Vegas en este mega tour por la Costa Oeste de Estados Unidos.",
             "date": "12 de Septiembre",
             "days": "11 días / 10 noches",
-            "price": "U$S 3170",
+            "price": "3170",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo Montevideo - Los Ángeles - Montevideo con todas las tasas e impuestos incluidos",
@@ -539,7 +539,7 @@
             "description": "Descubrí esta impresionante metrópolis donde confluyen las vidas de 8 millones de habitantes, procedentes de todos los rincones del mundo. Su oferta de actividades es interminable: museos, teatros, tiendas, parques, rascacielos, bares y restaurantes.",
             "date": "23 de Marzo",
             "days": "8 días / 7 noches",
-            "price": "U$S 2200",
+            "price": "2200",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo Montevideo - Nueva York - Montevideo con todas las tasas e impuestos",
@@ -570,7 +570,7 @@
             "description": "Ciudad llena de distintos sabores, atractivos, parques, gente de todo el mundo, playas hermosas y mezcla de estilos.",
             "date": "Octubre",
             "days": "8 días / 7 noches",
-            "price": "U$S 1184",
+            "price": "1184",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo Montevideo - Miami - Montevideo con todas las tasas e impuestos",
@@ -598,7 +598,7 @@
             "description": "Recorre Texas en motorhome con amigos, el estado de los festivales de música, el arte, los rodeos, las botas de cuero y los cowboys.",
             "date": "Noviembre",
             "days": "10 días / 9 noches",
-            "price": "U$S 1999",
+            "price": "1999",
             "priceType": "Por persona en base doble",
             "includes": [
                 "Pasaje aéreo Montevideo - Austin - Montevideo con todas las tasas e impuestos incluidos",

@@ -73,6 +73,27 @@
         <div class="travel-packs__filter-container px-4">
 
           <details class="travel-packs__filter" open>
+            <summary><strong>Rango de precio</strong></summary>
+            <fieldset class="d-flex">
+
+              <label class="col-5 travel-packs__filter-price">
+                <input class="me-2 my-2 col-12 travel-packs__filter-price-input" 
+                  type="number" id="min-price" step="50" min="0" placeholder="minimo">
+              </label>
+
+              <label class="col-5 travel-packs__filter-price">
+                <input class="me-2 my-2 col-12 travel-packs__filter-price-input" 
+                  type="number" id="max-price" step="50" min="0" placeholder="maximo">
+              </label>
+
+              <button class="travel-packs__filter-price-button" id="button-price">
+                <i class="bi bi-arrow-right-circle-fill travel-packs__filter-price-button-icon"></i>
+              </button>
+
+            </fieldset>
+          </details>
+
+          <details class="travel-packs__filter" open>
             <summary><strong>Región</strong></summary>
             <fieldset class="d-flex flex-column">
               <label>
@@ -106,62 +127,20 @@
             <summary><strong>Tipo</strong></summary>
             <fieldset class="d-flex flex-column">
               <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" 
                   name="tipo" value="todos">Todos
               </label>
               <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="tipo" value="aereo">Con áereo
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" 
+                  name="avion" value="aereo">Vuelo
               </label>
               <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="tipo" value="terrestre">Terrestre
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" 
+                  name="bus" value="terrestre">Bus
               </label>
               <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="tipo" value="maritimo">Marítimo
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="tipo" value="hotel">Hotel
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="tipo" value="paseo">Paseo
-              </label>
-            </fieldset>
-          </details>
-
-          <details class="travel-packs__filter">
-            <summary><strong>Temporada</strong></summary>
-            <fieldset class="d-flex flex-column">
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="todos">Todos
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="circuitos">Circuitos
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="fin de año">Fin de año
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="navidad">Navidad
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="semana santa">Semana Santa
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="verano">Verano
-              </label>
-              <label>
-                <input class="me-2 my-2 filtro" type="checkbox" 
-                  name="temporada" value="todo el año">Todo el año
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" 
+                  name="barco" value="maritimo">Barco
               </label>
             </fieldset>
           </details>
