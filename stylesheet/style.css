@@ -335,6 +335,12 @@ body {
   margin: auto;
 }
 
+@media only screen and (max-width: 991px) {
+  .travel-packs {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .travel-packs__container-filters {
   margin-top: 25px;
   height: -moz-fit-content;
@@ -343,6 +349,12 @@ body {
   top: 25px;
   border-radius: 10px;
   background-color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+  .travel-packs__container-filters {
+    position: relative;
+    margin: 0 auto 20px;
+  }
 }
 .travel-packs__filter {
   display: flex;
