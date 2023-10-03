@@ -30,7 +30,7 @@ function showTravels(array) {
     if (array.length > 0) {
         array.forEach((travel) => {
             content += `
-                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index">
+                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index m-0">
                     <div class="travel-index__container">
                         <img class="card-image travel-index__image" src="${travel.image}">
                         <h5 class="card-title travel-index__title">${travel.name}</h5>

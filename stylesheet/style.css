@@ -367,6 +367,7 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
 }

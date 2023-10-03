@@ -51,7 +51,7 @@ function showTravels(array, container) {
                         <img class="card-image travel-index__image" src="${travel.image}">
                         <h5 class="card-title travel-index__title">${travel.name}</h5>
                         <p class="card-description travel-index__date">${travel.date}</p>
-                        <p class="card-cost travel-index__price">${travel.price}</p>
+                        <p class="card-cost travel-index__price">U$S ${travel.price}</p>
                         <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
                     </div>
                 </div>

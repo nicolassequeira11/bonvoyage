@@ -632,7 +632,7 @@
             "region": "Europa",
             "type": "avion",
             "description": "Podrás disfrutar de panorámicas espectaculares de las famosas Tierras Altas de Escocia, de la preciosa Abadía de Kylemore, de los hermosos paisajes verdes alrededor de los lagos del anillo de Kerry y las vistas de los acantilados de Moher.",
-            "date": "!7 de Abril",
+            "date": "17 de Abril",
             "days": "12 días / 11 noches",
             "price": "3590",
             "priceType": "Por persona en base doble",
@@ -672,6 +672,96 @@
             "imageBanner": [
                 "media/image/escocia-irlanda/escocia-irlanda-1.jpg",
                 "media/image/escocia-irlanda/escocia-irlanda-2.jpg"
+            ]
+        },
+        {
+            "id": 1505,
+            "name": "Sicilia y sur de Italia",
+            "country": "Italia",
+            "citys": ["Roma", "Napoles", "Capri", "Sorrento", "Salerno", "Paola", "Mesina", "Taormina", "Noto", "Siracusa", "Agrigento", "Marsala", "Erice", "Palermo", "Monreale", "Ferri Palermo Napoles", "Pompeya", "Cassino"],          
+            "region": "Europa",
+            "type": "avion",
+            "description": "Hermosos paisajes, arquitectura y gastronomía formarán parte de este maravilloso viaje por el sur de Italia.",
+            "date": "Noviembre",
+            "days": "9 días / 8 noches",
+            "price": "2680",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Pasaje aéreo Montevideo - Roma - Montevideo con todas las tasas e impuestos incluidos",
+                "Equipaje en bodega",
+                "9 noches de alojamieto en hotelería 4* con desayuno buffet",
+                "Recorrido en bus con guía en español",
+                "Visita panorámica en: AGRIGENTO, PALERMO, POMPEYA",
+                "Traslado: Monreale en Palermo",
+                "Seguro Assist Card AC60 durante todo el viaje",
+                "Entrada y visita al Valle de los Templos en Agrigento, Catedral de Monreale , Pompeya",
+                "Ferry: Nápoles/ Capri /Sorrento, San Giovanni / Messina en Sicilia , Palermo/ Nápoles",
+                "4 Cenas Incluidos en: Taormina, Taormina, Agrigento, Palermo"
+            ],
+            "no-includes": [
+                "Traslados in/out",
+                "Comidas no detalladas y bebidas",
+                "Gastos personales",
+                "Propinas",
+                "Todo aquello no detallado en servicios incluidos"
+            ],
+            "itinerary": [
+                "<strong>Día 1: ROMA - NAPOLES - CAPRI - SORRENTO - SALERNO</strong><br> Salida temprano de Roma, viajamos hacia el sur de Italia. Paso por NÁPOLES en donde embarcamos (billete de barco incluido) a la ISLA DE CAPRI, si lo desean podrán tomar la lancha a la Gruta Blanca o el funicular a Capri capital. Tras la hora del almuerzo embarcamos nuevamente en dirección a SORRENTO, población llena de encanto y vida turística al pie del acantilado. Tiempo para pasear. Continuamos al golfo de Salerno. Alojamiento en SALERNO.<br>",
+                "<strong>Día 2: SALERNO - PAOLA - MESINA - TAORMINA</strong><br> Viajamos hacia el sur de la bota. Atractivos paisajes del sur de Italia atravesando el Parque Nacional de Cilento. Llegamos a PAOLA, a orillas del mar Tirreno, visitamos el santuario de San Francisco de Paola y tenemos tiempo libre para almorzar en su bonito centro histórico. Continuamos la ruta a VILLA SAN GIOVANNI donde embarcamos en corta travesía hacia la isla de SICILIA. Llegada a MESSINA en donde tendremos tiempo para dar un paseo junto a la catedral. Continuación a TAORMINA. Cena incluida.NOTA: Alojamiento en la región de Taormina, en alguna fecha puntual el alojamiento podrá ser dado en Messina.<br>",
+                "<strong>Día 3: TAORMINA</strong><br> Al pie del volcán Etna la hermosísima ciudad de TAORMINA fue definida por Churchill como el lugar más bonito de la tierra. Tiempo para pasear por el casco antiguo de la ciudad lleno de vida, su teatro griego domina paisajes inolvidables. Puede también disfrutar de la playa. Cena incluida.<br>",
+                "<strong>Día 4: TAORMINA - NOTO - SIRACUSA - AGRIGENTO</strong><br> Viajamos hacia NOTO, pequeña ciudad parada en el tiempo, joya barroca de Sicilia. Seguimos posteriormente hacia SIRACUSA, ciudad que por su potencia y esplendor fue durante un tiempo rival de Atenas y Roma. Tiempo para visitar su magnífico centro histórico y almorzar. Continuamos a AGRIGENTO donde desde el autocar veremos el magnífico conjunto del Valle de los Templos. Cena incluida.<br>",
+                "<strong>Día 5: AGRIGENTO - MARSALA - ERICE - PALERMO</strong><br> Con guía local conocemos el Valle de los Templos, impresionante recinto arqueológico considerado como el más completo recinto de templos griegos (entrada incluida). Viajamos a MARSALA, histórica ciudad con mucho ambiente y famoso vino, tiempo para almorzar. Continuamos bordeando las salinas de Marsala hacia ERICE, población muy pintoresca de origen fenicio que domina el mar. Tiempo para pasear. Continuamos a PALERMO. Cena incluida.<br>",
+                "<strong>Día 6: PALERMO - MONREALE - FERRI PALERMO NAPOLES</strong><br> Tras el desayuno visita de PALERMO incluyendo un traslado al hermoso pueblo (hoy extrarradio de la ciudad) de MONREALE, conjunto arquitectónico Patrimonio de la Humanidad, La capital siciliana es una ciudad llena de contrastes con historias de árabes, normandos y de esplendor Barroco. Destaca la Catedral (entrada incluida) y el Palacio de los Normandos con su capilla Palatina. Tiempo libre al finalizar la visita. Al final de la tarde embarque en un moderno ferry nocturno. Acomodación en camarotes dobles con baño.<br>",
+                "<strong>Día 7: FERRI PALERMO NAPOLES - POMPEYA - CASSINO - ROMA</strong><br> Llegada a NÁPOLES a primera hora de la mañana (desayuno no incluido). Tras el desembarco continuamos a POMPEYA (entrada incluida) donde incluimos visita con guía local para admirar los restos de esta ciudad romana que quedo cubierta por las cenizas del Vesubio. Tras la hora del almuerzo continuación a CASSINO. Tiempo libre para pasear o conocer la inmensa abadía. Tras ello nos dirigiremos al Cementerio Polaco que nos recuerda que en este lugar se desarrolló una de las más duras batallas de la Segunda Guerra Mundial. Continuación hacia ROMA. Llegada al final de la tarde.Fin de nuestros servicios. Compruebe la hora de su vuelo por si necesitase una noche adicional.<br>"
+            ],
+            "image": "media/image/sur-italia-1.webp",
+            "imageBanner": [
+                "media/image/sur-italia/sur-italia-1.jpg",
+                "media/image/sur-italia/sur-italia-2.webp"
+            ]
+        },
+        {
+            "id": 1510,
+            "name": "Alemania y Europa del Este",
+            "country": ["Alemania", "Austria", "Republica Checa", "Eslovaquia", "Hungria"],
+            "citys": ["Frankfurt", "Erfurt", "Berlin", "Dresde", "Praga", "Bratislava", "Budapest", "Viena"],          
+            "region": "Europa",
+            "type": "avion",
+            "description": "¡Embárcate en un emocionante viaje a través de la historia, la cultura y la belleza natural de Alemania y Europa del Este con nuestro paquete turístico exclusivo! Este viaje te llevará por ciudades icónicas, encantadores pueblos medievales y paisajes impresionantes mientras exploras una de las regiones más fascinantes de Europa.",
+            "date": "3 de Noviembre",
+            "days": "10 noches",
+            "price": "1600",
+            "priceType": "Por persona en base doble",
+            "includes": [
+                "Guía acompañante de habla hispana",
+                "Guías locales en español en las visitas indicadas en el itinerario",
+                "Desayuno diario, Buffet (en la mayoría de los hoteles)",
+                "Traslados de llegada y salida del aeropuerto principal. Consulte suplemento para traslados desde/hacia la estación de tren y/o puerto.",
+                "Almuerzos y cenas indicadas en el itinerario",
+                "Modernos autocares dotados con mejores medidas de seguridad",
+                "Seguro de Viaje (coberturas de acuerdo a folleto)",
+                "Servicio de Asistencia telefónica 24 HORAS."
+            ],
+            "no-includes": [
+
+            ],
+            "itinerary": [
+                "<strong>Día 1: CIUDAD DE ORIGEN - FRANKFURT</strong><br> Llegada a Frankfurt y traslado al hotel. Tiempo libre para conocer la capital financiera de Alemania, sede del Banco Central de la UE, que durante dos siglos fue el lugar de coronación de los emperadores del Sacro Imperio Romano Germánico. Siempre que el horario de llegada de su vuelo lo permita, al final de la tarde se reunirá con su guía acompañante en la recepción del hotel. (Cena incluida en PAQUETE COMIDAS y T.I.). Alojamiento.<br>",
+                "<strong>Día 2: FRANKFURT - ERFURT - BERLIN</strong><br> Desayuno. Salida hacia Erfurt, situada en el cruce de caminos de antiguas rutas comerciales y capital de Turingia. Ciudad que ha sido punto de encuentro de intelectuales y centro neurálgico de la Reforma Protestante. Ciudad de la que Lutero, la ensalzó en más de una ocasión denominándola “La coronada por numerosas torres”, por su gran patrimonio artístico. Tiempo libre tiempo libre para conocer el centro histórico de la ciudad, prácticamente intacto, en el que destaca la catedral de Santa María y la iglesia de San Severo, conjunto único en Europa de obras maestras arquitectónicas del Gótico alemán, las casas de entramado de madera y por supuesto, el Kammerbrucke, el puente más largo de Europa bordeado por casas con talleres de artesanos, galerías, pequeñas tabernas, tiendas de música y de antigüedades. Continuación a Berlín. Tiempo libre para tomar un primer contacto con la capital de Alemania. Cena. Si lo desea podrá realizar una visita opcional guiada de Berlín nocturno (incluido en PAQUETE EXCURSIONES y T.I.) en la que conoceremos el barrio judío, escenario de la trágica “noche de los cristales rotos” durante la época hitleriana, el barrio gubernamental con el Reichstag y la Cancillería, la Puerta de Brandemburgo, la Postdamer Platz, etc. Alojamiento.<br>",
+                "<strong>Día 3: BERLIN</strong><br> Desayuno. Visita panorámica con guía local de lo más característico de la capital de Alemania: veremos la Puerta de Brandenburgo, uno de los símbolos más importantes de la ciudad, la Isla de los Museos, Alexander Platz, el barrio de San Nicolás, la plaza de la Gendarmería, los restos del Muro, la avenida de Unter den Linden, etc. (Almuerzo incluido en PAQUETE COMIDAS y T.I.) Resto del libre o si lo desea podrá realizar una excursión opcional con guía local a Potsdam, donde Truman, Stalin y Attlee, sucesor de Winston Churchill decidieron en 1.945 la suerte de Alemania, con la firma del Tratado de Potsdam. Nuestro guía local,nos ilustrará esta ciudad que cuenta con lugares como el Barrio de los Holandeses, jardines y palacios realizados a partir del S. XVIII. También conoceremos “El puente de los espías”, donde se filtraba la información entre el la Europa del Este y la del Oeste, durante la época de la Guerra Fría. Tras esta visita opcional se regresará a Berlín. (Cena opción paq. comidas)- Alojamiento.<br>",
+                "<strong>Día 4: BERLÍN - DRESDE - PRAGA</strong><br> Desayuno y salida hacia la región de la Sajonia para conocer la ciudad de Dresde, llamada la “Florencia del Elba”. Tiempo libre o si lo desea, posibilidad de realizar una visita panorámica opcional (incluido en PAQUETE EXCURSIONES y T.I) con guía local para admirar su magnífico patrimonio artístico, arrasado por los bombardeos de la II Guerrra Mundial: el Zwinger, la Hofkirche, la Semperoper, etc. y que hoy han sido restaurados de forma magistral. (Almuerzo incluido en PAQUETE COMIDAS y T.T.). Continuación a Praga. Tiempo libre o si lo desea podrá realizar un paseo nocturno opcional por el casco histórico (incluido en PAQUETE EXCURSIONES y T.I.). -Cena y alojamiento.<br>",
+                "<strong>Día 5: PRAGA</strong><br> Desayuno. Visita panorámica con guía local: el Barrio Judío, Plaza de la Ciudad Vieja con el Ayuntamiento, las Iglesias de San Nicolás y Santa María de Týn, el Puente de Carlos, la Plaza Wenceslao, etc. y resto del día libre para conocer el barrio judío visitando alguna de sus sinagogas, como por ejemplo La Española o la de Staronová, considerada como la más antigua de Europa, etc. (Almuerzo incluido en PAQUETE COMIDAS y T.I.). Si lo desea, para tener una idea completa de la ciudad podrá realizar una visita opcional del Barrio del Castillo de Praga y el Barrio Barroco de Mala Strana: El Castillo de Praga con la Catedral de San Vito y el palacio Real Viejo, lugar donde prendió la chispa de la Guerra de los 30 Años tras la defenestración de los nobles; el Callejón de Oro, etc. (Cena incluido en PAQUETE COMIDAS y T.I.). Alojamiento.<br>",
+                "<strong>Día 6: PRAGA</strong><br> Desayuno. Día libre o excursión opcional a Karlovy Vary (incluido en PAQUETE EXCURSIONES y T.I.), ciudad-balneario, que adquirió una gran importancia durante el siglo XIX en que se convirtió en punto de encuentro de la alta sociedad en busca de tratamientos termales y lugar de descanso de grandes artistas, como Strauss o Beethoven, entre otros. Realizaremos un paseo con el guía local por la ciudad, para admirar entre otros lugares las bellísimas columnatas construidas alrededor del río Teplá para que los visitantes pudieran realizar paseos y beber el agua termal estando protegidos de las inclemencias del clima. Tiempo libre hasta la hora de regreso a Praga etc. Alojamiento.<br>",
+                "<strong>Día 7: PRAGA - BRATISLAVA - BUDAPEST</strong><br> Desayuno. Abandonaremos Praga, atravesando Bohemia y Moravia, dos de las regiones históricas de la República Checa, hasta llegar a Eslovaquia, donde conoceremos su capital, Bratislava, que tambíen durante un periodo de tiempo fue la capital de Hungría, cuando fue ocupado ese país por el Imperio Otomano. Tiempo libre para conocer esta maravillosa ciudad, bañada por el Danubio y recorrer su centro histórico, donde destacan sus simpáticas estatuas costumbristas, además de su riqueza monumental des sus animadas plazas y callejuelas, con la Puerta de San Miguel, la catedral de San Martín, la Iglesia Azul, v, el Palacio del Primado, el Ayuntamiento, etc. Continuación hacia Budapest, capital de Hungría, una ciudad considerada como una de las más hermosas de Europa, atravesada por el Danubio, que separa Buda y Pest, que actualmente se encuentran unidas por maravillosos puentes como el de las Cadenas o el de Isabel, en honor a la Emperatriz Sissí. Cena y alojamiento.<br>",
+                "<strong>Día 8: BUDAPEST</strong><br> Desayuno. Visita panorámica con guía local: Plaza de los Héroes y su maravilloso conjunto escultórico, el Parque Municipal, la Avenida Andrassy considerada como la más bella de Budapest repleta de palacios y palacetes, los Puentes de las Cadenas, Isabel y Margarita, el Barrio de Buda con sus pintorescas calles con edificios neobarrocos, el exterior de la Iglesia de Matías, el Bastión de los Pescadores con magníficas vistas del Parlamento, de Pest y del Danubio, etc.(Almuerzo incluido en PAQUETE COMIDAS y T.I.) Tiempo libre o si lo desea podrá realizar una visita opcional con guía local de “Budapest Histórica”, con entradas incluídas, admirando el interior del Parlamento, uno de los edificios más emblemáticos de la ciudad, y además, durante esta visita también conoceremos la Basílica de San Esteban, que puede albergar a más de 8.500 personas, en sus 87 metros de largo por 55 metros de ancho. Prestigiosos escultores han contribuido a la decoración interior y se utilizaron más de 50 tipos de mármol. También, si lo desea podrá realizar opcionalmente una excursión en la que se combinará un agradable recorrido en barco por el Danubio con la asistencia una Cena Zíngara en la que degustará la célebre gastronomía húngara así como sus famosos vinos, al tiempo que disfruta de un animado espectáculo de música y danzas típicas. Alojamiento.<br>",
+                "<strong>Día 9: BUDAPEST - VIENA</strong><br> Desayuno. Mañana libre para seguir descubriendo esta ciudad, paseando por sus zonas comerciales o visitando alguno de sus balnearios de aguas termales. Si lo desea podrá realizar una excursión opcional en la que se visitará la Gran Sinagoga, uno de los edificios más emblemáticos de la ciudad, siendo la más grande de Europa y la segunda del Mundo, realizando a continuación un recorrido por el barrio judio. (Almuerzo incluido en PAQUETE COMIDAS y T.I.). Salida a través de la Llanura Panónica hacia Viena,. A la llegada pasaremos junto a la sede de la ONU y cruzaremos el Danubio, antes de dirigirnos hacia el hotel. Cena y alojamiento<br>",
+                "<strong>Día 10: VIENA</strong><br> Desayuno. Visita panorámica con guía local de la ciudad, en la que conoceremos entre otros lugares la monumental Ringstrasse, avenida de más de 5 kilómetros de longitud donde se encuentran algunos de los edificios más significativos de Viena y que representa la máxima expresión del estilo historicista: El Parlamento, la Ópera, la Iglesia Votiva, los Museos de Historia del Arte y de la Historia Natural el Ayuntamiento, la Bolsa etc. También pasearemos por el corazón peatonal de la ciudad agrupado en torno a la catedral de San Esteban, donde realizaremos una parada para visitarla libremente y además veremos entre otros lugares los patios del Palacio Imperial de Hofburg, la calle Kartner Strasse y el Graben con la Columna de la Peste, etc. (Almuerzo incluida en PAQUETE COMIDAS y T.I.). Resto del día libre o si lo desea, se realizará una visita opcional al Palacio de Schönbrunn, en la que conoceremos la antigua residencia imperial de verano. Son muchas las atracciones que ofrece este palacio: los 40 aposentos imperiales que dan testimonio del esplendor de la vida cotidiana de la corte en la época de la emperatriz María Teresa. El jardín del Palacio, por sus bellas vistas, invita a pasear como en tiempos del Emperador. En la noche si lo desea, podrá asistir opcionalmente a un concierto vienes (incluido en PAQUETE EXCURSIONES y T.I.), donde estarán presentes, entre otras piezas de la tradición musical europea, los valses más representativos.Alojamiento.<br>",
+                "<strong>Día 11: VIENA - CIUDAD DE DESTINO</strong><br> Desayuno. Tiempo libre hasta el momento del traslado al aeropuerto para tomar el vuelo a su ciudad de destino. Fin de nuestros servicios.<br>"
+            ],
+            "image": "media/image/alemania-este-europa-1.jpg",
+            "imageBanner": [
+                "media/image/alemania-este-europa/alemania-este-europa-1.jpg",
+                "media/image/alemania-este-europa/alemania-este-europa-2.jpg"
             ]
         }
     ]

@@ -55,7 +55,7 @@ function showTravelInfo(array) {
           <h5 class="travel-info__info-days">${array.days}</h5>
           <p class="travel-info__info-date">${array.date}</p>
           <p class="travel-info__info-description">${array.description}</p>
-          <p class="travel-info__info-price"><strong>${array.price}</strong></p>
+          <p class="travel-info__info-price"><strong>U$S ${array.price}</strong></p>
           <p class="travel-info__info-priceType">${array.priceType}</p>
           <button class="travel-info__info-button">Consultar</button>
         </div>

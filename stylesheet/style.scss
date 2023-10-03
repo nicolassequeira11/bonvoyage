@@ -327,6 +327,7 @@ body{
             background-color: map-get(u.$colors, "color2");
             border-radius: 10px;
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
             margin: 0 auto;
         }
