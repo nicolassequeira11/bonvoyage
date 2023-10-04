@@ -32,10 +32,6 @@ const travelsContainerSud = document.getElementById("travels-container-sud");
     showTravels(travelsUsa, travelsContainerUsa);
   })
 
-
-
-
-
 });
 
 // FUNCIONES
@@ -48,11 +44,11 @@ function showTravels(array, container) {
        container.innerHTML += `
                 <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index">
                     <div class="travel-index__container">
-                        <img class="card-image travel-index__image" src="${travel.image}">
-                        <h5 class="card-title travel-index__title">${travel.name}</h5>
-                        <p class="card-description travel-index__date">${travel.date}</p>
-                        <p class="card-cost travel-index__price">U$S ${travel.price}</p>
-                        <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
+                        <img class="travel-index__image" src="${travel.image}">
+                        <h5 class="travel-index__title">${travel.name}</h5>
+                        <p class="travel-index__date">${travel.date}</p>
+                        <p class="travel-index__price">U$S ${travel.price}</p>
+                        <p class="travel-index__priceType">${travel.priceType}</p>
                     </div>
                 </div>
                 `;

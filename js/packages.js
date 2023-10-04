@@ -30,15 +30,40 @@ function showTravels(array) {
     if (array.length > 0) {
         array.forEach((travel) => {
             content += `
-                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index m-0">
-                    <div class="travel-index__container">
-                        <img class="card-image travel-index__image" src="${travel.image}">
-                        <h5 class="card-title travel-index__title">${travel.name}</h5>
-                        <p class="card-description travel-index__date">${travel.date}</p>
-                        <p class="card-cost travel-index__price">U$S ${travel.price}</p>
-                        <p class="card-soldcount travel-index__priceType">${travel.priceType}</p>
+                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" 
+                    class="travel-packs__travel-container col-12">
+                    <div class="travel-packs__travel d-block d-md-flex col-12">
+
+                        <div class="travel-packs__image-container col-12 col-md-4">
+                            <img class="travel-packs__image col-12" src="${travel.image}">
+                        </div>
+
+                        <div class="travel-packs__info-container py-1 col-12 col-md-8">
+                            <div class="px-3">
+                                <h5 class="travel-packs__title">${travel.name}</h5>
+                                <p class="travel-packs__date col-12">
+                                    <i class="bi bi-geo-alt me-2"></i>${travel.citys}
+                                </p>
+                                <p class="travel-packs__date">
+                                    <i class="bi bi-calendar-check me-2"></i>${travel.date}
+                                </p>
+                            </div>
+
+                            <div class="d-flex px-3">
+                                <div class="col-8">
+                                    <p class="travel-packs__price">U$S ${travel.price}</p>
+                                    <p class="travel-packs__priceType">${travel.priceType}</p>
+                                </div>
+
+                                <button class="travel-packs__button col-4">Detalles</button>
+                            </div>
+                        </div>
+
                     </div>
+                    <hr class="m-auto mx-3">
                 </div>
+
+                
             `;
         });
     } else {
