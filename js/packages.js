@@ -34,12 +34,12 @@ function showTravels(array) {
                     class="travel-packs__travel-container col-12">
                     <div class="travel-packs__travel d-block d-md-flex col-12">
 
-                        <div class="travel-packs__image-container col-12 col-md-4">
+                        <div class="travel-packs__image-container col-12 col-md-6">
                             <img class="travel-packs__image col-12" src="${travel.image}">
                         </div>
 
-                        <div class="travel-packs__info-container py-1 col-12 col-md-8">
-                            <div class="px-3">
+                        <div class="travel-packs__info-container py-1 col-12 col-md-6">
+                            <div class="travel-packs__data-container col-12">
                                 <h5 class="travel-packs__title">${travel.name}</h5>
                                 <p class="travel-packs__date col-12">
                                     <i class="bi bi-geo-alt me-2"></i>${travel.citys}
@@ -49,21 +49,21 @@ function showTravels(array) {
                                 </p>
                             </div>
 
-                            <div class="d-flex px-3">
+                            <div class="travel-packs__data-container d-flex">
                                 <div class="col-8">
                                     <p class="travel-packs__price">U$S ${travel.price}</p>
                                     <p class="travel-packs__priceType">${travel.priceType}</p>
                                 </div>
 
-                                <button class="travel-packs__button col-4">Detalles</button>
+                                <div class="col-4 d-flex">
+                                    <button class="travel-packs__button">Detalles</button>
+                                </div>
                             </div>
                         </div>
 
                     </div>
-                    <hr class="m-auto mx-3">
+                    <hr class="m-auto">
                 </div>
-
-                
             `;
         });
     } else {
@@ -118,7 +118,7 @@ function applyFilters() {
     if (selectedFilters.length > 0) {
         /* Filtrar los datos de viajes para mantener solo aquellos cuya región coincide con al menos un filtro seleccionado */
         filteredData = filteredData.filter((travel) => {
-            return selectedFilters.some((filter) => travel.region === filter);
+            return selectedFilters.some((filter) => travel.region.includes(filter));
         });
     }
 

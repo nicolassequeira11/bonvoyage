@@ -108,7 +108,7 @@
                 "<strong>Día 9:</strong> Regreso a Uruguay con una parada para almorzar y llegada en horas de la tarde.<br>",
                 "Los principales destinos a visitar son Neuquén, Bariloche, Cerro Campanario, Cerro Catedral y Buenos Aires, cada uno ofreciendo experiencias únicas en este emocionante viaje."
             ],
-            "image": "media/image/bariloche-1.webp",
+            "image": "media/image/bariloche-1.jpg",
             "imageBanner": [
                 "media/image/bariloche/bariloche-1.jpg",
                 "media/image/bariloche/bariloche-2.jpg"
@@ -627,8 +627,8 @@
         {
             "id": 1500,
             "name": "Escocia e Irlanda",
-            "country": ["Escocia", "Irlanda"],
-            "citys": ["Edimburgo", "Dublín", "Belfast", "Glasgow"],          
+            "country": ["Escocia ", "Irlanda"],
+            "citys": ["Edimburgo ", "Dublín ", "Belfast ", "Glasgow"],          
             "region": "Europa",
             "type": "avion",
             "description": "Podrás disfrutar de panorámicas espectaculares de las famosas Tierras Altas de Escocia, de la preciosa Abadía de Kylemore, de los hermosos paisajes verdes alrededor de los lagos del anillo de Kerry y las vistas de los acantilados de Moher.",
@@ -678,7 +678,7 @@
             "id": 1505,
             "name": "Sicilia y sur de Italia",
             "country": "Italia",
-            "citys": ["Roma", "Nápoles", "Salerno", "Paola", "Mesina", "Palermo"],          
+            "citys": ["Roma ", "Nápoles ", "Salerno ", "Paola ", "Mesina ", "Palermo"],          
             "region": "Europa",
             "type": "avion",
             "description": "Hermosos paisajes, arquitectura y gastronomía formarán parte de este maravilloso viaje por el sur de Italia.",
@@ -723,8 +723,8 @@
         {
             "id": 1510,
             "name": "Alemania y Europa del Este",
-            "country": ["Alemania", "Austria", "Republica Checa", "Eslovaquia", "Hungria"],
-            "citys": ["Frankfurt", "Berlín", "Praga", "Budapest", "Viena"],          
+            "country": ["Alemania ", "Austria ", "Republica Checa ", "Eslovaquia ", "Hungria"],
+            "citys": ["Frankfurt ", "Berlín ", "Praga ", "Budapest ", "Viena"],          
             "region": "Europa",
             "type": "avion",
             "description": "¡Embárcate en un emocionante viaje a través de la historia, la cultura y la belleza natural de Alemania y Europa del Este con nuestro paquete turístico exclusivo! Este viaje te llevará por ciudades icónicas, encantadores pueblos medievales y paisajes impresionantes mientras exploras una de las regiones más fascinantes de Europa.",

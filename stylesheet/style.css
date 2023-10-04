@@ -379,7 +379,7 @@ body {
   display: flex;
 }
 .travel-packs__image-container {
-  height: 200px;
+  height: 260px;
 }
 .travel-packs__image {
   height: 100%;
@@ -388,18 +388,25 @@ body {
 }
 .travel-packs__info-container {
   display: flex;
-  margin: 0 0 0 5px;
   flex-direction: column;
   justify-content: space-between;
+}
+.travel-packs__data-container {
+  margin: 10px 0 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .travel-packs__data-container {
+    margin: 0 15px;
+  }
 }
 .travel-packs__title {
   font-weight: 700;
   font-size: 1.6rem;
-  margin: 0 0 10px 0;
+  margin: 0 0 3px 0;
 }
 .travel-packs__date {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 400;
   margin: auto;
   padding: 5px 0;
 }
@@ -417,9 +424,15 @@ body {
   border: 2px solid #dc3545;
   background-color: #dc3545;
   color: #ffffff;
-  border-radius: 5px;
-  margin: auto;
-  padding: 10px 0;
+  border-radius: 20px;
+  margin: 20px auto 5px;
+  width: 150px;
+  max-width: 150px;
+  transition: all 0.2s ease-in-out;
+}
+.travel-packs__button:hover {
+  background-color: #ffffff;
+  color: #dc3545;
 }
 .travel-packs__filter-price {
   margin: auto;

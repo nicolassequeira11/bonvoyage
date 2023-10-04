@@ -342,7 +342,7 @@ body{
         }
 
         &__image-container{
-            height: 200px;
+            height: 260px;
             
         }
 
@@ -353,20 +353,27 @@ body{
 
         &__info-container{
             display: flex;
-            margin: 0 0 0 5px;
             flex-direction: column;
             justify-content: space-between;
+        }
+
+        &__data-container{
+            margin: 10px 0 0 0;
+
+            @media only screen and (min-width: 768px){
+                margin: 0 15px;
+            }
         }
 
         &__title{
             font-weight: 700;
             font-size: 1.6rem;
-            margin: 0 0 10px 0;
+            margin: 0 0 3px 0;
         }
 
         &__date{
             font-size: 0.8rem;
-            font-weight: 500;
+            font-weight: 400;
             margin: auto;
             padding: 5px 0;
         }
@@ -387,9 +394,16 @@ body{
             border: 2px solid map-get(u.$colors, "color4");
             background-color: map-get(u.$colors, "color4");
             color: map-get(u.$colors, "color2");
-            border-radius: 5px;
-            margin: auto;
-            padding: 10px 0;
+            border-radius: 20px;
+            margin: 20px auto 5px;
+            width: 150px;
+            max-width: 150px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        &__button:hover{
+            background-color: map-get(u.$colors, "color2");
+            color: map-get(u.$colors, "color4");
         }
 
         // Filter price
