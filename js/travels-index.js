@@ -89,15 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((response) => response.json())
       .then((data) => {
         // Filtrar los paquetes de viaje en función del término de búsqueda
-        
-        const filteredElementos = data.destinations.filter((travel) => {
-          const regiones = travel.region.toLowerCase().split(','); // Divide las regiones en una matriz
-          return(
-            travel.name.toLowerCase().includes(searchTerm) ||
-            regiones.some((region) => region.includes(searchTerm))
-          );
-        });
-
+        const filteredElementos = data.destinations.filter((travel) =>
+          travel.name.toLowerCase().includes(searchTerm) ||
+          travel.region.toLowerCase().includes(searchTerm)
+        );
 
         // Limpiar el contenido actual del div de resultados
         resultsDiv.innerHTML = "";
