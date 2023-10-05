@@ -47,12 +47,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // FUNCIONES
 
+/* Crear un localStorage para guardar el id de cada paquete de viaje` */
+function setProductID(id) {
+  localStorage.setItem("travelID", id);
+  window.location = "travel-info.html";
+}
+
+/* Crear un localStorage para guardar la region de cada paquete de viaje */
+function setRegionName(regionName) {
+  localStorage.setItem("regionName", regionName);
+}
+
 /* Mostrar viajes */
 function showTravels(array, container) {
   if (array.length > 0) {
     array.forEach((travel) => {
       container.innerHTML += `
-                <div onclick="setProductID(${travel.id}), setCatID(${travel.catID})" class="travel-index">
+                <div onclick="setProductID(${travel.id}); setRegionName('${travel.region}');" class="travel-index">
                     <div class="travel-index__container">
                         <img class="travel-index__image" src="${travel.image}">
                         <h5 class="travel-index__title">${travel.name}</h5>
@@ -67,12 +78,6 @@ function showTravels(array, container) {
     // Alerta para cuando no se encuentran productos
     container.innerHTML = `<div class="alert-danger bg-danger alert-error-filter">No se encontraron productos</div>`;
   }
-}
-
-/* Crear un localStorage para guardar el id de cada viaje */
-function setProductID(id) {
-  localStorage.setItem("travelID", id); // Crea el localStorage con la key "travelID"
-  window.location = "travel-info.html"; // Redirige a product-info.html
 }
 
 // SEARCH
@@ -141,3 +146,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Evento para escuchar cambios en el campo de entrada
   inputSearch.addEventListener("input", search);
 });
+

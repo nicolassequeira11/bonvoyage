@@ -366,7 +366,7 @@ body{
 
         &__include-container{
             border-radius: 10px;
-            margin:20px auto;
+            margin:20px auto 0;
             padding: 1.5rem;
             background-color: map-get(u.$colors, "color2");
         }
@@ -436,6 +436,7 @@ body{
 
         &__travel-container{
             margin: auto;
+            cursor: pointer;
         }
 
         &__travel{

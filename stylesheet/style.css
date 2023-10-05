@@ -411,7 +411,7 @@ body {
 }
 .travel-info__include-container {
   border-radius: 10px;
-  margin: 20px auto;
+  margin: 20px auto 0;
   padding: 1.5rem;
   background-color: #ffffff;
 }
@@ -461,6 +461,7 @@ body {
 }
 .travel-packs__travel-container {
   margin: auto;
+  cursor: pointer;
 }
 .travel-packs__travel {
   margin: 20px auto;

@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   const containerInfo = document.getElementById("travel-info");
+  const containerRelated = document.getElementById("travels-related");
 
   const travelID = localStorage.getItem("travelID");
+  const regionName = localStorage.getItem("regionName");
 
   // FETCH ARGENTINA
   fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
@@ -11,7 +13,27 @@ document.addEventListener("DOMContentLoaded", () => {
       const traveldata = data;
       const travelInfo = traveldata.destinations.filter(travel => travel.id == travelID);
       showTravelInfo(travelInfo[0]);
-    });
+  });
+
+  // FETCH RELACIONADOS
+  fetch(
+    "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      const travels = data;
+      const travelsSud = travels.destinations.filter((travel) => travel.region === regionName);
+      travelsSud.reverse();
+      showTravels(travelsSud, containerRelated);
+  });
+
+  // Relacionados
+  document.getElementById("prevrel").addEventListener("click", ()=>{
+    document.getElementById("travels-related").scrollLeft -= 1100;
+  });
+  document.getElementById("nextrel").addEventListener("click", ()=>{
+    document.getElementById("travels-related").scrollLeft += 1100;
+  });
 
 
 /* ---------- FUNCIONES ---------- */
