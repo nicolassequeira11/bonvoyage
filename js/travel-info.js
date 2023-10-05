@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const travelID = localStorage.getItem("travelID");
 
   // FETCH ARGENTINA
-  fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
+  fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
     .then((response) => response.json())
     .then((data) => {
       const traveldata = data;

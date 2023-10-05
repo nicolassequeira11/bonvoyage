@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH SUDAMERICA
   fetch(
-    "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json"
+    "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH BRASIL
   fetch(
-    "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json"
+    "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH ESTADOS UNIDOS
   fetch(
-    "https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json"
+    "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
   )
     .then((response) => response.json())
     .then((data) => {
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchTerm = inputSearch.value.toLowerCase();
 
     // Hacer una solicitud a la API de tus paquetes de viaje
-    fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
+    fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
       .then((response) => response.json())
       .then((data) => {
         // Filtrar los paquetes de viaje en función del término de búsqueda

@@ -8,7 +8,7 @@ let filteredTravels = [];
 document.addEventListener("DOMContentLoaded", () => {
 
     // FETCH PAQUETES
-    fetch("https://raw.githubusercontent.com/nicolassequeira11/bonvoyage/main/json/travels.json")
+    fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
         .then((response) => response.json())
         .then((data) => {
             const travels = data.destinations;
