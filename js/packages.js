@@ -24,14 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* Crear un localStorage para guardar el id de cada paquete de viaje` */
-function setProductID(id) {
+function setTravelID(id) {
   localStorage.setItem("travelID", id);
   window.location = "travel-info.html";
 }
 
 /* Crear un localStorage para guardar la region de cada paquete de viaje */
-function setRegionName(regionName) {
-  localStorage.setItem("regionName", regionName);
+function setTravelRegion(travelRegion) {
+  localStorage.setItem("travelRegion", travelRegion);
+}
+
+/* Crear un localStorage para guardar el nombre de cada paquete de viaje */
+function setTravelName(travelName) {
+  localStorage.setItem("travelName", travelName);
 }
 
 /* Mostrar viajes */
@@ -41,7 +46,10 @@ function showTravels(array) {
   if (array.length > 0) {
     array.forEach((travel) => {
       content += `
-                <div onclick="setProductID(${travel.id}); setRegionName('${travel.region}');" 
+                <div onclick="
+                      setTravelID(${travel.id}); 
+                      setTravelRegion('${travel.region}');
+                      setTravelName('${travel.name}');" 
                     class="travel-packs__travel-container col-12">
                     <div class="travel-packs__travel d-block d-md-flex col-12">
 
@@ -52,6 +60,9 @@ function showTravels(array) {
                         <div class="travel-packs__info-container py-1 col-12 col-md-7">
                             <div class="travel-packs__data-container col-12">
                                 <h5 class="travel-packs__title">${travel.name}</h5>
+                                <p class="travel-packs__date col-12">
+                                    <i class="bi bi-globe-americas me-2"></i>${travel.country}
+                                </p>
                                 <p class="travel-packs__date col-12">
                                     <i class="bi bi-geo-alt me-2"></i>${travel.citys}
                                 </p>

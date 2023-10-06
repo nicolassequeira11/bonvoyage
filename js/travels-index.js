@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       travelsSud.reverse();
       showTravels(travelsSud, travelsContainerSud);
-    });
+  });
 
   // FETCH BRASIL
   fetch(
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         (travel) => travel.country === "Brasil"
       );
       showTravels(travelsBra, travelsContainerBra);
-    });
+  });
 
   // FETCH ESTADOS UNIDOS
   fetch(
@@ -42,20 +42,25 @@ document.addEventListener("DOMContentLoaded", () => {
         (travel) => travel.country === "Estados Unidos"
       );
       showTravels(travelsUsa, travelsContainerUsa);
-    });
+  });
 });
 
 // FUNCIONES
 
 /* Crear un localStorage para guardar el id de cada paquete de viaje` */
-function setProductID(id) {
+function setTravelID(id) {
   localStorage.setItem("travelID", id);
   window.location = "travel-info.html";
 }
 
 /* Crear un localStorage para guardar la region de cada paquete de viaje */
-function setRegionName(regionName) {
-  localStorage.setItem("regionName", regionName);
+function setTravelRegion(travelRegion) {
+  localStorage.setItem("travelRegion", travelRegion);
+}
+
+/* Crear un localStorage para guardar el nombre de cada paquete de viaje */
+function setTravelName(travelName) {
+  localStorage.setItem("travelName", travelName);
 }
 
 /* Mostrar viajes */
@@ -63,7 +68,11 @@ function showTravels(array, container) {
   if (array.length > 0) {
     array.forEach((travel) => {
       container.innerHTML += `
-                <div onclick="setProductID(${travel.id}); setRegionName('${travel.region}');" class="travel-index">
+                <div onclick="
+                      setTravelID(${travel.id}); 
+                      setTravelRegion('${travel.region}'); 
+                      setTravelName('${travel.name}')" 
+                    class="travel-index">
                     <div class="travel-index__container">
                         <img class="travel-index__image" src="${travel.image}">
                         <h5 class="travel-index__title">${travel.name}</h5>
@@ -135,8 +144,9 @@ document.addEventListener("DOMContentLoaded", () => {
       resultsDiv.innerHTML += `
       <div onclick="setProductID(${result.id}), setCatID(${result.catID})" 
         class="travel-search__results-container p-3">
-          <h5 class="travel-search__results-title mx-0">${result.name}</h5>
-          <p class="travel-search__results-price mx-0">U$S ${result.price}</p>
+          <h5 class="travel-search__results-title mx-0">
+            <i class="bi bi-geo-alt text-danger me-2"></i>${result.name}, ${result.country}
+          </h5>
       </div>
       <hr class="my-auto opacity-25">
       `;

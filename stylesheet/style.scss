@@ -18,7 +18,7 @@ body{
 
 .travel-search{
     padding: 150px 0;
-    background-image: url("https://cutewallpaper.org/23/travel-background-wallpaper/2261726028.jpg");
+    background-image: url("../media/background-search.jpg");
     background-position: center;
     background-size: cover;
     @media only screen and (max-width: 1000px) {
@@ -154,6 +154,7 @@ body{
 
         &__title{
             margin: auto;
+            font-size: 1rem;
             padding: 1rem 0 0.3rem 0;
         }
 
@@ -167,7 +168,7 @@ body{
             font-weight: 700;
             margin: auto;
             padding: 0.6rem 0 0 0;
-            font-size: 1.9rem;
+            font-size: 1.5rem;
         }
 
         &__priceType{
@@ -470,16 +471,16 @@ body{
         }
 
         &__title{
-            font-weight: 700;
-            font-size: 1.6rem;
-            margin: 0 0 3px 0;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin: 0 0 10px 0;
         }
 
         &__date{
             font-size: 0.8rem;
             font-weight: 400;
             margin: auto;
-            padding: 5px 0;
+            padding: 4px 0;
         }
 
         &__price{

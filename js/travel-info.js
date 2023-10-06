@@ -4,14 +4,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const containerRelated = document.getElementById("travels-related");
 
   const travelID = localStorage.getItem("travelID");
-  const regionName = localStorage.getItem("regionName");
+  const travelRegion = localStorage.getItem("travelRegion");
+  const travelName = localStorage.getItem("travelName");
 
   // FETCH ARGENTINA
   fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
     .then((response) => response.json())
     .then((data) => {
       const traveldata = data;
-      const travelInfo = traveldata.destinations.filter(travel => travel.id == travelID);
+      const travelInfo = traveldata.destinations.filter(travel => 
+        travel.id == travelID);
+        
       showTravelInfo(travelInfo[0]);
   });
 
@@ -22,9 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       const travels = data;
-      const travelsSud = travels.destinations.filter((travel) => travel.region === regionName);
-      travelsSud.reverse();
-      showTravels(travelsSud, containerRelated);
+      const travelRel = travels.destinations.filter((travel) => 
+        travel.region === travelRegion && travel.name !== travelName);
+        
+      showTravels(travelRel, containerRelated);
   });
 
   // Relacionados
@@ -69,7 +73,7 @@ function showTravelInfo(array) {
           <p class="travel-info__include-title"><strong>Incluye:</strong></p>
           <p class="travel-info__include-items-container">${includes(array.includes)}</p>
           <p class="travel-info__include-title"><strong>Itinerario:</strong></p>
-          <p class="travel-info__include-items-container">${includes(array.itinerary)}</p>
+          <p class="travel-info__include-items-container">${includesItinerary(array.itinerary)}</p>
         </div>
 
         <div class="col-12 col-lg-3 travel-info__info-container">
@@ -92,9 +96,24 @@ function includes(array){
   let container = "";
 
   for(let i=0; i<array.length; i++){
-    container += `<p class="travel-info__include-items">`+ array[i] + `</p>`;
+    container += `<li class="travel-info__include-items">`+ array[i] + `</li>`;
   }
 
   return container;
+}
+
+/* Crear lista */
+function includesItinerary(array){
+  let container = "";
+
+  for(let i=0; i<array.length; i++){
+    container += `<p class="travel-info__include-items ps-2 pe-4">`+ array[i] + `</p>`;
   }
+
+  return container;
+}
+
 });
+
+
+
