@@ -552,4 +552,22 @@ body {
   justify-content: center;
   transform: scale(1.3);
   color: #dc3545;
+}
+.travel-packs__filterPackages {
+  display: flex;
+  justify-content: end;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.travel-packs__filterPackages-count {
+  display: flex;
+  margin: auto;
+  justify-content: start;
+  width: 100%;
+}
+.travel-packs__filterPackages-button {
+  outline: 1px solid gray;
+}
+.travel-packs__filterPackages-link {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

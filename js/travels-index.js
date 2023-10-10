@@ -48,19 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // FUNCIONES
 
 /* Crear un localStorage para guardar el id de cada paquete de viaje` */
-function setTravelID(id) {
+function setTravelInfo(id, travelRegion, travelName) {
   localStorage.setItem("travelID", id);
-  window.location = "travel-info.html";
-}
-
-/* Crear un localStorage para guardar la region de cada paquete de viaje */
-function setTravelRegion(travelRegion) {
   localStorage.setItem("travelRegion", travelRegion);
-}
-
-/* Crear un localStorage para guardar el nombre de cada paquete de viaje */
-function setTravelName(travelName) {
   localStorage.setItem("travelName", travelName);
+  window.location = "travel-info.html";
 }
 
 /* Mostrar viajes */
@@ -68,10 +60,7 @@ function showTravels(array, container) {
   if (array.length > 0) {
     array.forEach((travel) => {
       container.innerHTML += `
-                <div onclick="
-                      setTravelID(${travel.id}); 
-                      setTravelRegion('${travel.region}'); 
-                      setTravelName('${travel.name}')" 
+                <div onclick="setTravelInfo(${travel.id}, '${travel.region}', '${travel.name}');" 
                     class="travel-index">
                     <div class="travel-index__container">
                         <img class="travel-index__image" src="${travel.image}">

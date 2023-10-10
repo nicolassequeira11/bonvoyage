@@ -98,7 +98,7 @@
             <fieldset class="d-flex flex-column">
 
               <label>
-                <input class="me-2 my-2 filtro" type="checkbox" name="region" id="filter-all">Todos
+                <input class="me-2 my-2 filtro" type="checkbox" name="Todos" id="filterAll">Todos
               </label>
 
               <label>
@@ -129,7 +129,7 @@
             <fieldset class="d-flex flex-column">
 
               <label>
-                <input class="me-2 my-2 filtro-tipo" type="checkbox" name="tipo">Todos
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" name="Todos" id="filterAllTransporte">Todos
               </label>
 
               <label>
@@ -141,7 +141,7 @@
               </label>
 
               <label>
-                <input class="me-2 my-2 filtro-tipo" type="checkbox" name="barco">Crucero
+                <input class="me-2 my-2 filtro-tipo" type="checkbox" name="crucero">Crucero
               </label>
               
             </fieldset>
@@ -150,7 +150,28 @@
         </div>
       </div>
 
-      <div id="packages" class="travel-packs__container-travels my-4 col-lg-8"></div>
+      <div id="packages" class="travel-packs__container-travels my-4 col-lg-8">
+
+        <div class="col-12 travel-packs__filterPackages">
+          <div class="travel-packs__filterPackages-count " id="packages-search"></div>
+          <div class="btn-group travel-packs__filterPackages-button">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Ordenar por precio:
+            </button>
+            <ul class="dropdown-menu bg-light col-12">
+              <li class="dropdown-item travel-packs__filterPackages-link" id="price-ascendente" href="#">
+                Ascendente
+              </li>
+              <li class="dropdown-item travel-packs__filterPackages-link" id="price-descendente" href="#">
+                Descendente
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="packages-container" class="col-12"></div>
+      </div>
+
     </div>
 
     <script src="js/packages.js"></script>
