@@ -103,9 +103,6 @@ body {
   background-image: url("../media/background-search.jpg");
   background-position: center;
   background-size: cover;
-  /* Barra del scroll */
-  /* Pulgar del scroll */
-  /* Hover del pulgar del scroll */
 }
 @media only screen and (max-width: 1000px) {
   .travel-search {
@@ -147,6 +144,9 @@ body {
   position: absolute;
   box-shadow: 0px 3px 10px -6px rgb(66, 68, 90);
   background-color: #ffffff;
+  /* Barra del scroll */
+  /* Pulgar del scroll */
+  /* Hover del pulgar del scroll */
 }
 @media only screen and (max-width: 1000px) {
   .travel-search__results {
@@ -461,26 +461,54 @@ body {
   margin: 0 auto;
 }
 .travel-packs__travel-container {
-  margin: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+  transition: all 0.5s;
   cursor: pointer;
+  background-color: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .travel-packs__travel-container:hover {
+    transform: translateX(6px);
+  }
 }
 .travel-packs__travel {
-  margin: 20px auto;
-  border-radius: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
   display: flex;
 }
 .travel-packs__image-container {
   height: 260px;
+  border-radius: 10px 0 0 10px;
+}
+@media only screen and (max-width: 768px) {
+  .travel-packs__image-container {
+    border-radius: 10px 10px 0 0;
+  }
 }
 .travel-packs__image {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 0.5s;
+  border-radius: 10px 0 0 10px;
+}
+@media only screen and (max-width: 768px) {
+  .travel-packs__image {
+    border-radius: 10px 10px 0 0;
+  }
 }
 .travel-packs__info-container {
   display: flex;
+  padding: 15px 5px;
   flex-direction: column;
   justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .travel-packs__info-container {
+    padding: 10px 15px;
+  }
 }
 .travel-packs__data-container {
   margin: 10px 0 0 0;
@@ -567,6 +595,8 @@ body {
 }
 .travel-packs__filterPackages-button {
   outline: 1px solid gray;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .travel-packs__filterPackages-link {
   cursor: pointer;

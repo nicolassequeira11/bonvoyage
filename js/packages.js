@@ -38,7 +38,7 @@ function showTravels(array) {
               <img class="travel-packs__image col-12" src="${travel.image}">
             </div>
 
-            <div class="travel-packs__info-container py-1 col-12 col-md-7">
+            <div class="travel-packs__info-container col-12 col-md-7">
               <div class="travel-packs__data-container col-12">
                 <h5 class="travel-packs__title">${travel.name}</h5>
                   <p class="travel-packs__date col-12">
@@ -65,13 +65,13 @@ function showTravels(array) {
           </div>
 
           </div>
-        <hr class="m-auto">
         </div>
+        <hr class="m-auto">
             `;
     });
   } else {
     // Alerta para cuando no se encuentran productos
-    content = `<div class="m-auto text-center">No se encontraron paquetes de viaje</div>`;
+    content = `<div class="mx-auto mt-4 text-center">No se encontraron paquetes de viaje</div>`;
   }
   packagesContainer.innerHTML = content;
 }
@@ -87,7 +87,7 @@ function setTravelInfo(id, travelRegion, travelName) {
 // Contador de paquetes
 function travelsCount(array) {
   let contador = array.length;
-  packagesSearch.textContent = `Resultados de tu búsqueda: ${contador}`;
+  packagesSearch.textContent = `Paquetes de viaje: ${contador}`;
 }
 
 
@@ -111,6 +111,7 @@ function applyFilters() {
   filteredData = filterByRegion(filteredData, selectedFilters);
   filteredData = filterByType(filteredData, selectedTransporteFilters);
   filteredData = filterByPriceRange(filteredData, minPrice, maxPrice);
+  btnFilterPrice(filteredData);
 
   // Muestra los datos filtrados en la interfaz
   displayFilteredData(filteredData);
