@@ -65,68 +65,117 @@
       </nav>
     </header>
 
-    <!-- SEARCH -->
+    <main>  
+      <!-- SEARCH -->
 
-    <div class="travel-search">
-      <search>
-        <form action="search" class="travel-search__form col-12 col-lg-8">
-          <input type="search" id="input-search" autocomplete="off" 
-            class="travel-search__input col-10" placeholder="Buscar paquete">
-        </form>
-      </search>
-      <div class="travel-search__results" id="results"></div>
+      <section class="banner container mt-5 px-5">
 
-    </div>
+        <div class="banner__search-container col-12 col-lg-5 my-4">
+          <search>
+            <h3 class="banner__search-title col-12 mb-4">Descubre el mundo con nosotros</h3>
+            <p class="banner__search-subtitle col-12 mb-4">En BonVoyage, enriquecemos tus viajes con destinos emocionantes, alojamiento de calidad y recorridos personalizados para tu mejor experiencia</p>
+            <form action="search" class="banner__search-form col-12">
+              <input type="search" id="input-search" autocomplete="off" 
+                class="banner__search-input col-12" placeholder="Buscar paquete">
+            </form>
+            <div class="banner__search-results" id="results"></div>
+          </search>
+        </div>
 
-    <!-- TRAVELS -->
+        <div class="banner__img-container col-12 col-lg-5 me-3">
+          <img src="media/banner-img2.png" class="banner__img col-12" alt="">
+        </div>
 
-    <!-- Sudamerica -->
-    <div class="container mt-5">
-      <h3 class="travel-index__title-index">Joyas de Sudamérica</h3>
-      <div>          
-        <button id="prevsud" class="control btn btn-danger d-none d-lg-block prev">
-          <i class="bi bi-arrow-left"></i>
-        </button>
+      </section>
 
-          <div id="travels-container-sud" class="d-flex container slider"></div>
 
-        <button id="nextsud" class="control btn btn-danger d-none d-lg-block next">
-          <i class="bi bi-arrow-right"></i>
-        </button>
+
+      <!-- TRAVELS -->
+
+      <!-- Sudamerica -->
+      <section class="container mt-5">
+        <h3 class="travel-index__title-index">Joyas de Sudamérica</h3>
+        <div>          
+          <button id="prevsud" class="control d-none d-lg-block prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+
+            <div id="travels-container-sud" class="d-flex container slider"></div>
+
+          <button id="nextsud" class="control d-none d-lg-block next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Brasil -->
+      <section class="container mt-5">
+        <h3 class="travel-index__title-index">Lo mejor de Brasil</h3>
+        <div>          
+          <button id="prevbra" class="control d-none d-lg-block prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+
+            <div id="travels-container-bra" class="d-flex container slider"></div>
+
+          <button id="nextbra" class="control d-none d-lg-block next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Estados Unidos -->
+      <section class="container mt-5">
+        <h3 class="travel-index__title-index">Lo mejor de Estados Unidos</h3>
+        <div>          
+          <button id="prevusa" class="control d-none d-lg-block prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+
+            <div id="travels-container-usa" class="d-flex container slider"></div>
+
+          <button id="nextusa" class="control d-none d-lg-block next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="mt-5">
+      <div class="container m-auto col-8 my-5 footer">
+        <img src="logo-white.png" class="footer__logo" alt="">
+        
+        <hr class="text-white col-8 d-flex justify-content-center mx-auto">
+
+        <div class="footer__links-container flex-wrap">
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Paquetes
+          </a>
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Horarios
+          </a>
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Contacto
+          </a>
+        </div>
+
+        <div class="footer__sm-container col-2">
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-instagram footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-twitter footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-youtube footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-tiktok footer__sm-link-icon"></i>
+          </a>
+        </div>
       </div>
-    </div>
-
-    <!-- Brasil -->
-    <div class="container mt-5">
-      <h3 class="travel-index__title-index">Lo mejor de Brasil</h3>
-      <div>          
-        <button id="prevbra" class="control btn btn-danger d-none d-lg-block prev">
-          <i class="bi bi-arrow-left"></i>
-        </button>
-
-          <div id="travels-container-bra" class="d-flex container slider"></div>
-
-        <button id="nextbra" class="control btn btn-danger d-none d-lg-block next">
-          <i class="bi bi-arrow-right"></i>
-        </button>
-      </div>
-    </div>
-
-    <!-- Estados Unidos -->
-    <div class="container mt-5">
-      <h3 class="travel-index__title-index">Lo mejor de Estados Unidos</h3>
-      <div>          
-        <button id="prevusa" class="control btn btn-danger d-none d-lg-block prev">
-          <i class="bi bi-arrow-left"></i>
-        </button>
-
-          <div id="travels-container-usa" class="d-flex container slider"></div>
-
-        <button id="nextusa" class="control btn btn-danger d-none d-lg-block next">
-          <i class="bi bi-arrow-right"></i>
-        </button>
-      </div>
-    </div>
+    </footer>
 
 
     <script src="js/carrusel.js"></script>
