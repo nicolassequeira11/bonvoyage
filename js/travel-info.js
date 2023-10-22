@@ -83,7 +83,7 @@ function showTravelInfo(array) {
           <p class="travel-info__info-description">${array.description}</p>
           <p class="travel-info__info-price"><strong>U$S ${array.price}</strong></p>
           <p class="travel-info__info-priceType">${array.priceType}</p>
-          <button class="travel-info__info-button">Consultar</button>
+          <button class="btnRed">Consultar</button>
         </div>
       </div>
 

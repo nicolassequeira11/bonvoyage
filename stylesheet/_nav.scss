@@ -5,14 +5,14 @@
     position: fixed;
     top: 0;
     text-align: center;
-    background-color: map-get(u.$colors, "color2");
-    box-shadow: 0px 0px 20px 0px #00000020;
+    background-color: map-get(u.$colors, "color5");
 }
 
 .navbar-brand{
     margin: auto;
     display: flex;
     justify-content: flex-start;
+    opacity: 0.9;
 }
 
 .navbar-collapse{
@@ -59,20 +59,21 @@
 .nav-icon-sm{
     color: map-get(u.$colors, "color3");
     padding: 0 5px;
-}
-
-.nav-icon-sm:hover{
-    color: map-get(u.$colors, "color4");
+    
+    &:hover{
+        color: map-get(u.$colors, "color4");
+    }
 }
 
 .nav-link{
-    color: map-get(u.$colors, "color3") !important;
+    color: map-get(u.$colors, "color4") !important;
     font-family: u.$font-first;
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
+    cursor: pointer;
 }
 
 .nav-link:hover{
-    color: map-get(u.$colors, "color4") !important;
+    color: u.$sunglow-400 !important;
 }
 
 .links-mobile{

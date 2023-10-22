@@ -1,0 +1,20 @@
+@use "utilities.scss" as u;
+
+.login{
+
+    &__logo{
+        opacity: 0.8;
+    }
+
+    &__button{
+        background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
+
+        &:hover{
+            background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
+        }
+
+        &:active{
+            background-image: linear-gradient(to right, u.$red-ribbon-600, u.$red-ribbon-800);
+        }
+    }
+}

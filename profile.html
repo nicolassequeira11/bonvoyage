@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>BonVoyage | Agencia de viajes</title>
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <!-- Estilo Bootstrap -->
+    <link rel="stylesheet" href="stylesheet/style-bootstrap.css" />
+  </head>
+  <body>
+
+    <!-- NAV -->
+    <header class="raw col-12">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-11 col-lg-8 col-xl-6 py-2 d-flex justify-content-center m-auto">
+          <a class="navbar-brand col-10 col-lg-3 col-xl-6" href="index.html">
+            <img src="logo.png" class="d-inline-block object-fit-contain align-top" 
+              width="130" height="60" alt="Logo BonVoyage Agencia de viajes"/>
+          </a>
+          <div class="nav-content-icon col-1 d-lg-none">
+            <i class="fa-solid fa-bars fa-2xl nav-icon col-12" style="color: #e4051e"></i>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end col-6 col-lg-11 col-xl-12">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-3 col-12" href="packages.html">Paquetes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 col-12" href="html/about.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 col-12" href="html/schedules.html">Horarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 col-12" id="login" data-bs-toggle="modal" href="#modalLogin"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="links-mobile col-12">
+          <ul class="navbar-nav col-12">
+            <li class="nav-item nav-item-mobile">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item nav-item-mobile">
+              <a class="nav-link" href="packages.html">Paquetes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>  
+      
+      <section class="bg-white d-flex d-flex flex-column flex-md-row container-lg py-5 rounded-4">
+        <div class="col-md-3 my-auto m-md-auto d-flex ps-lg-5 flex-column">
+          <div class="col-12 d-flex">
+            <i class="bi bi-person-fill p-4 bg-warning fa-7x rounded-circle d-flex mx-auto text-white"></i>
+          </div>
+          <button class="btn-danger btnRed m-auto mt-4" id="btnRemoveSession" type="button">
+            Cerrar sesión
+          </button>
+        </div>
+        <div class="col-md-9 d-flex m-auto justify-content-center flex-wrap">
+          <div class="col-md-5 m-3">
+            <label for="">Nombre</label>
+            <input type="text" id="profileName" class="form-control form-control-lg">
+          </div>
+          <div class="col-md-5 m-3">
+            <label for="">Apellido</label>
+            <input type="text" id="profileLastname" class="form-control form-control-lg">
+          </div>
+          <div class="col-md-5 m-3">
+            <label for="">Nombre de usuario</label>
+            <input type="text" id="profileUsername" class="form-control form-control-lg" disabled>
+          </div>
+          <div class="col-md-5 m-3">
+            <label for="">Correo electrónico</label>
+            <input type="email" id="profileEmail" class="form-control form-control-lg">
+          </div>
+          <div class="col-md-5 m-3">
+            <label for="">Teléfono</label>
+            <input type="text" id="profileTel" class="form-control form-control-lg">
+          </div>
+          <div class="col-md-5 m-3">
+            <label for="">País</label>
+            <input type="text" id="profileCountry" class="form-control form-control-lg">
+          </div>
+          <div class="d-flex justify-content-md-end justify-content-center col-11 pe-md-3 pe-lg-4">
+            <button class="btn btn-success d-flex mt-3" id="btnSaveProfile">Guardar cambios</button>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="mt-5">
+      <div class="container m-auto col-8 my-5 footer">
+        <img src="logo-white.png" class="footer__logo" alt="">
+        
+        <hr class="text-white col-8 d-flex justify-content-center mx-auto">
+
+        <div class="footer__links-container flex-wrap">
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Paquetes
+          </a>
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Horarios
+          </a>
+          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+            Contacto
+          </a>
+        </div>
+
+        <div class="footer__sm-container col-2">
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-instagram footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-twitter footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-youtube footer__sm-link-icon"></i>
+          </a>
+          <a href="#" class="footer__sm-link">
+            <i class="rounded-circle bi bi-tiktok footer__sm-link-icon"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL LOGIN -->
+    <div class="modal fade" id="modalLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="mt-4 mb-3">
+              <img src="logo.png" class="login__logo m-auto d-flex" alt="">
+            </div>
+            <div>
+              <p class="text-center">Acceda a su cuenta</p>
+            </div>
+            <div class="mt-4">
+              <form>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="text" id="userLogin" class="form-control form-control-lg mx-5" placeholder="Nombre de usuario">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="password" id="passwordLogin" class="form-control form-control-lg mx-5" placeholder="Contraseña">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-4">
+                  <button type="button" id="btnLogin" 
+                    class="form-control form-control-lg login__button mx-5 text-white">Iniciar sesión</button>
+                </div>
+                <div class="d-flex mx-auto">
+                  <a href="" class="text-muted d-flex mx-auto text-decoration-none">¿Olvidaste tu contraseña?</a>
+                </div>
+                <div class="d-flex mx-auto mt-4">
+                  <p class="text-muted d-flex mx-auto text-decoration-none">¿No tienes una cuenta?
+                    <a href="#" class="ms-1" data-bs-target="#modalRegistro" data-bs-toggle="modal">Regístrate</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalRegistro" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="mt-4 mb-3">
+              <img src="logo.png" class="login__logo m-auto d-flex" alt="">
+            </div>
+            <div>
+              <p class="text-center">Acceda a su cuenta</p>
+            </div>
+            <div class="mt-4">
+              <form>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="text" id="userRegistro" class="form-control form-control-lg mx-5" placeholder="Nombre de usuario">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="text" id="emailRegistro" class="form-control form-control-lg mx-5" placeholder="Correo electrónico">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="password" id="password1Registro" class="form-control form-control-lg mx-5" placeholder="Contraseña">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-3">
+                  <input type="password" id="password2Registro" class="form-control form-control-lg mx-5" placeholder="Repetir contraseña">
+                </div>
+                <div class="form-outline mx-auto d-flex mb-4">
+                  <button type="button" class="form-control form-control-lg login__button mx-5 text-white">Registrarse</button>
+                </div>
+                <div class="d-flex mx-auto mt-4">
+                  <p class="text-muted d-flex mx-auto text-decoration-none">¿Ya tienes una cuenta?
+                    <a href="#" class="ms-1" data-bs-target="#modalLogin" data-bs-toggle="modal">Iniciar sesión</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/carrusel.js"></script>
+    <script src="js/travels-index.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Menu Ham -->
+    <script src="js/menu.js"></script>
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/c9684ebd50.js" crossorigin="anonymous"></script>
+  </body>
+</html>

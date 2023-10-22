@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function displayResults(results) {
     results.forEach((result) => {
       resultsDiv.innerHTML += `
-      <div onclick="setProductID(${result.id}), setCatID(${result.catID})" 
+      <div onclick="setTravelInfo(${result.id}, '${result.region}', '${result.name}');"
         class="banner__search-results-container p-3">
           <h5 class="banner__search-results-title mx-0">
             <i class="bi bi-geo-alt text-danger me-2"></i>${result.name}, ${result.country}
