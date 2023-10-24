@@ -104,19 +104,19 @@ body{
         }
 
         &__search-input{
-            padding: 15px 20px;
-            border: 2px solid map-get(u.$colors, "color2");
-            width: 100%;
-            border-radius: 10px;
-            background-color: inherit;
-            color: map-get(u.$colors, "color2");
+            padding: 15px 20px !important;
+            border: 2px solid map-get(u.$colors, "color2") !important;
+            width: 100% !important;
+            border-radius: 10px !important;
+            background-color: inherit !important;
+            color: map-get(u.$colors, "color2") !important;
 
             &:focus{
                 outline: none;
             }
 
             &::placeholder{
-                color: map-get(u.$colors, "color2");
+                color: map-get(u.$colors, "color2") !important;
             }
         }
 
@@ -130,10 +130,8 @@ body{
         // RESULTADOS
 
         &__search-results{
-            width: 30%;
-            margin: auto 0;
-            left: 9%;
-            right: 0;
+            width: 30rem;
+            margin: 7rem 1rem;
             z-index: 1000;
             height: fit-content;
             max-height: 230px;
@@ -142,8 +140,24 @@ body{
             box-shadow: 0px 3px 10px -6px rgba(66, 68, 90, 1);
             background-color: map-get(u.$colors, "color2");
 
-            @media only screen and (max-width: 991px) {
-                width: 80%;
+            @media only screen and (max-width: 767px) {
+                width: 75%;
+                margin: 4rem 1rem;
+            } 
+
+            @media only screen and ((min-width: 768px) and (max-width: 991px)) {
+                width: 35rem;
+                margin: 4rem 1rem;
+            } 
+
+            @media only screen and ((min-width: 992px) and (max-width: 1199px)) {
+                width: 20rem;
+                margin: 4rem 1rem;
+            } 
+
+            @media only screen and ((min-width: 1200px) and (max-width: 1399px)) {
+                width: 25rem;
+                margin: 5rem 1rem;
             } 
 
             &::-webkit-scrollbar{
@@ -228,11 +242,11 @@ body{
             border-radius: 17px;
             border: 2px solid rgb(197, 197, 197, 20%);
             transition: all 0.2s;
-        }
 
-        &__container:hover{
-            transform: scale(1.02);
-            box-shadow: 0px 0px 20px -10px rgba(28, 28, 28, 0.4);
+            &:hover{
+                transform: scale(1.02);
+                box-shadow: 0px 0px 20px -10px rgba(28, 28, 28, 0.4);
+            }
         }
 
         &__title-index{
@@ -541,14 +555,17 @@ body{
             margin: 20px auto;
             border-radius: 10px;
             display: flex;
-            transition: all 0.2s;
+            transition: all 0.1s;
             cursor: pointer;
             background-color: map-get(u.$colors, "color2");
 
             &:hover{
                 @media only screen and (min-width: 768px){
-                    transform:scale(1.02);
                     box-shadow: 0px 0px 20px -10px rgba(28, 28, 28, 0.4);
+                }
+
+                .travel-packs__image{
+                    transform: scale(1.1);
                 }
             }
         }
@@ -562,6 +579,7 @@ body{
         &__image-container{
             height: 260px;
             border-radius: 10px 0 0 10px;
+            overflow: hidden;
 
             @media only screen and (max-width: 768px){
                 border-radius: 10px 10px 0 0;

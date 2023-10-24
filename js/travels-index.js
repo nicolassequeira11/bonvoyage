@@ -49,9 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* Crear un localStorage para guardar el id de cada paquete de viaje` */
 function setTravelInfo(id, travelRegion, travelName) {
+  // Establecer valores en localStorage
   localStorage.setItem("travelID", id);
   localStorage.setItem("travelRegion", travelRegion);
   localStorage.setItem("travelName", travelName);
+  // Redirigir a travel-info
   window.location = "travel-info.html";
 }
 

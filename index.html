@@ -33,12 +33,6 @@
                 <a class="nav-link mx-3 col-12" href="packages.html">Paquetes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 col-12" href="html/about.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3 col-12" href="html/schedules.html">Horarios</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link mx-3 col-12" id="login" data-bs-toggle="modal" href="#modalLogin"></a>
               </li>
             </ul>
@@ -47,9 +41,6 @@
 
         <div class="links-mobile col-12">
           <ul class="navbar-nav col-12">
-            <li class="nav-item nav-item-mobile">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
             <li class="nav-item nav-item-mobile">
               <a class="nav-link" href="packages.html">Paquetes</a>
             </li>
@@ -64,7 +55,7 @@
     <main>  
       <!-- SEARCH -->
 
-      <section class="banner container mt-lg-4 py-lg-5 px-4 px-sm-5">
+      <section class="banner container-md mt-lg-4 py-lg-5 px-4 px-sm-5">
 
         <div class="banner__search-container col-12 col-lg-5 my-4 my-md-1">
           <search>
@@ -72,9 +63,9 @@
             <p class="banner__search-subtitle col-12 pb-5 mb-4">En BonVoyage, enriquecemos tus viajes con destinos emocionantes, alojamiento de calidad y recorridos personalizados para tu mejor experiencia</p>
             <form action="search" class="banner__search-form mb-2 mb-md-0 col-12">
               <input type="search" id="input-search" autocomplete="off" 
-                class="banner__search-input mt-xl-3 mt-xxl-5 col-12" placeholder="Buscar paquete">
+                class="banner__search-input form-control mt-xl-3 mt-xxl-5 col-12" placeholder="Buscar paquete">
+              <div class="banner__search-results" id="results"></div>
             </form>
-            <div class="banner__search-results" id="results"></div>
           </search>
         </div>
 
@@ -83,8 +74,6 @@
         </div>
 
       </section>
-
-
 
       <!-- TRAVELS -->
 

@@ -196,21 +196,21 @@ body {
   }
 }
 .banner__search-input {
-  padding: 15px 20px;
-  border: 2px solid #ffffff;
-  width: 100%;
-  border-radius: 10px;
-  background-color: inherit;
-  color: #ffffff;
+  padding: 15px 20px !important;
+  border: 2px solid #ffffff !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  background-color: inherit !important;
+  color: #ffffff !important;
 }
 .banner__search-input:focus {
   outline: none;
 }
 .banner__search-input::-moz-placeholder {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .banner__search-input::placeholder {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .banner__search-button {
   border: none;
@@ -219,10 +219,8 @@ body {
   border-radius: 0 10px 10px 0;
 }
 .banner__search-results {
-  width: 30%;
-  margin: auto 0;
-  left: 9%;
-  right: 0;
+  width: 30rem;
+  margin: 7rem 1rem;
   z-index: 1000;
   height: -moz-fit-content;
   height: fit-content;
@@ -235,9 +233,28 @@ body {
   /* Pulgar del scroll */
   /* Hover del pulgar del scroll */
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .banner__search-results {
-    width: 80%;
+    width: 75%;
+    margin: 4rem 1rem;
+  }
+}
+@media only screen and ((min-width: 768px) and (max-width: 991px)) {
+  .banner__search-results {
+    width: 35rem;
+    margin: 4rem 1rem;
+  }
+}
+@media only screen and ((min-width: 992px) and (max-width: 1199px)) {
+  .banner__search-results {
+    width: 20rem;
+    margin: 4rem 1rem;
+  }
+}
+@media only screen and ((min-width: 1200px) and (max-width: 1399px)) {
+  .banner__search-results {
+    width: 25rem;
+    margin: 5rem 1rem;
   }
 }
 .banner__search-results::-webkit-scrollbar {
@@ -578,15 +595,17 @@ body {
   margin: 20px auto;
   border-radius: 10px;
   display: flex;
-  transition: all 0.2s;
+  transition: all 0.1s;
   cursor: pointer;
   background-color: #ffffff;
 }
 @media only screen and (min-width: 768px) {
   .travel-packs__travel-container:hover {
-    transform: scale(1.02);
     box-shadow: 0px 0px 20px -10px rgba(28, 28, 28, 0.4);
   }
+}
+.travel-packs__travel-container:hover .travel-packs__image {
+  transform: scale(1.1);
 }
 .travel-packs__travel {
   margin: 0 auto;
@@ -596,6 +615,7 @@ body {
 .travel-packs__image-container {
   height: 260px;
   border-radius: 10px 0 0 10px;
+  overflow: hidden;
 }
 @media only screen and (max-width: 768px) {
   .travel-packs__image-container {
