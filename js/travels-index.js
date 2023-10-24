@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // Comprobar si hay coincidencias
           if (filteredElementos.length === 0) {
             // Si no hay coincidencias, mostrar un mensaje
-            resultsDiv.innerHTML = "No se encontraron resultados.";
+            resultsDiv.innerHTML = `<p class="mx-auto text-center my-3">No se encontraron resultados.</p>`;
           } else {
             // Si hay coincidencias, mostrar los resultados en el contenedor
             displayResults(filteredElementos);

@@ -200,7 +200,6 @@ function btnFilterPrice(filteredData) {
   });
 }
 
-
 /* --- VARIABLES PARA ELEMENTOS DEL DOM --- */
 const packagesContainer = document.getElementById("packages-container"); // Contenedor de los paquetes
 const packagesFilter = document.getElementById("packages-filter"); // Contenedor filtros de paquetes
