@@ -1,89 +1,88 @@
 @use "utilities.scss" as u;
 
-.navbar{
-    margin: auto;
-    position: fixed;
-    top: 0;
-    text-align: center;
-    background-color: map-get(u.$colors, "color5");
+header{
+  position: sticky;
+  top: 0;
+  z-index: 5000;
 }
 
-.navbar-brand{
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    opacity: 0.9;
+.navbar {
+  margin: auto;
+  text-align: center;
+  background-color: map-get(u.$colors, "color5");
+  transition: all 0.3s;
 }
 
-.navbar-collapse{
-    justify-content: center;
-    width: 100%;
+.navbar-brand {
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  opacity: 0.9;
 }
 
-.navbar-nav{
-    display: flex;
+.navbar-collapse {
+  justify-content: center;
+  width: 100%;
 }
 
-.navbar-toggler{
-    display: flex;
+.navbar-nav {
+  display: flex;
 }
 
-.nav-content-icon{
-    display: flex;
-    margin: auto;
+.navbar-toggler {
+  display: flex;
 }
 
-.nav-icon{
-    display: flex;
-    justify-content: flex-end;
+.nav-content-icon {
+  display: flex;
+  margin: auto;
 }
 
-.nav-item{
-    color: map-get(u.$colors, "color2");
-    font-size: 1rem;
-    font-weight: 500;
-    margin: auto;
+.nav-icon {
+  display: flex;
+  justify-content: flex-end;
+  color: #dc3545;
 }
 
-.nav-item-mobile{
-    padding: 0.5em 0;
-    height: fit-content;
-    font-size: 1.3em;
+.nav-item {
+  color: map-get(u.$colors, "color2");
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
 }
 
-.nav-content-sm{
-    margin: auto;
-    background-color: orange;
+.nav-item-mobile {
+  padding: 0.5em 0;
+  height: fit-content;
+  font-size: 1.3em;
 }
 
-.nav-icon-sm{
-    color: map-get(u.$colors, "color3");
-    padding: 0 5px;
-    
-    &:hover{
-        color: map-get(u.$colors, "color4");
-    }
+.nav-content-sm {
+  margin: auto;
+  background-color: orange;
 }
 
-.nav-link{
-    color: map-get(u.$colors, "color4") !important;
-    font-family: u.$font-first;
-    font-size: 1.2rem !important;
-    cursor: pointer;
+.nav-icon-sm {
+  color: map-get(u.$colors, "color3");
+  padding: 0 5px;
+
+  &:hover {
+    color: map-get(u.$colors, "color4");
+  }
 }
 
-.nav-link:hover{
-    color: u.$sunglow-400 !important;
+.nav-link {
+  color: map-get(u.$colors, "color4");
+  font-family: u.$font-first;
+  font-size: 1.2rem !important;
+  cursor: pointer;
 }
 
-.links-mobile{
-    display: none;
-    margin: auto;
-
-    @media screen and (max-width:991px){
-        .links-mobile{
-            display: none;
-        }
+.nav-link:hover {
+  color: u.$sunglow-400 !important;
 }
 
+.links-mobile {
+  display: none;
+  margin: auto;
 }

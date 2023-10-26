@@ -18,14 +18,14 @@
 
     <!-- NAV -->
     <header class="raw col-12">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <div class="col-11 col-lg-8 col-xl-6 py-2 d-flex justify-content-center m-auto">
           <a class="navbar-brand col-10 col-lg-3 col-xl-6" href="index.html">
             <img src="logo.png" class="d-inline-block object-fit-contain align-top" 
-              width="130" height="60" alt="Logo BonVoyage Agencia de viajes"/>
+              width="130" height="60" id="logo-nav" alt="Logo BonVoyage Agencia de viajes"/>
           </a>
           <div class="nav-content-icon col-1 d-lg-none">
-            <i class="fa-solid fa-bars fa-2xl nav-icon col-12" style="color: #e4051e"></i>
+            <i class="fa-solid fa-bars fa-2xl nav-icon col-12"></i>
           </div>
           <div class="collapse navbar-collapse justify-content-end col-6 col-lg-11 col-xl-12">
             <ul class="navbar-nav">
@@ -33,7 +33,10 @@
                 <a class="nav-link mx-3 col-12" href="packages.html">Paquetes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 col-12" id="login" data-bs-toggle="modal" href="#modalLogin"></a>
+                <a class="nav-link mx-3 col-12" href="packages.html"><i class="bi bi-bag-fill"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link col-12" id="login" data-bs-toggle="modal" href="#modalLogin"></a>
               </li>
             </ul>
           </div>

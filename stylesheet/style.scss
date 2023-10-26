@@ -505,27 +505,32 @@ body{
             border-radius: 10px 0 0 0;
             background-color: map-get(u.$colors, "color5");
             border-right: 3px solid map-get(u.$colors, "color2");
+            cursor: pointer;
 
             @media only screen and (max-width: 575px){
                 border-bottom: 2px solid map-get(u.$colors, "color2");
                 border-right: 0;
                 border-radius: 10px 10px 0 0;
+                margin: 0;
             }
         }
 
         &__btn-galeria{
             background-color: map-get(u.$colors, "color5");
             border-right: 3px solid map-get(u.$colors, "color2");
+            cursor: pointer;
 
             @media only screen and (max-width: 575px){
                 border-bottom: 2px solid map-get(u.$colors, "color2");
                 border-right: 0;
+                margin: 0;
             }
         }
 
         &__btn-opinion{
             border-radius: 0 10px 0 0;
             background-color: map-get(u.$colors, "color5");
+            cursor: pointer;
 
             @media only screen and (max-width: 575px){
                 border-radius: 0;
@@ -595,10 +600,11 @@ body{
         &__container-filters{
             height: fit-content;
             position: sticky;
-            top: 25px;
+            top: 102px;
             border-radius: 10px;
 
             @media only screen and (max-width: 991px){
+                top: 25px;
                 position: relative;
                 margin: 0 auto 20px;
             }
@@ -778,6 +784,7 @@ body{
             margin: auto;
             justify-content: start;
             width: 100%;
+            font-weight: 500;
         }
 
         &__filterPackages-button{

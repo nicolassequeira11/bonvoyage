@@ -1,9 +1,14 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 5000;
+}
+
 .navbar {
   margin: auto;
-  position: fixed;
-  top: 0;
   text-align: center;
   background-color: #f8f9fa;
+  transition: all 0.3s;
 }
 
 .navbar-brand {
@@ -34,6 +39,7 @@
 .nav-icon {
   display: flex;
   justify-content: flex-end;
+  color: #dc3545;
 }
 
 .nav-item {
@@ -64,7 +70,7 @@
 }
 
 .nav-link {
-  color: #dc3545 !important;
+  color: #dc3545;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem !important;
   cursor: pointer;
@@ -77,11 +83,6 @@
 .links-mobile {
   display: none;
   margin: auto;
-}
-@media screen and (max-width: 991px) {
-  .links-mobile .links-mobile {
-    display: none;
-  }
 }
 
 .login__logo {
@@ -562,27 +563,32 @@ body {
   border-radius: 10px 0 0 0;
   background-color: #f8f9fa;
   border-right: 3px solid #ffffff;
+  cursor: pointer;
 }
 @media only screen and (max-width: 575px) {
   .travel-info__btn-info {
     border-bottom: 2px solid #ffffff;
     border-right: 0;
     border-radius: 10px 10px 0 0;
+    margin: 0;
   }
 }
 .travel-info__btn-galeria {
   background-color: #f8f9fa;
   border-right: 3px solid #ffffff;
+  cursor: pointer;
 }
 @media only screen and (max-width: 575px) {
   .travel-info__btn-galeria {
     border-bottom: 2px solid #ffffff;
     border-right: 0;
+    margin: 0;
   }
 }
 .travel-info__btn-opinion {
   border-radius: 0 10px 0 0;
   background-color: #f8f9fa;
+  cursor: pointer;
 }
 @media only screen and (max-width: 575px) {
   .travel-info__btn-opinion {
@@ -635,11 +641,12 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   position: sticky;
-  top: 25px;
+  top: 102px;
   border-radius: 10px;
 }
 @media only screen and (max-width: 991px) {
   .travel-packs__container-filters {
+    top: 25px;
     position: relative;
     margin: 0 auto 20px;
   }
@@ -793,6 +800,7 @@ body {
   margin: auto;
   justify-content: start;
   width: 100%;
+  font-weight: 500;
 }
 .travel-packs__filterPackages-button {
   outline: 1px solid gray;
