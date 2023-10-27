@@ -28,31 +28,29 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Eventos
-btnRemoveSession.addEventListener("click", ()=>{
+btnRemoveSession.addEventListener("click", () => {
   sessionStorage.removeItem("login");
   sessionStorage.removeItem("profileName");
   sessionStorage.removeItem("profileLastname");
   sessionStorage.removeItem("profileEmail");
   sessionStorage.removeItem("profileTel");
   sessionStorage.removeItem("profileCountry");
-  
+
   window.location.href = "index.html";
 });
 
-btnSaveProfile.addEventListener("click", ()=>{
+btnSaveProfile.addEventListener("click", () => {
   const newProfileName = profileName.value;
   const newProfileLastname = profileLastname.value;
   const newprofileEmail = profileEmail.value;
   const newProfileTel = profileTel.value;
   const newProfileCountry = profileCountry.value;
 
-  sessionStorage.setItem("profileName", newProfileName);  
-  sessionStorage.setItem("profileLastname", newProfileLastname);  
-  sessionStorage.setItem("profileEmail", newprofileEmail);  
-  sessionStorage.setItem("profileTel", newProfileTel);  
+  sessionStorage.setItem("profileName", newProfileName);
+  sessionStorage.setItem("profileLastname", newProfileLastname);
+  sessionStorage.setItem("profileEmail", newprofileEmail);
+  sessionStorage.setItem("profileTel", newProfileTel);
   sessionStorage.setItem("profileCountry", newProfileCountry);
 
   location.reload();
 });
-
-

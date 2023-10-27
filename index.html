@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <!-- Google Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>BonVoyage | Agencia de viajes</title>
     <!-- Estilo CSS -->
     <link rel="stylesheet" href="stylesheet/style.css" />
@@ -15,77 +21,112 @@
     <link rel="stylesheet" href="stylesheet/style-bootstrap.css" />
   </head>
   <body>
-
     <!-- NAV -->
     <header class="raw col-12">
       <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-        <div class="col-11 col-lg-8 col-xl-6 py-1 d-flex justify-content-center m-auto">
+        <!-- Navbar desktop -->
+        <div
+          class="col-11 col-lg-8 col-xl-6 py-1 d-flex justify-content-center m-auto"
+        >
           <a class="navbar-brand col-10 col-lg-3 col-xl-6" href="index.html">
-            <img src="logo.png" class="d-inline-block object-fit-contain align-top" 
-              width="130" height="60" id="logo-nav" alt="Logo BonVoyage Agencia de viajes"/>
+            <img
+              src="logo.png"
+              class="d-inline-block object-fit-contain align-top"
+              width="130"
+              height="60"
+              id="logo-nav"
+              alt="Logo BonVoyage Agencia de viajes"
+            />
           </a>
           <div class="nav-content-icon col-1 d-lg-none">
             <i class="fa-solid fa-bars fa-2xl nav-icon col-12"></i>
           </div>
-          <div class="collapse navbar-collapse justify-content-end col-6 col-lg-11 col-xl-12">
+          <div
+            class="collapse navbar-collapse justify-content-end col-6 col-lg-11 col-xl-12"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link mx-3 col-12" href="packages.html">Paquetes</a>
+                <a class="nav-link mx-3 col-12" href="packages.html"
+                  >Paquetes</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3 col-12" id="login" data-bs-toggle="modal" href="#modalLogin"></a>
+                <a
+                  class="nav-link mx-3 col-12"
+                  id="login"
+                  data-bs-toggle="modal"
+                  href="#modalLogin"
+                ></a>
               </li>
             </ul>
           </div>
         </div>
 
+        <!-- Navbar mobile -->
         <div class="links-mobile col-12">
           <ul class="navbar-nav col-12">
             <li class="nav-item nav-item-mobile">
               <a class="nav-link" href="packages.html">Paquetes</a>
             </li>
             <li class="nav-item nav-item-mobile">
-              <a class="nav-link col-12" id="loginMobile" data-bs-toggle="modal" href="#modalLogin"></a>
+              <a
+                class="nav-link col-12"
+                id="loginMobile"
+                data-bs-toggle="modal"
+                href="#modalLogin"
+              ></a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main>  
-      <!-- SEARCH -->
-
+    <main>
+      <!-- Banner -->
       <section class="banner container-md mt-lg-4 py-lg-5 px-4 px-sm-5">
-
         <div class="banner__search-container col-12 col-lg-5 my-4 my-md-1">
           <search>
-            <h3 class="banner__search-title col-12 mb-4">Descubre el mundo con nosotros</h3>
-            <p class="banner__search-subtitle col-12 pb-5 mb-4">En BonVoyage, enriquecemos tus viajes con destinos emocionantes, alojamiento de calidad y recorridos personalizados para tu mejor experiencia</p>
-            <form action="search" class="banner__search-form mb-2 mb-md-0 col-12">
-              <input type="search" id="input-search" autocomplete="off" 
-                class="banner__search-input form-control mt-xl-3 mt-xxl-5 col-12" placeholder="Buscar paquete">
+            <h3 class="banner__search-title col-12 mb-4">
+              Descubre el mundo con nosotros
+            </h3>
+            <p class="banner__search-subtitle col-12 pb-5 mb-4">
+              En BonVoyage, enriquecemos tus viajes con destinos emocionantes,
+              alojamiento de calidad y recorridos personalizados para tu mejor
+              experiencia
+            </p>
+            <form
+              action="search"
+              class="banner__search-form mb-2 mb-md-0 col-12"
+            >
+              <input
+                type="search"
+                id="input-search"
+                autocomplete="off"
+                class="banner__search-input form-control mt-xl-3 mt-xxl-5 col-12"
+                placeholder="Buscar paquete"
+              />
               <div class="banner__search-results" id="results"></div>
             </form>
           </search>
         </div>
 
+        <!-- Banner img -->
         <div class="banner__img-container col-12 col-lg-5 mt-4 mt-md-0 me-md-3">
-          <img src="media/banner-img2.png" class="banner__img col-12" alt="">
+          <img src="media/banner-img2.png" class="banner__img col-12" alt="Banner BonVoyage" />
         </div>
-
       </section>
 
-      <!-- TRAVELS -->
+      <!-- Travels -->
 
       <!-- Sudamerica -->
       <section class="container mt-5">
-        <h3 class="travel-index__title-index">Joyas de Sudamérica</h3>
-        <div>          
+        <h3 class="travel-index__title-index">Sudamérica</h3>
+        <div>
           <button id="prevsud" class="control d-none d-lg-block prev">
             <i class="bi bi-arrow-left"></i>
           </button>
 
-            <div id="travels-container-sud" class="d-flex container slider"></div>
+          <div id="travels-container-sud" class="d-flex container slider"></div>
 
           <button id="nextsud" class="control d-none d-lg-block next">
             <i class="bi bi-arrow-right"></i>
@@ -93,15 +134,31 @@
         </div>
       </section>
 
+      <!-- Asia -->
+      <section class="container mt-5">
+        <h3 class="travel-index__title-index">Asia</h3>
+        <div>
+          <button id="prevasia" class="control d-none d-lg-block prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+
+          <div id="travels-container-asia" class="d-flex container slider"></div>
+
+          <button id="nextasia" class="control d-none d-lg-block next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
       <!-- Brasil -->
       <section class="container mt-5">
-        <h3 class="travel-index__title-index">Lo mejor de Brasil</h3>
-        <div>          
+        <h3 class="travel-index__title-index">Brasil</h3>
+        <div>
           <button id="prevbra" class="control d-none d-lg-block prev">
             <i class="bi bi-arrow-left"></i>
           </button>
 
-            <div id="travels-container-bra" class="d-flex container slider"></div>
+          <div id="travels-container-bra" class="d-flex container slider"></div>
 
           <button id="nextbra" class="control d-none d-lg-block next">
             <i class="bi bi-arrow-right"></i>
@@ -111,40 +168,51 @@
 
       <!-- Estados Unidos -->
       <section class="container mt-5">
-        <h3 class="travel-index__title-index">Lo mejor de Estados Unidos</h3>
-        <div>          
+        <h3 class="travel-index__title-index">Estados Unidos</h3>
+        <div>
           <button id="prevusa" class="control d-none d-lg-block prev">
             <i class="bi bi-arrow-left"></i>
           </button>
 
-            <div id="travels-container-usa" class="d-flex container slider"></div>
+          <div id="travels-container-usa" class="d-flex container slider"></div>
 
           <button id="nextusa" class="control d-none d-lg-block next">
             <i class="bi bi-arrow-right"></i>
           </button>
         </div>
       </section>
-
     </main>
 
+    <!-- FOOTER -->
     <footer class="mt-5">
       <div class="container m-auto col-8 my-5 footer">
-        <img src="logo-white.png" class="footer__logo" alt="">
-        
-        <hr class="text-white col-8 d-flex justify-content-center mx-auto">
+        <img src="logo-white.png" class="footer__logo" alt="" />
 
+        <hr class="text-white col-8 d-flex justify-content-center mx-auto" />
+
+        <!-- Links footer -->
         <div class="footer__links-container flex-wrap">
-          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+          <a
+            href="#"
+            class="footer__links bg-primary col-12 col-lg-3 col-xxl-2"
+          >
             Paquetes
           </a>
-          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+          <a
+            href="#"
+            class="footer__links bg-primary col-12 col-lg-3 col-xxl-2"
+          >
             Horarios
           </a>
-          <a href="#" class="footer__links bg-primary col-12 col-lg-3 col-xxl-2">
+          <a
+            href="#"
+            class="footer__links bg-primary col-12 col-lg-3 col-xxl-2"
+          >
             Contacto
           </a>
         </div>
 
+        <!-- Social Media Footer -->
         <div class="footer__sm-container col-2">
           <a href="#" class="footer__sm-link">
             <i class="rounded-circle bi bi-instagram footer__sm-link-icon"></i>
@@ -165,13 +233,21 @@
     <!-- MODAL LOGIN -->
     <div id="modalLoginContainer"></div>
 
+    <!-- Javascript -->
     <script src="js/carrusel.js"></script>
     <script src="js/travels-index.js"></script>
     <script src="js/login.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <!-- Menu Ham -->
     <script src="js/menu.js"></script>
     <!-- Font Awesome Icon -->
-    <script src="https://kit.fontawesome.com/c9684ebd50.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c9684ebd50.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

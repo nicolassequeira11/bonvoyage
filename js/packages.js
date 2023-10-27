@@ -66,8 +66,7 @@ function showTravels(array) {
 
           </div>
         </div>
-        <hr class="m-auto">
-            `;
+        <hr class="m-auto">`;
     });
   } else {
     // Alerta para cuando no se encuentran productos
@@ -89,7 +88,6 @@ function travelsCount(array) {
   let contador = array.length;
   packagesSearch.textContent = `Paquetes de viaje: ${contador}`;
 }
-
 
 /* --- FILTROS --- */
 
@@ -133,7 +131,9 @@ function getFilterValue(id, defaultValue) {
 // Filtra los datos por región si se han seleccionado filtros de región
 function filterByRegion(data, selectedFilters) {
   return selectedFilters.length > 0
-    ? data.filter((travel) => selectedFilters.some((filter) => travel.region.includes(filter)))
+    ? data.filter((travel) =>
+        selectedFilters.some((filter) => travel.region.includes(filter))
+      )
     : data;
 }
 
@@ -159,7 +159,7 @@ function displayFilteredData(filteredData) {
 }
 
 // Seleccionar todos los checkboxes
-function selectAllCheckboxes(btnCheckbox, checkboxClass){
+function selectAllCheckboxes(btnCheckbox, checkboxClass) {
   btnCheckbox.addEventListener("change", () => {
     const filterCheckboxes = document.querySelectorAll(checkboxClass);
 
@@ -190,7 +190,6 @@ function filterPriceDescendente(array, arrayShow) {
 
 // Asociar eventos a botones de filtro de precio
 function btnFilterPrice(filteredData) {
-
   asc.addEventListener("click", () => {
     filterPriceAscendente(filteredData, filteredData);
   });

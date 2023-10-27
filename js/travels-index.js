@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const travelsContainerBra = document.getElementById("travels-container-bra");
   const travelsContainerUsa = document.getElementById("travels-container-usa");
   const travelsContainerSud = document.getElementById("travels-container-sud");
+  const travelsContainerAsia = document.getElementById("travels-container-asia");
 
   // FETCH SUDAMERICA
   fetch(
@@ -16,7 +17,20 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       travelsSud.reverse();
       showTravels(travelsSud, travelsContainerSud);
-  });
+    });
+
+  // FETCH ASIA
+  fetch(
+    "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      const travels = data;
+      const travelsAsia = travels.destinations.filter(
+        (travel) => travel.region === "Asia"
+      );
+      showTravels(travelsAsia, travelsContainerAsia);
+    });
 
   // FETCH BRASIL
   fetch(
@@ -29,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         (travel) => travel.country === "Brasil"
       );
       showTravels(travelsBra, travelsContainerBra);
-  });
+    });
 
   // FETCH ESTADOS UNIDOS
   fetch(
@@ -42,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         (travel) => travel.country === "Estados Unidos"
       );
       showTravels(travelsUsa, travelsContainerUsa);
-  });
+    });
 });
 
 // FUNCIONES
@@ -90,7 +104,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchTerm = inputSearch.value.toLowerCase();
 
     // Hacer una solicitud a la API de tus paquetes de viaje
-    fetch("https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json")
+    fetch(
+      "https://raw.githubusercontent.com/nicolassequeira11/APIS/main/travels.json"
+    )
       .then((response) => response.json())
       .then((data) => {
         // Filtrar los paquetes de viaje en función del término de búsqueda
@@ -147,4 +163,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Evento para escuchar cambios en el campo de entrada
   inputSearch.addEventListener("input", search);
 });
-

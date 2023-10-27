@@ -3,19 +3,489 @@
 
 @use "utilities" as u;
 
-*{
-    box-sizing: 0;
-    padding: 0;
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  font-family: u.$font-first;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: map-get(u.$colors, "color5") !important;
+}
+
+.btnRed {
+  margin: 10px auto;
+  justify-content: center;
+  display: flex;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  padding: 7px 25px;
+  border: none;
+  color: map-get(u.$colors, "color2");
+  background-image: linear-gradient(
+    to right,
+    u.$red-ribbon-400,
+    u.$red-ribbon-600
+  );
+
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-500,
+      u.$red-ribbon-700
+    );
+  }
+
+  &:active {
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-600,
+      u.$red-ribbon-800
+    );
+  }
+}
+
+// BANNER
+
+.banner {
+  font-family: u.$font-first;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  border-radius: 30px;
+  height: fit-content;
+  background-image: linear-gradient(
+    to right,
+    u.$red-ribbon-500,
+    u.$red-ribbon-700
+  );
+
+  @media only screen and (max-width: 991px) {
+    flex-direction: column-reverse;
     margin: 0;
-    font-family: u.$font-first;
-    scroll-behavior: smooth;
+    padding: 0;
+    height: fit-content;
+  }
+
+  &__search-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__search-title {
+    display: flex;
+    text-align: left;
+    color: map-get(u.$colors, "color2");
+    font-size: 3rem;
+    font-weight: 800;
+
+    @media only screen and (max-width: 991px) {
+      margin: 0 auto;
+      padding: 0 1rem;
+      font-size: 2rem;
+    }
+
+    @media only screen and ((min-width: 991px) and (max-width: 1200px)) {
+      font-size: 2rem;
+    }
+  }
+
+  &__search-subtitle {
+    color: u.$sunglow-200;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    opacity: 0.95;
+
+    @media only screen and (max-width: 991px) {
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+  }
+
+  &__search-form {
+    display: flex;
+    width: 60%;
+
+    @media only screen and (max-width: 991px) {
+      margin: 1rem 0 2rem;
+      justify-content: center;
+      padding: 0 1rem 0.7rem;
+    }
+  }
+
+  &__search-input {
+    padding: 15px 20px !important;
+    border: 2px solid map-get(u.$colors, "color2") !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    background-color: inherit !important;
+    color: map-get(u.$colors, "color2") !important;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: map-get(u.$colors, "color2") !important;
+    }
+  }
+
+  &__search-button {
+    border: none;
+    background-color: map-get(u.$colors, "color4");
+    color: map-get(u.$colors, "color2");
+    border-radius: 0 10px 10px 0;
+  }
+
+  // RESULTADOS
+
+  &__search-results {
+    width: 30rem;
+    margin: 7rem 1rem;
+    z-index: 1000;
+    height: fit-content;
+    max-height: 230px;
+    overflow-y: scroll;
+    position: absolute;
+    box-shadow: 0px 3px 10px -6px rgba(66, 68, 90, 1);
+    background-color: map-get(u.$colors, "color2");
+
+    @media only screen and (max-width: 767px) {
+      width: 75%;
+      margin: 4rem 1rem;
+    }
+
+    @media only screen and ((min-width: 768px) and (max-width: 991px)) {
+      width: 35rem;
+      margin: 4rem 1rem;
+    }
+
+    @media only screen and ((min-width: 992px) and (max-width: 1199px)) {
+      width: 20rem;
+      margin: 4rem 1rem;
+    }
+
+    @media only screen and ((min-width: 1200px) and (max-width: 1399px)) {
+      width: 25rem;
+      margin: 5rem 1rem;
+    }
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    /* Barra del scroll */
+    &::-webkit-scrollbar-track {
+      background-color: map-get(u.$colors, "color5");
+    }
+
+    /* Pulgar del scroll */
+    &::-webkit-scrollbar-thumb {
+      background-color: map-get(u.$colors, "color4");
+      border-radius: 15px;
+    }
+
+    /* Hover del pulgar del scroll */
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #cd2334;
+    }
+  }
+
+  &__search-results-container {
+    margin: auto;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f3f6fa;
+    }
+  }
+
+  &__search-results-title {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+  }
+
+  &__search-results-price {
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: map-get(u.$colors, "color4");
+  }
+
+  &__img-container {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  &__img {
+    height: 100%;
+    margin: auto 0;
+    object-fit: contain;
+    display: flex;
+
+    @media only screen and (min-width: 1400px) {
+      padding: 1rem;
+    }
+  }
 }
 
-body{
-    background-color: map-get(u.$colors, "color5") !important;
+// INDEX
+
+.travel-index {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  min-width: 280px;
+  max-width: 280px;
+  width: 280px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  cursor: pointer;
+  border-radius: 17px;
+
+  &__container {
+    width: 100%;
+    margin: auto 10px;
+    background-color: map-get(u.$colors, "color2");
+    border-radius: 17px;
+    border: 1px solid rgb(197, 197, 197, 20%);
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
+    }
+  }
+
+  &__title-index {
+    font-weight: 700;
+    color: map-get(u.$colors, "color4");
+  }
+
+  &__image {
+    width: 100%;
+    height: 240px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 17px 17px 0 0;
+  }
+
+  &__title {
+    margin: auto;
+    font-size: 1rem;
+    padding: 1rem 0 0.3rem 0;
+  }
+
+  &__date {
+    font-size: 0.8rem;
+    margin: auto;
+  }
+
+  &__price {
+    color: map-get(u.$colors, "color4");
+    font-weight: 700;
+    margin: auto;
+    padding: 0.6rem 0 0 0;
+    font-size: 1.5rem;
+  }
+
+  &__priceType {
+    color: map-get(u.$colors, "color4");
+    font-size: 0.7rem;
+  }
 }
 
-.btnRed{
+// Controlador botones carrusel
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: 1000px) {
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+
+.prev {
+  left: 0;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 50% !important;
+}
+
+.next {
+  right: 0;
+  top: 55%;
+  transform: translate(50%, -50%);
+  z-index: 1000;
+  border-radius: 50% !important;
+}
+
+.control {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: contain;
+  padding: 10px;
+  border: none;
+  color: map-get(u.$colors, "color2");
+  background-image: linear-gradient(
+    to right,
+    u.$red-ribbon-400,
+    u.$red-ribbon-600
+  );
+
+  &:hover {
+    background-image: linear-gradient(to right, u.$sunglow-300, u.$sunglow-500);
+  }
+
+  &:active {
+    background-image: linear-gradient(to right, u.$sunglow-400, u.$sunglow-600);
+  }
+}
+
+.container {
+  position: relative;
+}
+
+.btn-carousel {
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
+}
+
+// TRAVEL-INFO
+
+.travel-info {
+  font-family: u.$font-first;
+
+  &__img-container {
+    height: 89vh;
+    position: relative;
+
+    @media only screen and (max-width: 700px) {
+      height: 80vh;
+    }
+  }
+
+  &__img {
+    height: 89vh;
+    object-fit: cover;
+  }
+
+  &__title-container {
+    position: absolute;
+    z-index: 1000;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  &__title {
+    text-align: center;
+    margin: auto;
+    font-size: 5rem;
+    color: map-get(u.$colors, "color2");
+    filter: drop-shadow(0px 0px 15px #6d6d6d30);
+
+    @media only screen and (max-width: 700px) {
+      font-size: 4rem;
+    }
+  }
+
+  &__icon-arrow {
+    margin: auto;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    transform: scale(2);
+    color: map-get(u.$colors, "color2");
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: map-get(u.$colors, "color4");
+    }
+  }
+
+  // Info
+
+  &__info-container {
+    border-radius: 10px;
+    position: sticky;
+    top: 5%;
+    background-color: map-get(u.$colors, "color2");
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    height: fit-content;
+    box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
+
+    @media only screen and (max-width: 991px) {
+      position: inherit;
+    }
+  }
+
+  &__info-title {
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &__info-days {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__info-date {
+    margin: 0.3rem auto;
+    text-align: center;
+    font-size: 0.78rem;
+  }
+
+  &__info-description {
+    margin: 1.3rem auto;
+    text-align: start;
+    padding: 0 0.5rem;
+
+    @media only screen and (max-width: 991px) {
+      text-align: center;
+    }
+  }
+
+  &__info-price {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+  }
+
+  &__info-priceType {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    font-size: 0.8rem;
+  }
+
+  &__info-button {
     margin: 10px auto;
     justify-content: center;
     display: flex;
@@ -25,851 +495,449 @@ body{
     padding: 7px 25px;
     border: none;
     color: map-get(u.$colors, "color2");
-    background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-400,
+      u.$red-ribbon-600
+    );
 
-    &:hover{
-        background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
+    &:hover {
+      background-image: linear-gradient(
+        to right,
+        u.$red-ribbon-500,
+        u.$red-ribbon-700
+      );
     }
 
-    &:active{
-        background-image: linear-gradient(to right, u.$red-ribbon-600, u.$red-ribbon-800);
+    &:active {
+      background-image: linear-gradient(
+        to right,
+        u.$red-ribbon-600,
+        u.$red-ribbon-800
+      );
     }
-}
+  }
 
-// BANNER
+  // Incluye
 
-.banner{
-    font-family: u.$font-first;
-    flex-wrap: wrap;
-    display: flex;
-    margin: auto;
-    border-radius: 30px;
-    height: fit-content;
-    background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
-    
-    @media only screen and (max-width: 991px) {
-        flex-direction: column-reverse;
-        margin: 0;
-        padding: 0;
-        height: fit-content;
-    } 
+  &__btnInfo {
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-400,
+      u.$red-ribbon-600
+    );
+    color: white;
+  }
 
-        &__search-container{
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
+  &__include-container {
+    border-radius: 10px;
+    margin: 20px auto 0;
+    box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
+    background-color: map-get(u.$colors, "color2");
+  }
 
-        &__search-title{
-            display: flex;
-            text-align:left;
-            color: map-get(u.$colors, "color2");
-            font-size: 3rem;
-            font-weight: 800;
-
-            @media only screen and (max-width: 991px) {
-                margin: 0 auto;
-                padding: 0 1rem;
-                font-size: 2rem;
-            } 
-
-            @media only screen and ((min-width:991px) and (max-width: 1200px)) {
-                font-size: 2rem;
-            } 
-        }
-
-        &__search-subtitle{
-            color: u.$sunglow-200;
-            font-size: 1.2rem;
-            line-height: 1.8rem;
-            opacity: 0.95;
-
-            @media only screen and (max-width: 991px) {
-                margin: 1rem auto;
-                padding: 0 1rem;
-            } 
-        }
-
-        &__search-form{
-            display: flex;
-            width: 60%;
-
-            @media only screen and (max-width: 991px) {
-                margin: 1rem 0 2rem;
-                justify-content: center;
-                padding: 0 1rem 0.7rem;
-            }
-
-        }
-
-        &__search-input{
-            padding: 15px 20px !important;
-            border: 2px solid map-get(u.$colors, "color2") !important;
-            width: 100% !important;
-            border-radius: 10px !important;
-            background-color: inherit !important;
-            color: map-get(u.$colors, "color2") !important;
-
-            &:focus{
-                outline: none;
-            }
-
-            &::placeholder{
-                color: map-get(u.$colors, "color2") !important;
-            }
-        }
-
-        &__search-button{
-            border: none;
-            background-color: map-get(u.$colors, "color4");
-            color: map-get(u.$colors, "color2");
-            border-radius:  0 10px 10px 0;
-        }
-
-        // RESULTADOS
-
-        &__search-results{
-            width: 30rem;
-            margin: 7rem 1rem;
-            z-index: 1000;
-            height: fit-content;
-            max-height: 230px;
-            overflow-y: scroll;
-            position: absolute;
-            box-shadow: 0px 3px 10px -6px rgba(66, 68, 90, 1);
-            background-color: map-get(u.$colors, "color2");
-
-            @media only screen and (max-width: 767px) {
-                width: 75%;
-                margin: 4rem 1rem;
-            } 
-
-            @media only screen and ((min-width: 768px) and (max-width: 991px)) {
-                width: 35rem;
-                margin: 4rem 1rem;
-            } 
-
-            @media only screen and ((min-width: 992px) and (max-width: 1199px)) {
-                width: 20rem;
-                margin: 4rem 1rem;
-            } 
-
-            @media only screen and ((min-width: 1200px) and (max-width: 1399px)) {
-                width: 25rem;
-                margin: 5rem 1rem;
-            } 
-
-            &::-webkit-scrollbar{
-                width: 12px;
-            }
-
-            /* Barra del scroll */
-            &::-webkit-scrollbar-track{
-                background-color: map-get(u.$colors, "color5");
-            }
-
-            /* Pulgar del scroll */
-            &::-webkit-scrollbar-thumb {
-                background-color: map-get(u.$colors, "color4");
-                border-radius: 15px;
-            }
-
-            /* Hover del pulgar del scroll */
-            &::-webkit-scrollbar-thumb:hover {
-                background-color: #cd2334;
-            }
-        }
-
-        &__search-results-container{
-            margin: auto;
-            cursor: pointer;
-
-            &:hover{
-                background-color: #f3f6fa;
-            }
-        }
-
-        &__search-results-title{
-            font-size: 1rem;
-            font-weight: 400;
-            margin: auto;
-        }
-
-        &__search-results-price{
-            margin: auto;
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: map-get(u.$colors, "color4");
-        }
-
-        &__img-container{
-            display: flex;
-            margin: 0 auto;
-            height: 100%;            
-        }
-
-        &__img{
-            height: 100%;
-            margin: auto 0;
-            object-fit: contain;
-            display: flex;
-
-            @media only screen and (min-width: 1400px) {
-                padding: 1rem;
-            } 
-        }
-}
-
-// INDEX
-
-.travel-index{
-    display: flex;
-    margin: auto;
-    text-align: center;
-    min-width: 280px;
-    max-width: 280px;
-    width: 280px;
-    padding: 10px 0;
-    flex-wrap: wrap;
+  &__btn-info {
+    border-radius: 10px 0 0 0;
+    background-color: map-get(u.$colors, "color5");
+    border-right: 3px solid map-get(u.$colors, "color2");
     cursor: pointer;
-    border-radius: 17px;
 
-        &__container{
-            width: 100%;
-            margin: auto 10px;
-            background-color: map-get(u.$colors, "color2");
-            border-radius: 17px;
-            border: 1px solid rgb(197, 197, 197, 20%);
-            transition: all 0.2s;
+    @media only screen and (max-width: 575px) {
+      border-bottom: 2px solid map-get(u.$colors, "color2");
+      border-right: 0;
+      border-radius: 10px 10px 0 0;
+      margin: 0;
+    }
+  }
 
-            &:hover{
-                transform: scale(1.02);
-                box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
-            }
-        }
-
-        &__title-index{
-            font-weight: 700;
-            color: map-get(u.$colors, "color4");
-        }
-
-        &__image{
-            width: 100%;
-            height: 240px;
-            margin: auto;
-            object-fit: cover;
-            border-radius: 17px 17px 0 0;
-        }
-
-        &__title{
-            margin: auto;
-            font-size: 1rem;
-            padding: 1rem 0 0.3rem 0;
-        }
-
-        &__date{
-            font-size: 0.8rem;
-            margin: auto;
-        }
-
-        &__price{
-            color: map-get(u.$colors, "color4");
-            font-weight: 700;
-            margin: auto;
-            padding: 0.6rem 0 0 0;
-            font-size: 1.5rem;
-        }
-
-        &__priceType{
-            color: map-get(u.$colors, "color4");
-            font-size: 0.7rem;
-        }
-}
-
-// Controlador botones carrusel
-
-.slider{
-    width: 100%;
-    overflow: hidden;
-    scroll-behavior: smooth;
-
-    @media only screen and (max-width: 1000px) {
-        overflow-x: scroll;
-        width: 100%;
-    } 
-}
-
-.prev{
-    left: 0;
-    top: 55%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    border-radius: 50% !important;
-}
-  
-.next{
-    right: 0;
-    top: 55%;
-    transform: translate(50%, -50%);
-    z-index: 1000;
-    border-radius: 50% !important;
-}
-  
-.control {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  &__btn-galeria {
+    background-color: map-get(u.$colors, "color5");
+    border-right: 3px solid map-get(u.$colors, "color2");
     cursor: pointer;
-    object-fit: contain;
-    padding: 10px;
-    border: none;
-    color: map-get(u.$colors, "color2");
-    background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
 
-    &:hover{
-        background-image: linear-gradient(to right, u.$sunglow-300, u.$sunglow-500);
+    @media only screen and (max-width: 575px) {
+      border-bottom: 2px solid map-get(u.$colors, "color2");
+      border-right: 0;
+      margin: 0;
+    }
+  }
+
+  &__btn-opinion {
+    border-radius: 0 10px 0 0;
+    background-color: map-get(u.$colors, "color5");
+    cursor: pointer;
+
+    @media only screen and (max-width: 575px) {
+      border-radius: 0;
+    }
+  }
+
+  &__gallery-container {
+    height: 800px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 12px;
     }
 
-    &:active{
-        background-image: linear-gradient(to right, u.$sunglow-400, u.$sunglow-600);
+    /* Barra del scroll */
+    &::-webkit-scrollbar-track {
+      background-color: map-get(u.$colors, "color5");
     }
-}
-  
-.container{
-    position: relative;
-}
-  
-.btn-carousel{  
-    padding: 10px;
-    border-radius: 50%;
-    width: 45px;
-}
 
-// TRAVEL-INFO
+    /* Pulgar del scroll */
+    &::-webkit-scrollbar-thumb {
+      background-color: map-get(u.$colors, "color4");
+      border-radius: 15px;
+    }
 
-.travel-info{
-    font-family: u.$font-first;
-    
-        &__img-container{
-            height: 89vh;
-            position: relative;
+    /* Hover del pulgar del scroll */
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #cd2334;
+    }
+  }
 
-            @media only screen and (max-width: 700px){
-                height: 80vh;
-            }
-        }
+  &__include-info {
+    padding: 1rem 1.5rem;
+  }
 
-        &__img{
-            height: 89vh;
-            object-fit: cover;
-        }
+  &__gallery-img {
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+  }
 
-        &__title-container{
-            position: absolute;
-            z-index: 1000;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
+  &__include-title {
+    margin: auto;
+    font-size: 1.4rem;
+  }
 
-        &__title{
-            text-align: center;
-            margin: auto;
-            font-size: 5rem;
-            color: map-get(u.$colors, "color2");
-            filter: drop-shadow(0px 0px 15px #6d6d6d30);
+  &__include-items-container {
+  }
 
-            @media only screen and (max-width: 700px){
-                font-size: 4rem;
-            }
-        }
-
-        &__icon-arrow{
-            margin: auto;
-            width: fit-content;
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 5%;
-            transform: scale(2);
-            color: map-get(u.$colors, "color2");
-            transition: all 0.2s ease-in-out;
-
-            &:hover{
-                color: map-get(u.$colors, "color4");
-            }
-        }
-
-        // Info
-
-        &__info-container{
-            border-radius: 10px;
-            position: sticky;
-            top: 5%;
-            background-color: map-get(u.$colors, "color2");
-            margin: 20px auto;
-            display: flex;
-            flex-direction: column;
-            padding: 1.5rem;
-            height: fit-content;
-            box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
-
-            @media only screen and (max-width: 991px){
-                position:inherit;
-            }
-        }
-
-        &__info-title{
-            margin: 1rem auto;
-            text-align: center;
-            font-size: 2rem;
-        }
-
-        &__info-days{
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        &__info-date{
-            margin: 0.3rem auto;
-            text-align: center;
-            font-size: 0.78rem;
-        }
-
-        &__info-description{
-            margin: 1.3rem auto;
-            text-align: start;
-            padding: 0 0.5rem;
-
-            @media only screen and (max-width: 991px){
-                text-align: center;
-            }
-        }
-
-        &__info-price{
-            margin: 0 auto;
-            justify-content: center;
-            display: flex;
-            font-size: 2rem;
-        }
-
-        &__info-priceType{
-            margin: 0 auto;
-            justify-content: center;
-            display: flex;
-            font-size: 0.8rem;
-        }
-
-        &__info-button{
-            margin: 10px auto;
-            justify-content: center;
-            display: flex;
-            font-size: 1.1rem;
-            border-radius: 20px;
-            transition: all 0.2s ease-in-out;
-            padding: 7px 25px;
-            border: none;
-            color: map-get(u.$colors, "color2");
-            background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
-
-            &:hover{
-                background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
-            }
-
-            &:active{
-                background-image: linear-gradient(to right, u.$red-ribbon-600, u.$red-ribbon-800);
-            }
-        }
-
-        // Incluye
-        
-        &__btnInfo{
-            background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
-            color: white;
-        }
-
-        &__include-container{
-            border-radius: 10px;
-            margin:20px auto 0;
-            box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.1);
-            background-color: map-get(u.$colors, "color2");
-        }
-
-        &__btn-info{
-            border-radius: 10px 0 0 0;
-            background-color: map-get(u.$colors, "color5");
-            border-right: 3px solid map-get(u.$colors, "color2");
-            cursor: pointer;
-
-            @media only screen and (max-width: 575px){
-                border-bottom: 2px solid map-get(u.$colors, "color2");
-                border-right: 0;
-                border-radius: 10px 10px 0 0;
-                margin: 0;
-            }
-        }
-
-        &__btn-galeria{
-            background-color: map-get(u.$colors, "color5");
-            border-right: 3px solid map-get(u.$colors, "color2");
-            cursor: pointer;
-
-            @media only screen and (max-width: 575px){
-                border-bottom: 2px solid map-get(u.$colors, "color2");
-                border-right: 0;
-                margin: 0;
-            }
-        }
-
-        &__btn-opinion{
-            border-radius: 0 10px 0 0;
-            background-color: map-get(u.$colors, "color5");
-            cursor: pointer;
-
-            @media only screen and (max-width: 575px){
-                border-radius: 0;
-            }
-        }
-
-        &__gallery-container{
-            height: 800px;
-            overflow-y: scroll;
-
-            &::-webkit-scrollbar{
-                width: 12px;
-            }
-
-            /* Barra del scroll */
-            &::-webkit-scrollbar-track{
-                background-color: map-get(u.$colors, "color5");
-            }
-
-            /* Pulgar del scroll */
-            &::-webkit-scrollbar-thumb {
-                background-color: map-get(u.$colors, "color4");
-                border-radius: 15px;
-            }
-
-            /* Hover del pulgar del scroll */
-            &::-webkit-scrollbar-thumb:hover {
-                background-color: #cd2334;
-            }
-        }
-
-        &__include-info{
-            padding: 1rem 1.5rem;
-        }
-
-        &__gallery-img{
-            margin: 0.5rem 0;
-            padding: 0 1rem;
-        }
-
-        &__include-title{
-            margin: auto;
-            font-size: 1.4rem;
-        }
-
-        &__include-items-container{
-        }
-
-        &__include-items{
-            padding: 0.5rem 1rem;
-            margin: auto;
-        }
-
+  &__include-items {
+    padding: 0.5rem 1rem;
+    margin: auto;
+  }
 }
 
 // TRAVEL PACKAGES
 
-.travel-packs{
+.travel-packs {
+  @media only screen and (max-width: 991px) {
+    display: flex;
+    flex-direction: column;
+  }
 
-    @media only screen and (max-width: 991px){
-        display: flex;
-        flex-direction: column;
+  // Packages filters
+
+  &__container-filters {
+    height: fit-content;
+    position: sticky;
+    top: 102px;
+    border-radius: 10px;
+
+    @media only screen and (max-width: 991px) {
+      top: 25px;
+      position: relative;
+      margin: 0 auto 20px;
+    }
+  }
+
+  &__filter-container {
+  }
+
+  &__filter-price-input:focus {
+    outline: none;
+  }
+
+  // Packages travels
+
+  &__container-travels {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  &__travel-container {
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    transition: all 0.1s;
+    cursor: pointer;
+    background-color: map-get(u.$colors, "color2");
+
+    &:hover {
+      @media only screen and (min-width: 768px) {
+        box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.2);
+      }
+
+      .travel-packs__image {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__travel {
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  &__image-container {
+    height: 260px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+
+    @media only screen and (max-width: 768px) {
+      border-radius: 10px 10px 0 0;
+    }
+  }
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    border-radius: 10px 0 0 10px;
+
+    @media only screen and (max-width: 768px) {
+      border-radius: 10px 10px 0 0;
+    }
+  }
+
+  &__info-container {
+    display: flex;
+    padding: 15px 5px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 768px) {
+      padding: 10px 15px;
+    }
+  }
+
+  &__data-container {
+    margin: 10px 0 0 0;
+
+    @media only screen and (min-width: 768px) {
+      margin: 0 15px;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 0 0 10px 0;
+  }
+
+  &__date {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: auto;
+    padding: 4px 0;
+  }
+
+  &__price {
+    margin: auto;
+    color: map-get(u.$colors, "color4");
+    font-weight: 700;
+    font-size: 1.9rem;
+  }
+
+  &__priceType {
+    margin: auto;
+    font-size: 0.8rem;
+  }
+
+  &__button {
+    border: none;
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-400,
+      u.$red-ribbon-600
+    );
+    color: map-get(u.$colors, "color2");
+    border-radius: 20px;
+    margin: 20px auto 5px;
+    width: 150px;
+    max-width: 150px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-image: linear-gradient(
+        to right,
+        u.$red-ribbon-500,
+        u.$red-ribbon-700
+      );
+      color: map-get(u.$colors, "color2");
     }
 
-        // Packages filters
-        
-        &__container-filters{
-            height: fit-content;
-            position: sticky;
-            top: 102px;
-            border-radius: 10px;
+    &:active {
+      background-image: linear-gradient(
+        to right,
+        u.$red-ribbon-600,
+        u.$red-ribbon-800
+      );
+    }
+  }
 
-            @media only screen and (max-width: 991px){
-                top: 25px;
-                position: relative;
-                margin: 0 auto 20px;
-            }
-        }
+  // Filter price
 
-        &__filter-container{
-            
-        }
+  &__filter-price {
+    margin: auto;
+  }
 
-        &__filter-price-input:focus{
-            outline: none;
-        }
-
-        // Packages travels
-
-        &__container-travels{
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 0 auto;
-        }
-
-        &__travel-container{
-            margin: 20px auto;
-            border-radius: 10px;
-            display: flex;
-            transition: all 0.1s;
-            cursor: pointer;
-            background-color: map-get(u.$colors, "color2");
-
-            &:hover{
-                @media only screen and (min-width: 768px){
-                    box-shadow: 0 0 20px 1px rgb(180, 180, 180, 0.2);
-                }
-
-                .travel-packs__image{
-                    transform: scale(1.1);
-                }
-            }
-        }
-
-        &__travel{
-            margin: 0 auto;
-            border-radius: 10px;
-            display: flex;
-        }
-
-        &__image-container{
-            height: 260px;
-            border-radius: 10px 0 0 10px;
-            overflow: hidden;
-
-            @media only screen and (max-width: 768px){
-                border-radius: 10px 10px 0 0;
-            }
-        }
-
-        &__image{
-            height: 100%;
-            object-fit: cover;
-            transition: all 0.5s;
-            border-radius: 10px 0 0 10px;
-
-            @media only screen and (max-width: 768px){
-                border-radius: 10px 10px 0 0;
-            }
-        }
-
-        &__info-container{
-            display: flex;
-            padding: 15px 5px;
-            flex-direction: column;
-            justify-content: space-between;
-
-            @media only screen and (max-width: 768px){
-                padding: 10px 15px;
-            }
-        }
-
-        &__data-container{
-            margin: 10px 0 0 0;
-
-            @media only screen and (min-width: 768px){
-                margin: 0 15px;
-            }
-        }
-
-        &__title{
-            font-weight: 600;
-            font-size: 1.4rem;
-            margin: 0 0 10px 0;
-        }
-
-        &__date{
-            font-size: 0.8rem;
-            font-weight: 400;
-            margin: auto;
-            padding: 4px 0;
-        }
-
-        &__price{
-            margin: auto;
-            color: map-get(u.$colors, "color4");
-            font-weight: 700;
-            font-size: 1.9rem;
-        }
-
-        &__priceType{
-            margin: auto;
-            font-size: 0.8rem;
-        }
-
-        &__button{
-            border: none;
-            background-image: linear-gradient(to right, u.$red-ribbon-400, u.$red-ribbon-600);
-            color: map-get(u.$colors, "color2");
-            border-radius: 20px;
-            margin: 20px auto 5px;
-            width: 150px;
-            max-width: 150px;
-            transition: all 0.2s ease-in-out;
-
-            &:hover{
-                background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
-                color: map-get(u.$colors, "color2");
-            }
-
-            &:active{
-                background-image: linear-gradient(to right, u.$red-ribbon-600, u.$red-ribbon-800);
-            }
-        }
-
-
-        // Filter price
-
-        &__filter-price{
-            margin: auto;
-        }
-
-        &__filter-price-input{
-            text-align:center;
-            display: flex;
-            padding: 5px 0;
-            margin: 0 auto;
-            border: none;
-            background-color: #f3f6fa;
-            border-radius: 10px;
-        }
-
-        &__filter-price-button{
-            border-radius: 50px;
-            height: 30px;
-            width: 30px;
-            margin: auto;
-            align-items: center;
-            border: none;
-            background-color: inherit;
-            color: map-get(u.$colors, "color2");
-        }
-
-        &__filter-price-button-icon{
-            display: flex;
-            justify-content: center;
-            transform: scale(1.3);
-            color: map-get(u.$colors, "color4");
-        }
-
-        &__filterPackages{
-            display: flex;
-            justify-content: end;
-            height: fit-content;
-        }
-
-        &__filterPackages-count{
-            display: flex;
-            margin: auto;
-            justify-content: start;
-            width: 100%;
-            font-weight: 500;
-        }
-
-        &__filterPackages-button{
-            outline: 1px solid gray;
-            height: fit-content;
-        }
-
-        &__filterPackages-link{
-            cursor: pointer;
-        }
-
-}
-
-footer{
-    width: 100%;
+  &__filter-price-input {
+    text-align: center;
     display: flex;
-    background-image: linear-gradient(to right, u.$red-ribbon-500, u.$red-ribbon-700);
+    padding: 5px 0;
+    margin: 0 auto;
+    border: none;
+    background-color: #f3f6fa;
+    border-radius: 10px;
+  }
+
+  &__filter-price-button {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    align-items: center;
+    border: none;
+    background-color: inherit;
+    color: map-get(u.$colors, "color2");
+  }
+
+  &__filter-price-button-icon {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.3);
+    color: map-get(u.$colors, "color4");
+  }
+
+  &__filterPackages {
+    display: flex;
+    justify-content: end;
+    height: fit-content;
+  }
+
+  &__filterPackages-count {
+    display: flex;
+    margin: auto;
+    justify-content: start;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  &__filterPackages-button {
+    outline: 1px solid gray;
+    height: fit-content;
+  }
+
+  &__filterPackages-link {
+    cursor: pointer;
+  }
 }
 
-.footer{
-    
+footer {
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    u.$red-ribbon-500,
+    u.$red-ribbon-700
+  );
+}
 
-        &__logo{
-            margin: 10px auto 30px;
-            justify-content: center;
-            display: flex;
-        }
+.footer {
+  &__logo {
+    margin: 10px auto 30px;
+    justify-content: center;
+    display: flex;
+  }
 
-        &__links-container{
-            display: flex;
-            justify-content: center;
-            margin: 25px auto;
-        }
+  &__links-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+  }
 
-        &__links{
-            margin: 20px 15px;
-            background-image: linear-gradient(to right, u.$red-ribbon-50, u.$red-ribbon-100);
-            padding: 15px 40px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            text-align: center;
-            border-radius: 20px;
-            color: u.$red-ribbon-600;
-            font-weight: 500;
+  &__links {
+    margin: 20px 15px;
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-50,
+      u.$red-ribbon-100
+    );
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    color: u.$red-ribbon-600;
+    font-weight: 500;
 
-            &:hover{
-                background-image: linear-gradient(to right, u.$sunglow-300, u.$sunglow-500);
-                color: map-get(u.$colors, "color2");
-            }
+    &:hover {
+      background-image: linear-gradient(
+        to right,
+        u.$sunglow-300,
+        u.$sunglow-500
+      );
+      color: map-get(u.$colors, "color2");
+    }
 
-            &:active{
-                background-image: linear-gradient(to right, u.$sunglow-400, u.$sunglow-600);
-            }
-        }
+    &:active {
+      background-image: linear-gradient(
+        to right,
+        u.$sunglow-400,
+        u.$sunglow-600
+      );
+    }
+  }
 
-        &__sm-container{
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
+  &__sm-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
 
-        &__sm-link{
-            margin: auto;
-            text-decoration: none;
-            padding: 10px;
-        }
+  &__sm-link {
+    margin: auto;
+    text-decoration: none;
+    padding: 10px;
+  }
 
-        &__sm-link-icon{
-            color: map-get(u.$colors, "color4");
-            background-color: white;
-            display: flex;
-            padding: 13px;
-            font-size: 1.3rem;
-            transition: all 0.1s;
-            background-image: linear-gradient(to right, u.$red-ribbon-50, u.$red-ribbon-100);
-            
-            &:hover{
-                transform:translateY( -5px);
-                background-image: linear-gradient(to right, u.$sunglow-300, u.$sunglow-500);
-                box-shadow: 8px 8px 15px -5px rgba(131, 24, 44, 0.5);
-                color: map-get(u.$colors, "color2");
-            }
+  &__sm-link-icon {
+    color: map-get(u.$colors, "color4");
+    background-color: white;
+    display: flex;
+    padding: 13px;
+    font-size: 1.3rem;
+    transition: all 0.1s;
+    background-image: linear-gradient(
+      to right,
+      u.$red-ribbon-50,
+      u.$red-ribbon-100
+    );
 
-            &:active{
-                background-image: linear-gradient(to right, u.$sunglow-400, u.$sunglow-600);
-            }
-        }
+    &:hover {
+      transform: translateY(-5px);
+      background-image: linear-gradient(
+        to right,
+        u.$sunglow-300,
+        u.$sunglow-500
+      );
+      box-shadow: 8px 8px 15px -5px rgba(131, 24, 44, 0.5);
+      color: map-get(u.$colors, "color2");
+    }
+
+    &:active {
+      background-image: linear-gradient(
+        to right,
+        u.$sunglow-400,
+        u.$sunglow-600
+      );
+    }
+  }
 }
