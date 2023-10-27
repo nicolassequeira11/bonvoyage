@@ -22,6 +22,7 @@ function handleStickyHeader() {
 
   if (scrollPosition === 0) {
     header.classList.remove('sticky');
+    navbar.classList.remove("py-0");
     logo.setAttribute("src", "logo.png");
     navbar.style.backgroundColor = "#f8f9fa";
     navLink.forEach(link => {link.style.color = "#dc3545";});
@@ -29,6 +30,7 @@ function handleStickyHeader() {
     
   } else {
     header.classList.add('sticky');
+    navbar.classList.add("py-0");
     logo.setAttribute("src", "logo-white.png");
     navbar.style.backgroundColor = "#dc3545";
     navLink.forEach(link => {link.style.color = "#f8f9fa";});

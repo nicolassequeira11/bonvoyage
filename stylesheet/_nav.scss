@@ -10,7 +10,7 @@ header{
   margin: auto;
   text-align: center;
   background-color: map-get(u.$colors, "color5");
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-brand {

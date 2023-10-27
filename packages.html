@@ -21,7 +21,7 @@
     <!-- NAV -->
     <header class="raw col-12">
       <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-        <div class="col-11 col-lg-8 col-xl-6 py-2 d-flex justify-content-center m-auto">
+        <div class="col-11 col-lg-8 col-xl-6 py-1 d-flex justify-content-center m-auto">
           <a class="navbar-brand col-10 col-lg-3 col-xl-6" href="index.html">
             <img src="logo.png" class="d-inline-block object-fit-contain align-top" 
               width="130" height="60" id="logo-nav" alt="Logo BonVoyage Agencia de viajes"/>
@@ -211,80 +211,7 @@
     </footer>
 
     <!-- MODAL LOGIN -->
-    <div class="modal fade" id="modalLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="mt-4 mb-3">
-              <img src="logo.png" class="login__logo m-auto d-flex" alt="">
-            </div>
-            <div>
-              <p class="text-center">Acceda a su cuenta</p>
-            </div>
-            <div class="mt-4">
-              <form>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="text" id="userLogin" class="form-control form-control-lg mx-5" placeholder="Nombre de usuario">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="password" id="passwordLogin" class="form-control form-control-lg mx-5" placeholder="Contraseña">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-4">
-                  <button type="button" id="btnLogin" 
-                    class="form-control form-control-lg login__button mx-5 text-white">Iniciar sesión</button>
-                </div>
-                <div class="d-flex mx-auto">
-                  <a href="" class="text-muted d-flex mx-auto text-decoration-none">¿Olvidaste tu contraseña?</a>
-                </div>
-                <div class="d-flex mx-auto mt-4">
-                  <p class="text-muted d-flex mx-auto text-decoration-none">¿No tienes una cuenta?
-                    <a href="#" class="ms-1" data-bs-target="#modalRegistro" data-bs-toggle="modal">Regístrate</a>
-                  </p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="modalRegistro" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="mt-4 mb-3">
-              <img src="logo.png" class="login__logo m-auto d-flex" alt="">
-            </div>
-            <div>
-              <p class="text-center">Acceda a su cuenta</p>
-            </div>
-            <div class="mt-4">
-              <form>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="text" id="userRegistro" class="form-control form-control-lg mx-5" placeholder="Nombre de usuario">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="text" id="emailRegistro" class="form-control form-control-lg mx-5" placeholder="Correo electrónico">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="password" id="password1Registro" class="form-control form-control-lg mx-5" placeholder="Contraseña">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-3">
-                  <input type="password" id="password2Registro" class="form-control form-control-lg mx-5" placeholder="Repetir contraseña">
-                </div>
-                <div class="form-outline mx-auto d-flex mb-4">
-                  <button type="button" class="form-control form-control-lg login__button mx-5 text-white">Registrarse</button>
-                </div>
-                <div class="d-flex mx-auto mt-4">
-                  <p class="text-muted d-flex mx-auto text-decoration-none">¿Ya tienes una cuenta?
-                    <a href="#" class="ms-1" data-bs-target="#modalLogin" data-bs-toggle="modal">Iniciar sesión</a>
-                  </p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="modalLoginContainer"></div>
 
     <script src="js/packages.js"></script>
     <script src="js/login.js"></script>
